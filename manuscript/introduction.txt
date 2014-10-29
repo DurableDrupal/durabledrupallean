@@ -1,0 +1,16 @@
+# Introduction
+
+## Social Praxis for Building Web Apps, with Drupal
+
+We're using [Drupal](https://www.drupal.org/) now. But how can we ease and power up that process, and at the same time make sure we're getting our work done right?
+Working through this book, we find out it's a social process, and that it involves a special kind of fusion between theory and practice, called praxis.
+
+> The philosophers have only interpreted the world, in various ways; the point is to change it.
+
+<div style="text-align:right;margin-bottom:1em;margin-right:1em;"><small>Karl Marx, <a href="https://www.marxists.org/archive/marx/works/1845/theses/theses.htm">Theses On Feuerbach XI</a></small></div>
+
+So in order to change how we build projects, we perform socially useful jobs of work aimed at building products of value to users, finding out how to do things ("theory") as we iteratively prototype and test our hypotheses ("practice"). And in doing so, we find that these two aspects form a dialectical union, the praxis.
+
+We'll understand more, and see how it can help us enormously, as we work on through.
+
+But more than a book this is a community of teams. Dive in!
