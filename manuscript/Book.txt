@@ -1,3 +1,10 @@
 introduction.txt
 prototyping-our-praxis.txt
 durable-drupal-distro.txt
+value-hypotheses.txt
+grabbing-legacy-content.txt
+functional-protypes.txt
+candidate-architecture.txt
+mvp-of-mvps.txt
+go-team-test-team.txt
+build-deploy-rinse-repeat.txt
