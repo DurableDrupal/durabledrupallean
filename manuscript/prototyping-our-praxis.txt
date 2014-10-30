@@ -133,4 +133,4 @@ From [Backdrop Roadmap](http://backdropcms.org/about/roadmap):
 ### But it isn't here yet either
 
 El Viejo was firm. "We need to get our work together now, and that means crafting and maintaining our very own DurableDrupalDistro.
-Again, if and when Backdrop is becomes a viable alternative, we can migrate our base web app factory to it, to Drupal 8, or anything else we like."
+Again, if and when Backdrop becomes a viable alternative, we can migrate our base web app factory to it, to Drupal 8, or anything else we like."
