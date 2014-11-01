@@ -15,9 +15,9 @@ Because the real costs are all about maintenance and constant change:
 * Thirdly in the security threats that will have to be dealt with in as fully an automated way as possible.
 * Fourthly in the architectural and deployment changes that will be required over the years, in the struggle to scale with growth and cut costs with new technological breakthroughs.
 
-Because it's not about the "single click site generation" and easy scaffolding any decent framework or "hosting" solution offers. There are many ways I can fire up a framework in seconds, in just a few clicks, but the devil is in how we empower ourselves with a process that is going to facilitate and simplify this constant change.
+Because it's not about the "single click site generation" and easy scaffolding any decent framework or "hosting" solution offers. We'll soon see how to fire up a framework in seconds, in just a few clicks, but the devil is in how we empower ourselves with a process that is going to facilitate, stabilize and simplify our work in the face of constant change we need to flow with.
 
-We're here for the long haul. We are not selling toasters.
+We're here for the long haul.
 
 And we're using [Drupal](https://www.drupal.org/) now.
 
