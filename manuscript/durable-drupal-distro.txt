@@ -50,6 +50,16 @@ Ah, the amigos at [Kalamuna](http://www.kalamuna.com/) are a breath of fresh air
 
 I've tried it out quite a bit. See [how I installed Kalabox 1](http://awebfactory.com/node/522) and used it as a Pantheon workflow solution. Integration with [Pantheon hosting](https://www.getpantheon.com/) and their one-click Drupal Distro site builder is a hallmark of Kalabox 1. Very useful considering its [revolutionary architecture](https://www.getpantheon.com/how-it-works) and [standardizing workflow](https://www.getpantheon.com/how-it-works) (at least as far as Drupal hosting is concerned). Alternative hosting support plug-ins are expected with Kalabox 2.
 
+### Ansible
+(study up on Ansible for Dev-Ops book first! buy the bundle!)
+* Ansible on a Mac to run a server
+* Ansible on a Mac to run a local vagrant/vbox instance
+
+ 
+
+
+
+
 ### Roll your own
 sthg about virtual box & vagrant, with puppet, chef, ansible...
 
