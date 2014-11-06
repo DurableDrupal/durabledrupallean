@@ -1,9 +1,9 @@
 C0-introduction.txt
-C1-prototyping-our-praxis.txt
+C1-what-should-we-use.txt
 C2-durable-drupal-distro.txt
 C3-value-hypotheses.txt
-C4-grabbing-legacy-content.txt
-C5-functional-protypes.txt
+C4-functional-protypes.txt
+C5-grabbing-legacy-content.txt
 C6-candidate-architecture.txt
 C7-mvp-of-mvps.txt
 C8-go-team-test-team.txt
