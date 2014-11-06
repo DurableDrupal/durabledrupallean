@@ -1,4 +1,3 @@
-{mainmatter}
 # Chapter 1 - What should we use?
 
 ## This is what we need and we need it now
