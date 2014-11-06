@@ -1,3 +1,51 @@
 {mainmatter}
 # Chapter 1 - What should we use?
 
+## This is what we need and we need it now
+
+We're a new web development team and we have our first job together. In the best agile tradition it's a "light" one, so that we can get to know each other and build some synergy to prepare us for a bigger project we'll be starting in a month or so (an online magazine). A neighborhood non-profit runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but they're stuck. They want to be able to manage their content without depending on anyone else for that.
+
+So what should we use? After discarding some options let's say the list boils down to the following:
+
+* Buy a proprietary solution
+* Use Open Source: 
+  * Write our own from scratch 
+  * [WordPress](https://wordpress.org/)
+  * [Drupal](https://drupal.org/)
+
+The trouble is, there are cases in which any one of these choices could be the right one. But since we're starting out we want something we could learn to use together and then keep on using as we grow.
+
+## Proprietary vs Open Source
+
+## Existing frameworks vs rolling our own
+
+## Drupal vs WordPress
+
+## So which Drupal should we use?
+
+### Drupal 8
+
+### Backdrop
+
+### Drupal 7
+
+## Won't everything we build in Drupal 7 be obsolete in a few months?
+
+### It's all in the maintenance
+
+* It's not just about building, we have to be experts in maintenance
+* ...
+* Discussion about why we need a distro
+
+## Let's not just use Drupal 7, let's use a re-usable distro that we can evolve over time and even migrate... something that will last us several years
+
+### Create a distro with the hotness of Drupal 8 but without the waiting or the learning curve
+### Everything in code with install profile and configuration management
+### Migration of content
+### Easy to set up development environments for all team members using continuous build
+### Agile and lean process 
+
+## Introducing DurableDrupalDistro with Lean process
+..... in this chapter we .... 
+In Chapter 2 - DurableDrupalDistro, we'll ...
+

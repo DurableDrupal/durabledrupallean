@@ -1,3 +1,4 @@
+C0-preface.txt
 C0-introduction.txt
 C1-what-should-we-use.txt
 C2-durable-drupal-distro.txt
