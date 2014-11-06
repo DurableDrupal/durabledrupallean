@@ -1,4 +1,4 @@
-# DurableDrupalDistro
+# Chapter 2 - DurableDrupalDistro
 
 El Viejo certainly had our attention.
 

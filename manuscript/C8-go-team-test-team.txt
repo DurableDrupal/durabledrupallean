@@ -1,4 +1,4 @@
-# Go team test team go go go
+# Chapter 8 - Go team test team go go go
 
 > If I hear "Get out of the building" one more time I think I'll scream
 

@@ -1,4 +1,4 @@
-# Prototyping our Praxis
+# Chapter 1 - Prototyping our Praxis
 
 *Gayle, Raúl, Vera, Jason, and El Viejo have decided to leave Water Works, the huge web app production venture capital crazed firm founded by Drywell Boniface, where they feel things are done in a mechanical, ineffectual "enterprise" way that doesn't leave them free to find the best way of meeting people's needs, and growing themselves in the process. Today they are meeting up at a co-working to see how to get started. It's exciting...*
 

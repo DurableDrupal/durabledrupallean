@@ -1,4 +1,4 @@
-# Build, deploy, rinse, repeat
+# Chapter 9 - Build, deploy, rinse, repeat
 
 > If I hear "Rinse and repeat" one more time I think I'll scream
 
