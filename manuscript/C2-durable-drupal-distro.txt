@@ -238,7 +238,7 @@ Aliases: si
 So let's install in Spanish, specifying db credentials, uid1 user name and password, uid1 user email, site email and site name
 
 ~~~~~~~~
-drush site-install drupallean --locale=es --db-url=mysql://drupal_lean:lean@localhost/drupal_lean --account-name=admin --account-pass=omg --account-mail=victorkane@gmail.com --site-mail=drupallean@awebfactory.com.ar --site-name=DrupalLean
+site-install drupallean --locale=es --db-url=mysql://drupal_lean:lean@localhost/drupal_lean --account-name=admin --account-pass=omg --account-mail=victorkane@gmail.com --site-mail=drupallean@awebfactory.com.ar --site-name=DrupalLean
 
 You are about to DROP all tables in your 'drupal_lean' database. Do you want to continue? (y/n): y
 No tables to drop.                                                   [ok]
