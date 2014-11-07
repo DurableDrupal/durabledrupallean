@@ -1,4 +1,4 @@
-# Chapter 1 - What should we use?
+# Chapter 1 - Overcoming Choic Panic - What frameworks should we use?
 
 ## This is what we need and we need it now
 
