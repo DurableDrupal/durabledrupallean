@@ -1,6 +1,6 @@
 # Chapter 2 - DurableDrupalDistro
 
-El Viejo certainly had our attention.
+Having made ourselves comfortable with the decision to fork, tailor and maintain a particular Drupal 7 distro, this chapter will explain how each team member can actually create a working environment for themselves, and the details of how a simple project can be built, as our team follows an agile and modern agile development process.
 
 "We'll first show you [how to set up a workspace](a_workspace_in_a_lamp_stack.html), getting a folder somewhere you can configure as a Drupal doc root, that is, the main Drupal directory that can be picked up by a LAMP stack and made available to a browser as a URL.
 
