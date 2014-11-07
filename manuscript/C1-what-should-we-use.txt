@@ -1,50 +1,59 @@
 # Chapter 1 - Overcoming Choice Panic - What frameworks should we use?
 
+    We need to free ourselves from choice panic which can paralyze us or disrupt our work at any time if the major project stakeholders aren't all on board with the framework options devs will actually be considering. We need to have this discussion sooner rather than later. We also need to realize that as time goes on we'll always be migrating. This will allow us to prepare gradually and ease the pain. Hey, it's part of the job!
+
 ## This is what we need and we need it now
 
-We're a new web development team and we have our first job together. In the best agile tradition it's a "light" one, so that we can get to know each other and build some synergy to prepare us for a bigger project we'll be starting in a month or so (an online magazine). A neighborhood non-profit runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but they're stuck. They want to be able to manage their content without depending on anyone else for that.
+We need to adopt a process which bases itself brutally on what we need and what our clients need, and which abandons vested vendor lock-in of any kind. We can't be married to any one set of frameworks any more.
 
-So what should we use? After discarding some options let's say the list boils down to the following:
+Let's suppose we are a new web development team and we have our first job together. In the best agile tradition it's a "light" one, so that we can get to know each other and build some synergy to prepare us for a bigger project we'll be starting in a month or so (an online magazine). 
 
-* Buy a proprietary solution
-* Use Open Source: 
-  * Write our own from scratch 
-  * [WordPress](https://wordpress.org/)
-  * [Drupal](https://drupal.org/)
+A neighborhood non-profit runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but they're stuck. They want to be able to manage their content without depending on anyone else for that.
 
-The trouble is, there are cases in which any one of these choices could be the right one. But since we're starting out we want something we could learn to use together and then keep on using as we grow.
+So what to do?
 
-## Proprietary vs Open Source
+## Building from scratch or not? Frameworks or not?
+## Proprietary or not? Open-source or not?
+## [WordPress](https://wordpress.org/) or not?
+## [Drupal](https://drupal.org/) or not?
+## Drupal 8 or not?
+## Backdrop or not?
+## Vanilla Drupal 7 or not? Distro or not?
 
-## Existing frameworks vs rolling our own
+Won't everything we build in Drupal 7 be obsolete in a few months? Well no, actually Drupual 7 is an extremely mature project, with all kinds of tested and true themes and modules, including options for including much of the hotness of Drupal 8 right now and without the learning curve.
 
-## Drupal vs WordPress
-
-## So which Drupal should we use?
-
-### Drupal 8
-
-### Backdrop
-
-### Drupal 7
-
-## Won't everything we build in Drupal 7 be obsolete in a few months?
-
-### It's all in the maintenance
-
-* It's not just about building, we have to be experts in maintenance
-* ...
-* Discussion about why we need a distro
+The thing is, we can't start downloading the latest version, adding in the modules and themes we always use again, configuring them again, testing everything again. We need a rich starting point. Fortunately we can get that in a distribution profile, a Drupal distro.
 
 ## Let's not just use Drupal 7, let's use a re-usable distro that we can evolve over time and even migrate... something that will last us several years
 
-### Create a distro with the hotness of Drupal 8 but without the waiting or the learning curve
-### Everything in code with install profile and configuration management
-### Migration of content
-### Easy to set up development environments for all team members using continuous build
-### Agile and lean process 
+Use a distro that gives us a powerful and versatile starter kit, so we don't have to go combing through all the alternatives for modules, themes, plugins (unless we want to)
+
+Everything in code with install profile and configuration management
+
+Built in migration of content between legacy sites, development, test and staging, and live instances.
+
+Easy to set up complete development environments for all team members no matter what their skill set.
+
+A distro that can be part and parcel of a repeatable Agile and Lean process that can evolve together with changes in the industry as well as the needs our clients have and realize that they have over time.
+
+It's not just about building, we have to be experts in maintenance, for the long haul. There are going to be security releases, upgrades of all kinds, new technology to integrate with, varying backends... 
+
+And a distro is something we can evolve, maintain over time as we grow and better identify a productive baseline we can build on.
+
+>The devil is in the maintenance
+
+And we don't have to get married to any of the frameworks we're using. In fact, we want to be preparing to migrate gradually all along, so we'll be ready when the time comes
+
+## Presenting DurableDrupalDistro: fork it, tailor it, maintain it, branch and release it over all your projects!
+
 
 ## Introducing DurableDrupalDistro with Lean process
 ..... in this chapter we .... 
 In Chapter 2 - DurableDrupalDistro, we'll ...
+
+
+
+
+
+
 
