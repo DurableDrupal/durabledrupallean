@@ -26,9 +26,11 @@ So here's what we'll be doing:
 * Chapter 1: Overcoming Choice Panic - What frameworks should we use?
   
     We need to free ourselves from choice panic which can paralyze us or disrupt our work at any time if the major project stakeholders aren't all on board with the major framework and other choices that will be made during the appropriate iterations. We need to have this discussion sooner rather than later, and realize that as time goes on we'll always be migrating. Realizing that will allow us to prepare gradually and ease the pain. Hey, it's part of the job!
+    
   * This is what we need and we need it now
   
       We need to adopt a process which bases itself brutally on what we need and what our clients need, and which abandons vested vendor lock-in of all kinds. We can't be married to frameworks: it's one big open-source community and its one big set of solutions we must achieve
+      
   * Building from scratch or not? Frameworks or not?
   * Proprietary or not? Open-source or not?
   * WordPress or not?
