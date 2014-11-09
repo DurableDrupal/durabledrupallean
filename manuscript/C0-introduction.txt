@@ -2,20 +2,24 @@
 
 ## Tool up for solid web apps now and maintain them for years with a powerful Drupal distro
 
-No-one wants websites any more. This book is for web app development teams, called upon by their clients to move their business model to the internet Because that's what's going on (even if, like most people, they still talk about "websites").
+This book is for web app development teams, called upon by their clients to move their business model to the internet, their back-office to the cloud.
 
-This book will empower you and your team, no matter what your level of expertise, to simplify the building of solid solutions for your clients' real needs, and to facilitate the maintenance these solutions will be crying out for from the get go.
+This book will empower you and your team, no matter what your level of expertise, to simplify the building of solid solutions for your clients' real needs, and to facilitate in a productive and cost-effective manner the maintenance these solutions will be crying out for from the moment they are born.
 
-In the process, you will actually be evolving for yourselves a lean process factory to output durable solutions that can be maintained for years to come.
+In the process, you will actually be evolving for yourselves a lean web factory to output durable solutions that can be maintained for years to come.
 
-Because the real costs are all about maintenance and constant change:
+Because successful web developers and agencies know that the real challenge is how to embrace continual delivery throughout the web app life cycle.
+
+**Delivering websites and web apps is only the beginning. The real question for success in web development is how to continue to ply your client with continual fixes and releases in order to fix problems and satisfy change requests.**
+
+Because constant change is inevitable, and ever-present in the life-cycle: 
 
 * First in the minimum of 40% in changes that will be requested in the weeks or months of development.
 * Secondly, in the feature and usability requests the solution will have to assimilate in order to maintain its value over time.
 * Thirdly in the security threats that will have to be dealt with in as fully an automated way as possible.
-* Fourthly in the architectural and deployment changes that will be required over the years, in the struggle to scale with growth and cut costs with new technological breakthroughs.
+* Fourthly in the architectural and deployment changes that will be required as time goes by, in the struggle to scale with growth and cut costs with new technological breakthroughs.
 
-Because it's not about the "single click site generation" and easy scaffolding any decent framework or "hosting" solution offers. We'll soon see how to fire up a framework in seconds, in just a few clicks, but the devil is in how we empower ourselves with a process that is going to facilitate, stabilize and simplify our work in the face of constant change we need to flow with.
+Because it's not about the "single click site generation" and easy scaffolding any decent framework or "hosting" solution offers. We'll soon see how to fire up a framework in seconds, in just a few clicks, but the devil is in how we empower ourselves with a process that is going to facilitate, stabilize and simplify our work in the face of this constant change we need to flow with.
 
 We're here for the long haul.
 
@@ -25,7 +29,7 @@ So here's what we'll be doing:
 
 * Chapter 1: Overcoming Choice Panic - What frameworks should we use?
   
-    We need to free ourselves from choice panic which can paralyze us or disrupt our work at any time if the major project stakeholders aren't all on board with the major framework and other choices that will be made during the appropriate iterations. We need to have this discussion sooner rather than later, and realize that as time goes on we'll always be migrating. Realizing that will allow us to prepare gradually and ease the pain. Hey, it's part of the job!
+    We need to free ourselves from choice panic which can paralyze us or disrupt our work at any time if the project stakeholders aren't all on board with the major framework and other choices that will be made during the appropriate iterations. We need to have this discussion sooner rather than later, and realize that as time goes on we'll always be migrating. Realizing that will allow us to prepare gradually and ease the pain. Hey, it's part of the job!
     
   * This is what we need and we need it now
   
