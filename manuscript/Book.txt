@@ -1,5 +1,4 @@
 frontmatter.txt
-C0-preface.txt
 C0-introduction.txt
 mainmatter.txt
 C1-what-should-we-use.txt
