@@ -1,8 +1,10 @@
 # Chapter 1 - Overcoming Choice Panic - What frameworks should we use?
 
-In this chapter we'll be facing up to what some call Choice Panic: we'll lay all our doubts about CMS frameworks out on the table, sift through the options, and choose our best bet, given what we need to do now and what we really have to go on. We'll settle upon a particular solution and the characterics that make it the most versatile and dynamic option open to us, and make sure we feel comfortable with that.
+In this chapter we'll be facing up to what some call Choice Panic: we'll lay all our doubts about CMS frameworks out on the table (should we be using Drupal for this project?), sift through the options, and go for our best option as initial hypothesis, given what we need to do now and what we really have to go on. We'll explore that particular choice and the characterics that make it the most versatile and dynamic open to us right now, making sure we feel comfortable with that, and making sure we're all on the same page.
 
-We need to free ourselves from choice panic which can paralyze us or disrupt our work at any time if the project stakeholders aren't all on board with the major framework options devs will actually be considering. We need to have this discussion sooner rather than later. We also need to realize that as time goes on we'll always be migrating. This will allow us to prepare gradually and ease the pain. Hey, it's part of the job!
+Because we really need to free ourselves from choice panic. That can paralyze us, or disrupt our work at any time if the project stakeholders aren't all on board with the major framework options devs will actually be considering as the project evolves. 
+
+We need to have this discussion sooner rather than later. We also need to realize that as time goes on we'll always be migrating. This will allow us to prepare gradually and ease the pain. Hey, that's our job!
 
 ## This is what we need and we need it now
 
