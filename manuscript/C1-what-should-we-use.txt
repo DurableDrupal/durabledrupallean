@@ -16,19 +16,28 @@ A neighborhood non-profit runs programs for youth in the community. They've had 
 
 So what to do?
 
-## Building from scratch or not? Frameworks or not?
+## Building from scratch or not? 
+
+## Frameworks or not?
+
 ## Proprietary or not? Open-source or not?
+
 ## [WordPress](https://wordpress.org/) or not?
+
 ## [Drupal](https://drupal.org/) or not?
+
 ## Drupal 8 or not?
+
 ## Backdrop or not?
-## Vanilla Drupal 7 or not? Distro or not?
+
+## Drupal 7 or not?
 
 Won't everything we build in Drupal 7 be obsolete in a few months? Well no, actually Drupual 7 is an extremely mature project, with all kinds of tested and true themes and modules, including options for including much of the hotness of Drupal 8 right now and without the learning curve.
 
-The thing is, we can't start downloading the latest version, working to disable the cruft, adding in the modules and themes we always use again, configuring them again, testing everything again. We need a rich starting point. Fortunately we can get that in a distribution profile, a Drupal distro.
+The thing is, every time we start a new project, we can't always be downloading the latest version, working to disable the cruft, adding in the modules and themes we always use again, configuring them again, testing everything again. We need a rich starting point. Fortunately we can get that in a distribution profile, a Drupal distro.
 
-## Let's use Drupal 7, but as a re-usable distro that we can evolve over time and even migrate... something that will last us several years
+## Drupal 7 Distro or not?
+
 
 Use a distro that gives us a powerful and versatile starter kit, so we don't have to go combing through all the alternatives for modules, themes, plugins (unless we want to)
 
@@ -48,10 +57,12 @@ And a distro is something we can evolve, maintain over time as we grow and bette
 
 And we don't have to get married to any of the frameworks we're using. In fact, we want to be preparing to migrate gradually all along, so we'll be ready when the time comes
 
-## Presenting DurableDrupalDistro with Lean process: fork it, tailor it, maintain it, branch and release it over all your projects!
+What we want is a re-usable distro that we can evolve over time and even migrate... something that will last us several years
 
+## Presenting DurableDrupalDistro with Lean process
 
-## Introducing DurableDrupalDistro with Lean process
+Fork it, tailor it, maintain it, branch and release it over all your projects!
+
 ..... in this chapter we did .... 
 In Chapter 2 - DurableDrupalDistro, we'll ...
 
