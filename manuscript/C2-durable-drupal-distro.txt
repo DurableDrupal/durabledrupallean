@@ -1,6 +1,26 @@
 # Chapter 2 - DurableDrupalDistro
 
-Having made ourselves comfortable with the decision to fork, tailor and maintain a particular Drupal 7 distro, this chapter will explain how each team member can actually create a working environment for themselves, and the details of how a simple project can be built, as our team follows an agile and modern agile development process.
+Having made ourselves comfortable with the decision to fork, tailor and maintain a ready-to-use Drupal 7 distro as our workhorse, this chapter will actually relive the entire process of using it for the community website project. 
+
+On the one hand we want a cool bird's eye overview of everything that happens and how the team works together from a process point of view, so that the following chapters can drill down in the different aspects and components of applying the Lean process to Drupal site building and development. 
+
+On the other hand, we don't want to miss out on detailed instructions for actually doing it ourselves as we read along! These detailed instructions can be found in [Appendix 1](#), and will be referenced from the text of this Chapter, which will be the method we use throughout this book. We can jump over to the appendix for details, while at the same time it will stand alone as a kind of categorized cookbook for DurableDrupalDistro. Fork it, add your own recipes and send us a pull request!
+
+this chapter will explain how each team member can actually create a working environment for themselves. In this way the team will tackle a simple initial project while following a modern agile and lean development process.
+
+## Exactly how we built this thing
+(see Lean Book)
+
+
+
+
+
+
+
+## Basic team workflow
+clone
+pull, branch, work, pull request
+rinse and repeat
 
 "We'll first show you [how to set up a workspace](a_workspace_in_a_lamp_stack.html), getting a folder somewhere you can configure as a Drupal doc root, that is, the main Drupal directory that can be picked up by a LAMP stack and made available to a browser as a URL.
 
@@ -68,11 +88,11 @@ We shouldn't even be talking about this, but recent improvements in shared hosti
 
 First thing to do is get Drush on there, once you've gotten ssh command-line access, if you can't get that switch hosting now (and if you're even reading this section, second thing is to create a subdomain for each site: don't go running Drupal from a sub-directory).
 
-## Obtaining and installing the DurableDrupalDistro
+## Bringing the whole team up with the DurableDrupalDistro
 
 ## What's included in DurableDrupalDistro
 
-## DurableDrupalDistro: First Steps
+## DurableDrupalDistro for our first project
 
 So we're in oue workspace, let's say on a VPS.
 
@@ -248,3 +268,8 @@ _features_restore() (line 966 of
 /home/drupallean/drupal-lean/sites/all/modules/contrib/features/features.module).
 Installation complete.  User name: admin  User password: omg     [ok]
 ~~~~~~~~
+
+
+## Post Mortem (or Agile is the new Waterfall)
+
+
