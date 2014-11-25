@@ -6,11 +6,16 @@ On the one hand we want a cool bird's eye overview of everything that happens an
 
 On the other hand, we don't want to miss out on detailed instructions for actually doing it ourselves as we read along! These detailed instructions can be found in [Appendix 1](#), and will be referenced from the text of this Chapter, which will be the method we use throughout this book. We can jump over to the appendix for details, while at the same time it will stand alone as a kind of categorized cookbook for DurableDrupalDistro. Fork it, add your own recipes and send us a pull request!
 
-this chapter will explain how each team member can actually create a working environment for themselves. In this way the team will tackle a simple initial project while following a modern agile and lean development process.
+This chapter will explain how each team member can actually create a working environment for themselves. In this way the team will tackle a simple initial project while following a modern agile and lean development process.
 
 ## Exactly how we built this thing
-(see Lean Book)
+(see Lean Book for methodology)
 
+
+
+
+
+**Do it! and document it!** 
 
 
 
@@ -273,3 +278,6 @@ Installation complete.  User name: admin  User password: omg     [ok]
 ## Post Mortem (or Agile is the new Waterfall)
 
 
+So in this chapter we ...
+
+For the rest of the book, we are going to drill down into the different moments of a more challenging project. Turn the page and find out what it's gonna be...
