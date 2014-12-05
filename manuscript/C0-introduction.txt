@@ -35,12 +35,8 @@ So here's what we'll be doing:
 
 * Chapter 1: Overcoming Choice Panic - What frameworks should we use?
   
-    We need to free ourselves from choice panic which can paralyze us or disrupt our work at any time if the project stakeholders aren't all on board with the major framework and other choices that will be made during the appropriate iterations. We need to have this discussion sooner rather than later, and realize that as time goes on we'll always be migrating. Realizing that will allow us to prepare gradually and ease the pain. Hey, it's part of the job!
+    We need to free ourselves from choice panic which can paralyze us or disrupt our work at any time if the project stakeholders aren't all on board with the major framework options that will be presenting themselves. We need to have this discussion sooner rather than later in order to share a common perspective and be ready to get down to work. We will all be facing some tough questions together:
     
-  * This is what we need and we need it now
-  
-      We need to adopt a process which bases itself brutally on what we need and what our clients need, and which abandons vested vendor lock-in of all kinds. We can't be married to frameworks: it's one big open-source community and its one big set of solutions we must achieve
-      
   * Building from scratch or not? Frameworks or not?
   * Proprietary or not? Open-source or not?
   * WordPress or not?
@@ -52,20 +48,25 @@ So here's what we'll be doing:
   * Preparing to migrate gradually all along, so we'll be ready when the time comes
 
 * Chapter 2: Setting up just enough shop to deliver our first web app
-  * Every team member has their own dev environment
-    * On Pantheon
-    * On Amazon
-  * What the client needs
-    * The tangle of User Stories and Design
+  * Team consciousness: client reps and dev team together
+  * Shop infrastructre
+    * Central code repos for all deliverables using the Git branching model
+    * VPS MVP instances
+      * Testing & Integration instance
+      * Staging instance
+      * Production ready instance  
+    * Every team member has their own dev environment automatically provisioned on their own laptop
+    * Tools for running our agile developoment process
   * Fork the distro and make it our own
   * User stories and doing it with agile
   * Delivery as client empowerment
   * Post mortem: We did it! But...
     * Agile is the new waterfall (pixel perfect design -> "implementation")
-    * Team couldn't really work in parallel
+    * Team (devs and designers, devs and client reps) couldn't really work in parallel
+      * The tangle of User Stories and Design
     * Client took delivery of a monolithic blob he wasn't sure how to use
       * We had to do special training (not to mention train the trainers)
-      * Client began a slew of change requests that could have come earlier if they had been familiar with the system
+      * Client reps began a slew of change requests that could have come earlier if they had been familiar with the system
     
 * Chapter 3: Agile is the new waterfall - we need Lean!
   * New project!
@@ -86,16 +87,23 @@ So here's what we'll be doing:
   * No project is ever anything more than an MVP
   
 * Chapter 8: Go team test team go go go
-
     The advantage of using frameworks isn't just that they're tried and tested, but that they empower testing and TTD
+    
 * Chapter 9: Build, deploy, maintain
   * Rinse and repeat over "development"
 
 ## Formatting Conventions
 
 ## Obtaining and using the DurableDrupalDistro
-Please fork the repo at ….
-This is a book we need to work through together, so a starter Drupal Distro has been provided. It's available right now at …
+
+This is a book we need to work through together, so a starter Drupal Distro has been provided. 
+
+> For team dev, integration, staging and production DurableDrupalDistro provisioning, fork and adapt (or directly download and use) the [Ansible playbook for setting up Durable Drupal Distro](https://github.com/victorkane/ansible-vagrant-durable-drupal-distro).
+
+> Or grab the [DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro) itself and build out as you like.
+
+### At a minimum
+
 Thanks to all the modern tools that have come along, all you really need is a laptop with some disk space and a decent amount of RAM. And we promise not to dirty it up with a lot of "server" stuff, thanks to Vagrant, Virtual Box, Ansible and Docker. We'll be setting up complete self-contained server replicas that won't affect your regular configuration at all.
 
 
