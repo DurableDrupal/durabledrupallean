@@ -21,9 +21,9 @@ Because constant change is inevitable, and ever-present throughout the web app l
 * Thirdly in the security threats that will have to be dealt with in as fully an automated way as possible.
 * Fourthly in the architectural and deployment changes that will be required as time goes by, in the struggle to scale with growth and cut costs with new technological breakthroughs.
 
-Because it's not about the "single click site generation" and easy scaffolding any decent framework or "hosting" solution offers. We'll soon see how to fire up a framework in seconds, in just a few clicks, but the devil is in how we empower ourselves with a process that is going to facilitate, stabilize and simplify our work in the face of this constant change. by using the most exciting best of breed industry standard tools, like Ansible, Vagrant and Docker, Cloud-based hosting, and the all important Git branch model; just to mention a few of the things we will be working with here.
+Because it's not about the "single click site generation" and easy scaffolding any decent framework or "hosting" solution offers. We'll soon see how to fire up a framework in seconds, in just a few clicks, but the devil is in how we empower ourselves with a process that is going to facilitate, stabilize and simplify our work in the face of this constant change. By using the most exciting best of breed industry standard tools, like Ansible, Vagrant and Docker, Cloud-based hosting, and the all important Git branch model; just to mention a few of the things we will be working with here.
 
-The theme of embracing change, while not new at all, marks the difference between success and failure, is born of the inevitable failures we all live through as we gain experience, and runs throughout the book so that web development can be fun and not chock-full of ugly surprises.
+The theme of embracing change, while not new at all, marks the difference between success and failure, is born of the inevitable failures as well as the successes we all live through as we gain experience, and runs throughout the book so that web development can be fun instead of being a constant source of stress, code and maintenance debt.
 
 We're here for the long haul.
 
