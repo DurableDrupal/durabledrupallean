@@ -104,8 +104,7 @@ This is a book we need to work through together, so a starter Drupal Distro has 
 
 ### At a minimum
 
-Thanks to all the modern tools that have come along, all you really need is a laptop with some disk space and a decent amount of RAM. And we promise not to dirty it up with a lot of "server" stuff, thanks to Vagrant, Virtual Box, Ansible and Docker. We'll be setting up complete self-contained server replicas that won't affect your regular configuration at all.
-
+Thanks to all the modern tools that have come along, all you really need is a laptop with some disk space and a decent amount of RAM. And we promise not to dirty it up with a lot of "server" stuff, thanks to Vagrant, Virtual Box, Ansible and Docker. We'll be setting up complete self-contained server replicas that won't affect your regular configuration at all. And you'll be able to follow through all the examples throughout the book.
 
 ## Contact and feedback
 Victor Kane…
