@@ -1,22 +1,35 @@
 # Chapter 1 - Overcoming Choice Panic - What frameworks should we use?
 
-In this chapter we'll be facing up to what some call Choice Panic: we'll lay all our doubts about CMS frameworks out on the table (should we be using Drupal for this project?), sift through the options, and go for our best option as initial hypothesis, given what we need to do now and what we really have to go on. We'll explore that particular choice and the characterics that make it the most versatile and dynamic open to us right now, making sure we feel comfortable with that, and making sure we're all on the same page.
+In this chapter we'll be putting Choice Panic behind us and making a firm decision on the CMS framework we'll be using for our content-centric projects. First we'll place all our doubts right on the table for all to see (should we be using Drupal for this project? really?), sift through the options, and choose the best one as our initial hypothesis. In making that decision we'll base ourselves on our current backlog of projects and on the information we actually have to go on right now. We'll explore that particular choice and the characteristics that make it the most versatile and dynamic option open to us. We want to be comfortable with the decision, and have the whole team all on the same page.
 
-Because we really need to free ourselves from choice panic. That can paralyze us, or disrupt our work at any time if the project stakeholders aren't all on board with the major framework options devs will actually be considering as the project evolves. 
-
-We need to have this discussion sooner rather than later. We also need to realize that as time goes on we'll always be migrating. This will allow us to prepare gradually and ease the pain. Hey, that's our job!
+Now, also, above and beyond the framework, we are adopting a process which bases itself brutally on what we need and what our clients need, and which abandons vested vendor lock-in of any kind. We can't be married to any one set of frameworks any more. So the framework we select must be able to fit into our adopted, evolving and tailored process at a time when the industry is exploding with change and opportunities.
 
 ## This is what we need and we need it now
 
-We need to adopt a process which bases itself brutally on what we need and what our clients need, and which abandons vested vendor lock-in of any kind. We can't be married to any one set of frameworks any more.
+Let's suppose we are a new web development team and we have our first job together. In the best agile tradition it's a "light" one, so that we can get to know each other and build some synergy to prepare us for a bigger project we'll be starting in a month or so (an online community of writers, a more challenging project we will be dealing with in successive chapters). 
 
-Let's suppose we are a new web development team and we have our first job together. In the best agile tradition it's a "light" one, so that we can get to know each other and build some synergy to prepare us for a bigger project we'll be starting in a month or so (an online magazine). 
-
-A neighborhood non-profit runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but they're stuck. They want to be able to manage their content without depending on anyone else for that.
+A neighborhood non-profit runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but now they're stuck. They want to be able to manage their content without depending on anyone else for that.
 
 So what to do?
 
 ## Building from scratch or not? 
+
+By starting from scratch what is usually meant is not actually starting with a blank page, but rather the use of light-weight frameworks and libraries over larger frameworks which offer a lot of built-in off-the-shelf functionality together with a large, easy to extend eco-system of plug-ins and add-ons.
+
+Many developers are attracted towards smaller, light-weight libraries and components because they feel they will be dealing with less complexity, and will be able to be more creative and to "break new ground". They also feel they will not be stuck with a monolithic system and faced with the task of "turning off" a great deal of the built-in functionality not required for many projects, which is something not always easy to do. They also 
+
+
+
+Truly building from scratch in a vacuum, without any reusable base, even a small one, is truly like re-inventing the wheel. At the very least you'd want to be developing everything you do as re-usable pre-tested components and of course using existing libraries appropriate for the web application you are building. And then abstracting out add-ons for re-use in other projects, gradually making the whole shebang more secure in the light of experience, making other kinds of fixes and tweaks based on feedback that comes in over time... which is, of course, if you added in the benefits of community, is exactly what a framework is supposed to be.
+
+What are the advantages that are often cited in favor of building your own web applications "from scratch"?
+
+
+
+
+
+
+* You are building on top of shiny new technology
 
 ## Frameworks or not?
 
