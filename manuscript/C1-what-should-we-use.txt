@@ -12,30 +12,67 @@ A neighborhood non-profit runs programs for youth in the community. They've had 
 
 So what to do?
 
-## Building from scratch or not? 
+## "Building from Scratch" or not? Frameworks or not?
 
-By starting from scratch what is usually meant is not actually starting with a blank page, but rather the use of light-weight frameworks and libraries over larger frameworks which offer a lot of built-in off-the-shelf functionality together with a large, easy to extend eco-system of plug-ins and add-ons.
+By starting from scratch what is usually meant is not actually starting with a blank page, but rather the use of light-weight frameworks and libraries over larger CMS frameworks. Light-weight frameworks might give you more freedom and flexibility and may be easier to start using, whereas larger frameworks offer a lot of built-in off-the-shelf functionality together with a large, easy to extend eco-system of plug-ins and add-ons. And using them often constitutes being part of a relatively large community of builders and users, offering possibilities for helping and being helped as well as for networking of many kinds.
 
-Many developers are attracted towards smaller, light-weight libraries and components because they feel they will be dealing with less complexity, and will be able to be more creative and to "break new ground". They also feel they will not be stuck with a monolithic system and faced with the task of "turning off" a great deal of the built-in functionality not required for many projects, which is something not always easy to do. They also 
+### Starting from Scratch: Pros
 
-
-
-Truly building from scratch in a vacuum, without any reusable base, even a small one, is truly like re-inventing the wheel. At the very least you'd want to be developing everything you do as re-usable pre-tested components and of course using existing libraries appropriate for the web application you are building. And then abstracting out add-ons for re-use in other projects, gradually making the whole shebang more secure in the light of experience, making other kinds of fixes and tweaks based on feedback that comes in over time... which is, of course, if you added in the benefits of community, is exactly what a framework is supposed to be.
-
-What are the advantages that are often cited in favor of building your own web applications "from scratch"?
-
-
-
-
-
+Many developers are attracted towards smaller, light-weight libraries and components because they feel they will be dealing with less complexity, and will be able to be more creative and to "break new ground". They also feel they will not be stuck with a monolithic system and faced with the task of "turning off" a great deal of the built-in functionality not required for many projects, which is something not always easy to do. 
 
 * You are building on top of shiny new technology
+* Experimentation with new technologies and frameworks is not only fun but necessary in order to know what the options are.
+* When a project is all about things that have never been done before, a completely straight-up ground-breaking disruptive [Blue Ocean](http://en.wikipedia.org/wiki/Blue_Ocean_Strategy) effort, it only makes sense to find a best-fit candidate architecture which doesn't complicate things with its extra baggage and lowest common denominator features which won't bring anything to the table or may even be a nuisance.
 
-## Frameworks or not?
+### Starting from Scratch: Cons
+
+* If your are developing a content-centric project with many use cases that coincide with the larger CMS frameworks, then it really does not make any sense to reinvent the wheel. Countless features will have to be re-created: authentication and authorization (think: access rights for users and groups), forms management, database management, separation of concerns between business logic, data and the presentation layer, etc. It's a long list. 
+* The larger CMS frameworks are constantly monitored for security threats and constantly offer security updates when threats emerge. So much so that to some (superficial) eyes the sheer number of security fixes seems to constitute evidence of their being more likely to come under attack. But experience shows this nothing could be further from the truth. One-off apps will need to dedicate considerable time and resources towards security issues on many levels.
+* Starting from scratch may need a larger team, with more specialists compared to using a CMS framework.
+* You will have a harder time finding replacement team than you would if the project were being implemented with a large, well-known and highly adopted CMS framework like WordPress or Drupal, or Sitepoint.
+
+D> Note: In this author's opinion, the learning curve necessary to acquire the skills required for the development of a modern website or web application tends to actually be the same, no matter whether you "start from scratch" or decide to use a large CMS framework. Even though learning a large CMS framework like Drupal, for example, may take several months in order to be productive, the same is equally true when it comes to getting up to speed with other frameworks. In the case of Drupal you may spend a lot of time learning "how things are done". But if you go the other route, you will be learning "how things are done" in a whole series of smaller frameworks; while needing to find out "how to do things" quite a bit more than you would have to in the former case. So, starting from scratch may take even longer. I would say it's six of one and half a dozen of the other. Furthermore, much of what "learning Drupal" is often said to entail actually includes things proper to the web application domain itself, such as server provisioning, e-commerce, email management, maintenance, testing frameworks, and methods of deployment, etc. So this isn't a pro or a con, again, in this author's opinion and experience.
+
+D> "Frameworks don't scale!" Well, this is simply just not true. The Emmys, Weather.com, and many other examples abound. Of course, it's going to call for a lot of work to get a framework to scale. It's not the kind of work you expect to be doing when you signed up for a CMS framework either: Load balancers, Content Delivery Networks, HTTP and Database optimizations, accelerators, are just the start. Bud did you seriously think you were going to avoid all that just by using a lighter framework? Actually, it's all the same work. So this isn't a pro or con either.
 
 ## Proprietary or not? Open-source or not?
 
+Once the choice of framework has been made for a given project or series of projects, it must then be decided to go either with a proprietary or an open source solution.
+
+On this subject, let's first take a look at the title of a fairly recent article: ["Open Source vs. Proprietary Software: There is No Clear Winner"[(http://www.cmswire.com/cms/information-management/open-source-vs-proprietary-software-there-is-no-clear-winner-021752.php#null). This might inflame the hearts and minds of many of us who have unquestionably supported open source over the years. But it's time to coldly ask ourselves: which has better code, and what's the low-down about true cost to market?
+
+The article itself begins by asking why anyone would want to ever use anything but Open Source Software: "It’s free (or almost free); it’s built by passionate communities of developers; you can “look under the hood”; and there’s no vendor lock-in. Add to that, that the rate of innovation is supposed to be faster." And the short answer is that after a certain point of complexity is reached, it ceases to be true: it's no longer free even if there is no actual price tag on it, since the cost of (professional) use is much higher; it's increasingly built by company employees rather than a broad based passionate community; the rate of innovation ceases to be fast; and a kind of vendor lock-in arises out of the sheer scale becoming necessary for development, deployment and maintenance.
+
+* According to Software development testing leader [Coverity](http://www.coverity.com), defect densities are practically identical. Where the [number of lines of code](http://www.ohloh.net) exceed 1 million, proprietary quality is better. The reason seems to be that not all open source projects have the budget to deal with the infrastructure required by the added complexity. Interestingly enough [Drupal has 970,000](http://www.ohloh.net/p?ref=homepage&q=drupal), just under the limit.
+* "The true value in open source is the open, collaborative community of like-minded professionals who come together to crowd-source ideas and build great things" (Kevin Cochrane, Alfresco). But proprietary software vendors have huge community support to, as is undeniably the case with [Sharepoint Saturday's](http://www.spsevents.org). They have the "speakers", the "sponsors" and the T-shirts!
+* In fact, there is a growing tendency within all open source frameworks for the number of very key core contributors to form part of an inner circle. In this way, the gap is closing between the relatively small number of "employee" committers on a proprietary project, on the one hand, and the ever-decreasing number of core committers on open source projects that grow in complexity. 
+* Cost to market actually converges in both cases also, even though of course results may vary: Proprietary solutions charge an up-front and/or licensing price, but Open Source frameworks require considerable development, training and administratation costs to accomplish what the former does out-of-the-box.
+
+D> In this author's opinion technical support and infrastructre service levels may be obtained for both kinds of frameworks; and there are more and more consultants, agencies and companies with an enormously high level of domain knowledge for either kind of framework also. These areas cannot really be considered to be an advantage for only proprietary frameworks.
+
+Rather than the choice being between Proprietary and Open Source, it is more about the project's real needs. "Paying developers to massively customise an open source CMS may end up costing you more than paying for a proprietary solution that more closely meets your requirements. On the flip side, paying license fees for an ill-suited proprietary solution doesn't make any sense either."  (See [Choosing Between an Open Source or Proprietary Website CMS](http://www.netxtra.net/insights/choosing-between-an-open-source-or-proprietary-website-cms/)).
+
 ## [WordPress](https://wordpress.org/) or not?
+
+The stark fact here is that, from a CMS framework perspective, WordPress is less than Drupal, unless what you really want is an elegant industry-standard blog. While Drupal is a superset of WordPress, and one may migrate to Drupal comfortably without expecting to miss any features, the opposite is certainly not the case. 
+
+Unless your use cases coincide with the functionality offered by WordPress, in which case you still have a choice to make, the following points point consistently in Drupal's favor:
+
+* It's when you contemplate porting a Drupal web application to a WordPress website that the latter's shortcomings really stand out.
+* Despite [Easy Post Types](https://wordpress.org/plugins/easy-post-types/) Drupal wins hands down in terms of being able to create business objects with content types, having support for all kinds of field types, plus field collections and other features.
+* Users are just another entity in Drupal and can use the same patterns that any old business object (taxonomy term, content type item, user, etc.) uses.
+* Separation of concerns between the dynamic data model, the semantic HTML containing the dynamic content of the business object data model, and the styling to be applied to this basic unadorned un-styled HTML (that's called semantic HTML) is very well observed in Drupal, but badly supported in Wordpress, which means parrallel team development work is greatly impaired.
+* WordPress has nothing like Drupal's Views: a complete and intuitive SQL Query Generator that's so intuitive most users don't realize it's an SQL Query Generator. It's really easy to list your stuff in all kinds of different ways.
+* Rules module: built in support for UI based business rules, plus the ability to roll your own in code.
+* Huge amount of very rich extensions (Drupal modules):
+  * Complete layout and theming development system alternatives
+    * [Page Manager and Panels](https://www.drupal.org/project/panels) (either with [Panopoly](https://www.drupal.org/project/panopoly) or do it yourself (as we do in our [DurableDrupalDistro](https://github.com/victorkane/drupal-lean))
+    * [Display Suite](https://www.drupal.org/project/ds)
+    * [Context module](https://www.drupal.org/project/context)
+  * Workflow modules
+    * [Workbench](https://www.drupal.org/project/workbench)
+    * [Workflow](https://www.drupal.org/project/workflow)
+* Everything in code alternatives allow us to break the back of configuration in the database, and help our teamwork. We'll go into much more detail on this later.
 
 ## [Drupal](https://drupal.org/) or not?
 
