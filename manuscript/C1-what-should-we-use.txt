@@ -72,9 +72,11 @@ Unless your use cases coincide with the functionality offered by WordPress, in w
   * Workflow modules
     * [Workbench](https://www.drupal.org/project/workbench)
     * [Workflow](https://www.drupal.org/project/workflow)
-* Everything in code alternatives allow us to break the back of configuration in the database, and help our teamwork. We'll go into much more detail on this later.
+* Everything in code alternatives allow us to break the back of configuration in the database, and help our teamwork. 
 
 ## [Drupal](https://drupal.org/) or not?
+
+Drupal sits under the 1 million lines of code limit, which would indicate that its code, being open source and thereby available to all to freely criticize, propose modifications, and discuss, make it stand out in code quality. In fact it is one of the most sophisticated CMS frameworks around, whether open source or proprietary.
 
 ## Drupal 8 or not?
 
