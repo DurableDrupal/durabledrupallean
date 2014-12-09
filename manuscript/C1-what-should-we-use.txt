@@ -90,7 +90,6 @@ The thing is, every time we start a new project, we can't always be downloading 
 
 ## Drupal 7 Distro or not?
 
-
 Use a distro that gives us a powerful and versatile starter kit, so we don't have to go combing through all the alternatives for modules, themes, plugins (unless we want to)
 
 Everything in code with install profile and configuration management
