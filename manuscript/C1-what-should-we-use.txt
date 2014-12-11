@@ -83,8 +83,29 @@ Unless your use cases coincide with the functionality offered by WordPress, in w
 
 Drupal sits under the 1 million lines of code limit, which would indicate that it is a project whose quality has greatly benefited over the years from having been developed by a diverse and large international community. Since the code is open source, it has been  available to all to freely criticize, propose modifications, and discuss. It is in fact one of the most sophisticated CMS frameworks around, whether open source or proprietary, capable of supporting the development of large-scale content-centric web application projects. 
 
-Many of the benefits of Drupal stood out in the previous section when it was compared to WordPress. 
+Many of the benefits of Drupal stood out in the previous section when it was compared to WordPress. But there's more.
 
+### Community:
+
+Drupal has a truly international community, with a huge amount of communication, sharing of responsibility and participation of all kinds going on across borders at all times. This enriches the level of talent no end.
+
+### Intelligence
+
+And since the Drupal community is based solely in the United States, the approach tends to be "out of the box", with people looking for deep and permanent solutions and not simply quick fixes based on a "common sense" empirical ways of thinking. That's why even though Drupal could have been written off with the advent of Server side java script and a sexy bevy of front-end frameworks (and might be one day), or perhaps by new offerings from the Java/Scala front, the huge critical mass of intelligence has forged Drupal into something truly modern, promising years of competitive mojo and nothing to be ashamed of: REST interfaces, separation of concerns with adaptive back-ends, front-ends, and straightforward integration with multi-tiered and alternative components.
+
+### Easily extensible
+
+Since highly talented people have always been attracted to the community, solutions have constantly emerged keeping those leveraging Drupal for their content-centric projects on the technological vanguard with minimal effort. In a rich, mature eco-system, there is, literally, "a module for everything", and not just those with sexy features, but also those promising integration with all major players in the modern web app universe. Today, for example, with no coding you can whip up a fully functional social network based platform with a back-end API, with node.js based chat and activity stream, and with a totally mobile first responsive theme to top it off in literally hours.
+
+### Drupal has hit the mainstream:
+
+To be clear, in my opinion, this has had absolutely nothing to do with so-called success in the "enterprise" market, with its confusion, destructive short-sightedness, greediness and anarchy of production. No, Drupal has hit the mainstream of working stiffs, the critical mass of people who actually do web app building. So nowadays you can find support (how do I ..?) and other resources as fast as you can type into a search engine... which, yes, goes straight to the appropriate issue queues and discussions, on and off the [Drupal main site](https://drupal.org)!
+
+### An abundance of Drupal-friendly deployment options
+
+Depending on the scale of what you are deploying, there are a host (pardon) of infrastructure alternatives: From shared hosting (yes, it's gotten better), to VPS and cloud PaaS, including the inimitable [Pantheon](https://www.getpantheon.com/) platform, it's getting easier and easier for Drupal based web applications to enjoy smooth delivery and maintenance.
+
+So much internationally active talent, so much engineering, so much quality! Drupal excels as a CMS Framework.
 
 
 ## Drupal 8 or not?
