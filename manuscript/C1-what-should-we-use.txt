@@ -29,11 +29,16 @@ Many developers are attracted towards smaller, light-weight libraries and compon
 * If your are developing a content-centric project with many use cases that coincide with the larger CMS frameworks, then it really does not make any sense to reinvent the wheel. Countless features will have to be re-created: authentication and authorization (think: access rights for users and groups), forms management, database management, separation of concerns between business logic, data and the presentation layer, etc. It's a long list. 
 * The larger CMS frameworks are constantly monitored for security threats and constantly offer security updates when threats emerge. So much so that to some (superficial) eyes the sheer number of security fixes seems to constitute evidence of their being more likely to come under attack. But experience shows this nothing could be further from the truth. One-off apps will need to dedicate considerable time and resources towards security issues on many levels.
 * Starting from scratch may need a larger team, with more specialists compared to using a CMS framework.
+* It is futile, for many use cases, to attempt to replace the work of whole communities across several years with a small team.
 * You will have a harder time finding replacement team than you would if the project were being implemented with a large, well-known and highly adopted CMS framework like WordPress or Drupal, or Sitepoint.
 
 D> Note: In this author's opinion, the learning curve necessary to acquire the skills required for the development of a modern website or web application tends to actually be the same, no matter whether you "start from scratch" or decide to use a large CMS framework. Even though learning a large CMS framework like Drupal, for example, may take several months in order to be productive, the same is equally true when it comes to getting up to speed with other frameworks. In the case of Drupal you may spend a lot of time learning "how things are done". But if you go the other route, you will be learning "how things are done" in a whole series of smaller frameworks; while needing to find out "how to do things" quite a bit more than you would have to in the former case. So, starting from scratch may take even longer. I would say it's six of one and half a dozen of the other. Furthermore, much of what "learning Drupal" is often said to entail actually includes things proper to the web application domain itself, such as server provisioning, e-commerce, email management, maintenance, testing frameworks, and methods of deployment, etc. So this isn't a pro or a con, again, in this author's opinion and experience.
 
 D> "Frameworks don't scale!" Well, this is simply just not true. The Emmys, Weather.com, and many other examples abound. Of course, it's going to call for a lot of work to get a framework to scale. It's not the kind of work you expect to be doing when you signed up for a CMS framework either: Load balancers, Content Delivery Networks, HTTP and Database optimizations, accelerators, are just the start. Bud did you seriously think you were going to avoid all that just by using a lighter framework? Actually, it's all the same work. So this isn't a pro or con either.
+
+In summary, reusability is an important principle and goal in software development, and for good reason. It is often summed up in the phrase "standing on the shoulders of giants". By observing this principle, one brings a necessary quota of zen modesty to the table and professionalizes ones activity. By admitting that existing CMS solutions have been perfected over time by their surrounding community of creators and users, and have honed issues such as security, functionality, ease of use, and many other fronts, developers gain power and productivity. There are CMS solutions for many different architectures and programming languages, and the best ones are fully customizable.
+
+The reckless "hero" go-it-alone approach to software development, on the other hand, is often disguised improvisation, and a recipe for failure.
 
 ## Proprietary or not? Open-source or not?
 
@@ -76,7 +81,11 @@ Unless your use cases coincide with the functionality offered by WordPress, in w
 
 ## [Drupal](https://drupal.org/) or not?
 
-Drupal sits under the 1 million lines of code limit, which would indicate that its code, being open source and thereby available to all to freely criticize, propose modifications, and discuss, make it stand out in code quality. In fact it is one of the most sophisticated CMS frameworks around, whether open source or proprietary.
+Drupal sits under the 1 million lines of code limit, which would indicate that it is a project whose quality has greatly benefited over the years from having been developed by a diverse and large international community. Since the code is open source, it has been  available to all to freely criticize, propose modifications, and discuss. It is in fact one of the most sophisticated CMS frameworks around, whether open source or proprietary, capable of supporting the development of large-scale content-centric web application projects. 
+
+Many of the benefits of Drupal stood out in the previous section when it was compared to WordPress. 
+
+
 
 ## Drupal 8 or not?
 
