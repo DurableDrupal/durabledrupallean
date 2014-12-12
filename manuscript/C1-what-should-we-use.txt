@@ -81,32 +81,75 @@ Unless your use cases coincide with the functionality offered by WordPress, in w
 
 ## [Drupal](https://drupal.org/) or not?
 
-Drupal sits under the 1 million lines of code limit, which would indicate that it is a project whose quality has greatly benefited over the years from having been developed by a diverse and large international community. Since the code is open source, it has been  available to all to freely criticize, propose modifications, and discuss. It is in fact one of the most sophisticated CMS frameworks around, whether open source or proprietary, capable of supporting the development of large-scale content-centric web application projects. 
+Drupal, together with its particularly rich eco-system, is a perfect fit for many content-centric projects because it offers such a complete set of solutions to the problems and challenges historically facing developers of dynamic websites and web application. Its features cover the whole cycle of design, development, deployment and maintenance:
+
+* Dynamic website and web application framework with complete separation of concerns between business objects, data persistence, business logic and presentation.
+* Social web platform
+* Prototyping tool for Business objects and data modeling, data viewing, layout and styling
+* Modern web design templating system allowing for further separation for concerns within the presentation layer, of semantic content, layout and styling.
+* Built in and customizable Content Management and Editorial Workflow System 
+* Well-documented and established tools and procedures make for full compatibility with best practices on development process and devops levels.
+
+Drupal sits under the 1 million lines of code limit, which would indicate that it is a project whose quality has greatly benefited over the years from having been developed by a diverse and large international
+community. Since the code is open source, it has been  available to all to freely criticize, modify (or at least propose patches in issue queues), and discuss. It is in fact one of the most sophisticated CMS frameworks around, whether open source or proprietary, capable of supporting the development of large-scale content-centric web application projects. 
 
 Many of the benefits of Drupal stood out in the previous section when it was compared to WordPress. But there's more.
 
-### Community:
+### Community and Intelligence
 
-Drupal has a truly international community, with a huge amount of communication, sharing of responsibility and participation of all kinds going on across borders at all times. This enriches the level of talent no end.
+Drupal has a truly international community, with a huge amount of communication, sharing of responsibility and participation of all kinds going on across borders at all times. Each year there are two international conferences (DrupalCon), one in Europe and one in the US. 2015 will see the first [DrupalCon Latin America](https://latinamerica2015.drupal.org/). In addition, Drupaleros in many cities all over the world hold annual Drupal camps, some having a long and rich history such as the Bay Area's [BADCamp](https://badcamp.net/). There are [many additional ways](https://www.drupal.org/community), online and off, that interaction takes place in the community. It can be said in many ways that technical expertise is part and parcel of the Drupal culture, as is the case in many open source communities.
 
-### Intelligence
-
-And since the Drupal community is based solely in the United States, the approach tends to be "out of the box", with people looking for deep and permanent solutions and not simply quick fixes based on a "common sense" empirical ways of thinking. That's why even though Drupal could have been written off with the advent of Server side java script and a sexy bevy of front-end frameworks (and might be one day), or perhaps by new offerings from the Java/Scala front, the huge critical mass of intelligence has forged Drupal into something truly modern, promising years of competitive mojo and nothing to be ashamed of: REST interfaces, separation of concerns with adaptive back-ends, front-ends, and straightforward integration with multi-tiered and alternative components.
+And since the Drupal community is not based solely in a single country, but rather all over the world, the approach tends to be more cosmopolitan and "out of the box", with people looking for deep and permanent solutions and not simply quick fixes based on a "common sense" empirical ways of thinking. That's why even though Drupal could have been written off quickly with the advent of Server side java script and a bevy of front-end frameworks (as of course it could be one day), or perhaps by new offerings from other programming environments and architectures, a huge critical mass of intelligence has forged Drupal into something truly modern. This promises years of competitive mojo: separation of concerns with adaptive back and front-ends, straightforward integration with multi-tiered and distributed components, REST interfaces both for stand-alone servers and clients.
 
 ### Easily extensible
 
+#### Modules
+
 Since highly talented people have always been attracted to the community, solutions have constantly emerged keeping those leveraging Drupal for their content-centric projects on the technological vanguard with minimal effort. In a rich, mature eco-system, there is, literally, "a module for everything", and not just those with sexy features, but also those promising integration with all major players in the modern web app universe. Today, for example, with no coding you can whip up a fully functional social network based platform with a back-end API, with node.js based chat and activity stream, and with a totally mobile first responsive theme to top it off in literally hours.
 
-### Drupal has hit the mainstream:
+#### Distributions
 
-To be clear, in my opinion, this has had absolutely nothing to do with so-called success in the "enterprise" market, with its confusion, destructive short-sightedness, greediness and anarchy of production. No, Drupal has hit the mainstream of working stiffs, the critical mass of people who actually do web app building. So nowadays you can find support (how do I ..?) and other resources as fast as you can type into a search engine... which, yes, goes straight to the appropriate issue queues and discussions, on and off the [Drupal main site](https://drupal.org)!
+In addition many first-class Drupal installation profiles ("distros") are available. These off-the-shelf domain-specific customizable solutions tailor Drupal to specific project needs. Some of the best examples:
+
+* [CiviCRM Starter Kit](https://www.drupal.org/project/civicrm_starterkit): a web-based, open source, CRM geared toward meeting the needs of non-profit and civic-sector organizations. The starter kit integrates CiviCRM with Drupal.
+
+* [DKAN[(https://github.com/NuCivic/dkan): a Drupal-based open data platform with a full suite of cataloging, publishing and visualization features that allows governments, nonprofits and universities to easily publish data to the public.
+
+* [Commerce Kickstart](https://www.drupal.org/project/commerce_kickstart): a software distribution for sites of any size that provides all the power and flexibility of Drupal Commerce, combined with components that accelerate creation and launch of an online store.
+
+* [Open Academy](https://www.drupal.org/project/openacademy): a web publishing solution for higher education.
+
+* [OpenAid](https://www.drupal.org/project/openaid): a turnkey website platform designed to help cause-driven organizations create cost-effective program-focused websites quickly.
+
+* [Open Atrium 2](https://www.drupal.org/project/openatrium): open source collaboration software that enables organizations to securely connect their teams, projects, and knowledge.
+
+* [OpenIdeaL](https://www.drupal.org/project/idea): an idea management system, for both public and commercial sectors. It is a powerful tool to analyze public opinion regarding products/services and identify trends.
+
+* [Open Outreach](https://www.drupal.org/project/openoutreach): a Drupal distribution written to provide grassroots, activist, and nonprofit groups with the web tools they need for effective public engagement.
+
+* [OpenPublic](https://www.drupal.org/project/openpublic): provides a content management system specially designed for open government goals, without compromising accessibility, security or usability.
+
+* [Panopoly](https://www.drupal.org/project/panopoly): an off-the-shelf responsively themed, Panels based distribution designed to be a base framework upon which to build other Drupal distributions (among others, OpenAcademy and Open Atrium), but will also work for general site building.
+
+* [Plato Típico](https://www.drupal.org/project/plato_tipico): This is a a preconfigured distro with multi-language support for English & Spanish. Already comes with most of the necessary modules which will save you lots of time and research.
+
+* [Pushtape](https://www.drupal.org/project/pushtape): Build better music websites with Pushtape, a Drupal distribution for musicians. Manage your music discography, create news updates, upload photos, post upcoming shows and more.
+
+Many may be installed with a single click on the [Pantheon](https://www.getpantheon.com/) platform, for example.
+
+#### Themes
+
+The Drupal theme system is everything that the superficial and outmoded industry standard "template" concept is not. Themes allow for the meticulous separation of semantic data and business logic, on the one hand, from the layout, styling and formatting of the presentation layer, on the other. Characteristic of Drupal, they provide compelling alternatives for design-level customization.
+
+### Recognizable, standard architecture
+
+If you build it with Drupal, automatically an increasing number of readily available Drupal development talent is available all over the world who will recognize how you web app is built, and be able to provide maintenance or further development as you wish. Compared to the effort required for a developer to comprehend the anatomy of a one-off custom application, that is a decided advantage and greatly enhances the lifetime value of your project.
 
 ### An abundance of Drupal-friendly deployment options
 
-Depending on the scale of what you are deploying, there are a host (pardon) of infrastructure alternatives: From shared hosting (yes, it's gotten better), to VPS and cloud PaaS, including the inimitable [Pantheon](https://www.getpantheon.com/) platform, it's getting easier and easier for Drupal based web applications to enjoy smooth delivery and maintenance.
+Depending on the scale of what you are deploying, there are a host (pardon) of infrastructure alternatives: From shared hosting (yes, it's gotten better), to VPS and cloud PaaS, including the Pantheon platform mentioned above. It's getting easier and easier for Drupal based web applications to enjoy smooth delivery and maintenance.
 
-So much internationally active talent, so much engineering, so much quality! Drupal excels as a CMS Framework.
-
+So much internationally active talent, so much engineering, so much quality! Drupal excels as a CMS and Web Application Framework.
 
 ## Drupal 8 or not?
 
