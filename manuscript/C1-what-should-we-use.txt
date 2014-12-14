@@ -207,6 +207,10 @@ Symfony being a PHP based framework is going to be an advantage for some and a d
 
 ## [Backdrop](https://backdropcms.org/) or not?
 
+Backdrop was forked from Drupal as a reaction against Drupal 8 for the following reasons:
+
+* 
+
 The [Roadmap for Backdrop 1.0](https://backdropcms.org/roadmap) lists the following:
 
 * Configuration Management System
@@ -227,9 +231,28 @@ For example, export and import of config from one system to another is easy in t
 We'll come back to this (see how it matures) in the Migrations volume (next) in the DurableDrupal series.
 (we'll fork backdrop, practice using it, then make a push request or else at the very least raise an issue concerning workflow blockers when we write Vol. 2 (Migrations) for the DurableDrupal series.
 
-## So, stick with Drupal 7, at least for now?
+## Drupal 7 or not?
 
-Won't everything we build in Drupal 7 be obsolete in a few months? Well no, actually Drupual 7 is an extremely mature project, with all kinds of tested and true themes and modules, including options for including much of the hotness of Drupal 8 right now and without the learning curve.
+Drupal 7 is mature, full of modules, distros, add-ons, quality base themes many of which offer an out-of-the-box responsive front-end. There is a huge community of skilled designers and developers thoroughly experienced in Drupal. Drupal 7 will still be officially supported for another two years, and probably for some time after that, at least informally. 
+
+Options for including much of the hotness of Drupal 8 and without the learning curve are made available right now.
+
+So yes, Drupal 7, given the complete panorama we have been examining, is a high-quality, low-cost alternative that should definitely be considered first, and only discarded if there exist unusual requirements on a given project.
+
+However, the very maturity, breadth and experience gained in the community with Drupal 7 offers us an additional benefit before we start building our process and casting the dies of our web factory. 
+
+What we now know is that every time we start of project, we tend to be repeating the same steps:
+
+* Download and install vanilla Drupal 7 on a development instance
+* 
+
+What if we could eliminate these steps entirely. What would we need to have to be in a position to do that?
+
+* Decide on the set of modules we most often use
+* Decide on how we're going to set up the workflow for the whole team
+* Decide how we're going to avoid the pitfalls of waterfall
+* Decide how we're going to incorporate testing
+* Decide what constitutes delivery and acceptance of a website or web application
 
 The thing is, every time we start a new project, we can't always be downloading the latest version, working to disable the cruft, adding in the modules and themes we always use again, configuring them again, testing everything again. We need a rich starting point. Fortunately we can get that in a distribution profile, a Drupal distro.
 
