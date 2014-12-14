@@ -4,6 +4,8 @@ In this chapter we'll be putting Choice Panic behind us and making a firm decisi
 
 Now, also, above and beyond the framework, we are adopting a process which bases itself brutally on what we need and what our clients need, and which abandons vested vendor lock-in of any kind. We can't be married to any one set of frameworks any more. So the framework we select must be able to fit into our adopted, evolving and tailored process at a time when the industry is exploding with change and opportunities.
 
+At the same time, we bear in mind that this is not a one-off question, but one which must be addressed periodically. The thing is, it must be addressed in order to allow you to work in a context of confidence that you are using the best tools for the job, instead of always having that question lurking in the back of your mind.
+
 ## This is what we need and we need it now
 
 Let's suppose we are a new web development team and we have our first job together. In the best agile tradition it's a "light" one, so that we can get to know each other and build some synergy to prepare us for a bigger project we'll be starting in a month or so (an online community of writers, a more challenging project we will be dealing with in successive chapters). 
@@ -12,7 +14,7 @@ A neighborhood non-profit runs programs for youth in the community. They've had 
 
 So what to do?
 
-## "Building from Scratch" or not? Frameworks or not?
+## "Building from Scratch" or not? Frameworks or not? {#building-from-scratch}
 
 By starting from scratch what is usually meant is not actually starting with a blank page, but rather the use of light-weight frameworks and libraries over larger CMS frameworks. Light-weight frameworks might give you more freedom and flexibility and may be easier to start using, whereas larger frameworks offer a lot of built-in off-the-shelf functionality together with a large, easy to extend eco-system of plug-ins and add-ons. And using them often constitutes being part of a relatively large community of builders and users, offering possibilities for helping and being helped as well as for networking of many kinds.
 
@@ -164,7 +166,7 @@ So much internationally active talent, so much engineering, so much quality! Dru
 > "With a leaner and meaner core, easier migration process from earlier versions, in-place content editing tools and loads more power for modules and themes thanks to a modern Object Oriented Programming (OOP) approach on the backend, there is something for everyone to love in Drupal 8. When will it be released? [See the FAQ](https://drupal.org/drupal-8.0/faq)."
 > > [drupal.org on Drupal 8](https://www.drupal.org/drupal-8.0)
 
-So Drupal 8 cannot be used now for production website or web applications.
+So however interesting Drupal 8 and Symfony may appear cannot be used now for production website or web applications.
 
 ### Drupal 8 will probably not be released until around mid-2015
 
@@ -174,6 +176,14 @@ Assuming there is a release in mid-2015, another 6-12 months will have to go by 
 
 * Most third party modules and distributions will take at least the usual 12 months to get ported to Drupal 8 if at all.
 * A critical mass of Drupal developers become profficient in Drupal 8 development and it becomes cost-effective to equip a team.
+
+## Straight up [Symfony](http://symfony.com/) or not?
+
+Why not just go with Symfony then and just skip the Drupal Drama? We owe it to ourselves to consider this alternative coldly and professionally. Our question has to be, just what are the merits of website and web application development just going with Symfony?
+
+But using Symfony "instead" of Drupal is roughly equivalent to [Starting from Scratch](#building-from-scratch): Either you replace Drupal yourself individually with your own development resources (pretty difficult) or you replace it with another framework. 
+
+Symfony being a PHP based framework is going to be an advantage for some and a disadvantage for others. On the one hand it leverages the skills you have gained with Drupal or other frameworks without having to learn a new language or actually set of front-end and back-end languages (javascript, go, java/scala, ruby, etc.). On the other, some developers who are looking to grow beyond PHP, or [feel it is limited in some way](http://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/), if they are going to go with a lighter framework would prefer to go with one of the non-PHP alternatives.
 
 ## [Backdrop](https://backdropcms.org/) or not?
 
@@ -231,10 +241,3 @@ Fork it, tailor it, maintain it, branch and release it over all your projects!
 
 ..... in this chapter we did .... 
 In Chapter 2 - DurableDrupalDistro, we'll ...
-
-
-
-
-
-
-
