@@ -153,9 +153,51 @@ So much internationally active talent, so much engineering, so much quality! Dru
 
 ## Drupal 8 or not?
 
-## Backdrop or not?
+### Drupal 8 cannot be used now
 
-## Drupal 7 or not?
+>"Drupal 8 is currently in development and is not yet ready for production use."
+> > *[drupal.org](https://www.drupal.org/documentation/version-info)*
+
+
+> "Drupal 8 will set a new standard for ease of use, while offering countless new ways to tailor and deploy your content to the Web. Easily customize data structures, listings, and pages, and take advantage of new capabilities for displaying data on mobile devices, building APIs, and adapting to multilingual needs.
+
+> "With a leaner and meaner core, easier migration process from earlier versions, in-place content editing tools and loads more power for modules and themes thanks to a modern Object Oriented Programming (OOP) approach on the backend, there is something for everyone to love in Drupal 8. When will it be released? [See the FAQ](https://drupal.org/drupal-8.0/faq)."
+> > [drupal.org on Drupal 8](https://www.drupal.org/drupal-8.0)
+
+So Drupal 8 cannot be used now for production website or web applications.
+
+### Drupal 8 will probably not be released until around mid-2015
+
+### Drupal 8 should not be used for production until sometime in 2016
+
+Assuming there is a release in mid-2015, another 6-12 months will have to go by before:
+
+* Most third party modules and distributions will take at least the usual 12 months to get ported to Drupal 8 if at all.
+* A critical mass of Drupal developers become profficient in Drupal 8 development and it becomes cost-effective to equip a team.
+
+## [Backdrop](https://backdropcms.org/) or not?
+
+The [Roadmap for Backdrop 1.0](https://backdropcms.org/roadmap) lists the following:
+
+* Configuration Management System
+* Built-in Content Listing Generator
+* Revamped Layout System
+* Improved Performance
+* Improved Mobile Support
+* Reduced Theme System Complexity
+
+How well will these be implemented?
+
+Will it attain community critical mass?
+
+Will it think out a proper workflow (i.e. be a solution for devs as well as end users)?
+The most important Backdrop feature is workflow with everything in code. D8 already has their workflow. What's Backdrop's? Difficulties in getting onto Pantheon for example, show workflow not thought out.
+For example, export and import of config from one system to another is easy in the GUI. But what if I want to automate that with ansible as part of a deployment scheme? In my opinion, we would want code+db+files+config, we don't want config to be mixed either with code for all sites (since it is specific to one) ... we don't want you to have to push files or push database to live!!!!!!! 
+
+We'll come back to this (see how it matures) in the Migrations volume (next) in the DurableDrupal series.
+(we'll fork backdrop, practice using it, then make a push request or else at the very least raise an issue concerning workflow blockers when we write Vol. 2 (Migrations) for the DurableDrupal series.
+
+## So, stick with Drupal 7, at least for now?
 
 Won't everything we build in Drupal 7 be obsolete in a few months? Well no, actually Drupual 7 is an extremely mature project, with all kinds of tested and true themes and modules, including options for including much of the hotness of Drupal 8 right now and without the learning curve.
 
