@@ -168,14 +168,34 @@ So much internationally active talent, so much engineering, so much quality! Dru
 
 So however interesting Drupal 8 and Symfony may appear cannot be used now for production website or web applications.
 
-### Drupal 8 will probably not be released until around mid-2015
+### Drupal 8 will be ready for non-trivial site building sometime in 2016
+[Drupal Planet](https://www.drupal.org/planet) consensus seems to indicate that Drupal 8 will probably not have a production ready release until around mid-2015, and that another 6-12 months will have to go by before:
 
-### Drupal 8 should not be used for production until sometime in 2016
+* The offering becomes stable.
+* Most third party modules and distributions get ported to Drupal 8, if at all, or replaced.
+* A critical mass of Drupal developers become profficient in Drupal 8 development and it becomes cost-effective to equip a team with available developers.
 
-Assuming there is a release in mid-2015, another 6-12 months will have to go by before:
+This is somewhat mitigated by the adoption in Drupal 8 core itself of key functionality that has historically been relegated to third-party modules:
 
-* Most third party modules and distributions will take at least the usual 12 months to get ported to Drupal 8 if at all.
-* A critical mass of Drupal developers become profficient in Drupal 8 development and it becomes cost-effective to equip a team.
+* Configuration management 
+  * Based on versionable YAML text files, no longer mixed with content in the database
+* i18n and l10n multilingual platform
+* Content listings
+  * Views api and UI
+* More field types
+* The adoption of OOP and a rewritten core bring a number of advantages on the basis of its refactored routing component
+  * The Drupal 7 context module is now in core
+  * Web services
+    *Think REST API or services back-end option
+  * Block is just another entity
+* HTML 5 markup
+* Twig template based theming
+* Editorial benefits in core
+  * In place editing
+  * WYWIWYG editing in core 
+  * (Some feel these kinds of features undermine structure content)
+
+But you will have to calculate true development costs since third-party based functionality you take for granted today may not be available.
 
 ## Straight up [Symfony](http://symfony.com/) or not?
 
