@@ -246,14 +246,14 @@ Now, this very maturity and rich flexibility, plus the breadth and experience ga
 To understand the importance of basing ourselves on a Drupal distribution, or installation profile, let's review the procedures that would normally be followed in the context of firing up a new project:
 
 
-1 Prepare a development instance on a LAMP stack somewhere with a database and a runnable document root
-1 Run the standard Drupal 7 install profile on that development instance
-1 Get rid of the irritating cruft
-1 Install the third-party contrib modules without which you cannot build a site
-1 Create a sub-theme from the base theme of your choice (i.e. [AdaptiveTheme](https://www.drupal.org/project/adaptivetheme), [Zen](https://www.drupal.org/project/zen), [Omega](https://www.drupal.org/project/omega)) 
-1 Export the current state into versionable text files (we'll see how a bit later on)
-1 Create a repo on GitHub/Bitbucket or similar
-1 Clone this master dev site from the repo to a separate staging instance for acceptance testing with the client
+1. Prepare a development instance on a LAMP stack somewhere with a database and a runnable document root
+1. Run the standard Drupal 7 install profile on that development instance
+1. Get rid of the irritating cruft
+1. Install the third-party contrib modules without which you cannot build a site
+1. Create a sub-theme from the base theme of your choice (i.e. [AdaptiveTheme](https://www.drupal.org/project/adaptivetheme), [Zen](https://www.drupal.org/project/zen), [Omega](https://www.drupal.org/project/omega), just to name three) 
+1. Export the current state into versionable text files (we'll see how a bit later on)
+1. Create a repo on GitHub/Bitbucket or similar
+1. Clone this master dev site from the repo to a separate staging instance for acceptance testing with the client
 
 What if we could automate this process, eliminating the need to execute these steps manually, over and over again, every time we fire up a new project? What would we need to have to be in a position to do that?
 
