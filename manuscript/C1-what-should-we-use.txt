@@ -233,26 +233,39 @@ We'll come back to this (see how it matures) in the Migrations volume (next) in 
 
 ## Drupal 7 or not?
 
-Drupal 7 is mature, full of modules, distros, add-ons, quality base themes many of which offer an out-of-the-box responsive front-end. There is a huge community of skilled designers and developers thoroughly experienced in Drupal. Drupal 7 will still be officially supported for another two years, and probably for some time after that, at least informally. 
+### State of Drupal 7
 
-Options for including much of the hotness of Drupal 8 and without the learning curve are made available right now.
+Drupal 7 is mature, full of add-ons, modules, distros, and quality base themes many of which offer an out-of-the-box responsive front-end. There is a huge community of skilled designers and developers thoroughly experienced in the release, so building a team is much more accessible than most other options. And Drupal 7 will still be officially supported for another three years or so, and then probably for some time after that, at least informally (as has been the case with other releases). 
 
-So yes, Drupal 7, given the complete panorama we have been examining, is a high-quality, low-cost alternative that should definitely be considered first, and only discarded if there exist unusual requirements on a given project.
+The option for including much of the hotness of Drupal 8 without the learning curve is available right now. Given the complete panorama we have been examining, Drupal 7 is a high-quality, low-cost alternative that should definitely be considered first, and only discarded if there exist unusual requirements on a given project.
 
-However, the very maturity, breadth and experience gained in the community with Drupal 7 offers us an additional benefit before we start building our process and casting the dies of our web factory. 
+Now, this very maturity and rich flexibility, plus the breadth and experience gained in the community with Drupal 7 offers us an exciting perspective: the makings of a Drupal LTS distro we can build on now and maintain for years to come. 
 
-What we now know is that every time we start of project, we tend to be repeating the same steps:
+### Why a distribution?
 
-* Download and install vanilla Drupal 7 on a development instance
-* 
+To understand the importance of basing ourselves on a Drupal distribution, or installation profile, let's review the procedures that would normally be followed in the context of firing up a new project:
 
-What if we could eliminate these steps entirely. What would we need to have to be in a position to do that?
 
-* Decide on the set of modules we most often use
-* Decide on how we're going to set up the workflow for the whole team
+1 Prepare a development instance on a LAMP stack somewhere with a database and a runnable document root
+1 Run the standard Drupal 7 install profile on that development instance
+1 Get rid of the irritating cruft
+1 Install the third-party contrib modules without which you cannot build a site
+1 Create a sub-theme from the base theme of your choice (i.e. [AdaptiveTheme](https://www.drupal.org/project/adaptivetheme), [Zen](https://www.drupal.org/project/zen), [Omega](https://www.drupal.org/project/omega)) 
+1 Export the current state into versionable text files (we'll see how a bit later on)
+1 Create a repo on GitHub/Bitbucket or similar
+1 Clone this master dev site from the repo to a separate staging instance for acceptance testing with the client
+
+What if we could automate this process, eliminating the need to execute these steps manually, over and over again, every time we fire up a new project? What would we need to have to be in a position to do that?
+
+The answer, whether we are talking about working on our local workstation or laptop, on a PaaS (Platform as a Service) like Pantheon or Platform.sh, or whether we are going to be using a VPS or cloud instance of our own, is to automate provisioning on the basis of our very own Drupal distribution. This in-house Drupal distribution, will evolve with us from project to project. It will be branched and tailored for special projects (with the diff merged back in, wholly or partially, in order to benefit future projects). And it will be the stepping stone to migrations to other Drupal releases, to Symfony, or any other future framework of our choice. We will be able to build a development process of best practices around it, and to set up our own veritable web factory.
+
+In order to get it going, we simply need to:
+
+* Decide on the set of modules and base themes we most often use
 * Decide how we're going to avoid the pitfalls of waterfall
 * Decide how we're going to incorporate testing
 * Decide what constitutes delivery and acceptance of a website or web application
+* Decide on how we're going to set up the workflow for the whole team and the client
 
 The thing is, every time we start a new project, we can't always be downloading the latest version, working to disable the cruft, adding in the modules and themes we always use again, configuring them again, testing everything again. We need a rich starting point. Fortunately we can get that in a distribution profile, a Drupal distro.
 
