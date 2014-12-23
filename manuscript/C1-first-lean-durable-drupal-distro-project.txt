@@ -1,0 +1,71 @@
+# Chapter 1 - First Lean DurableDrupalDistro Project
+
+
+Having made ourselves comfortable with the decision to fork, tailor and maintain a ready-to-use Drupal 7 distro as our workhorse, this chapter will actually relive the entire process of using it for the dynamic community website project. 
+
+This chapter will give a bird's eye overview of the process, from inception to delivery and maintenance, showing how the team works together from the process, implementation and devops points of view. An typical lean/agile process will be followed, although this will be the team's first time attempting to do so, and some mistakes will be made and caught in the post mortem at the end of the chapter. Then the following chapters will be drilling down into the different aspects and elements of applying a lean/agile process to Drupal website and web app building and development. 
+
+Now, of course we don't want to miss out on detailed instructions for actually doing this ourselves as we read along! These detailed instructions will be found linked to the appropriate [Appendix 1](#) from the text as we work on through. We can jump over to the appendix for details, while at the same time it will stand alone as a kind of categorized cookbook for DurableDrupalDistro. Fork it, add your own recipes and send us a pull request!
+
+## Exactly how we build this thing
+
+* Getting the team together
+* First planning session
+  * Value hypotheses
+  * Testing
+* Second planning session 
+  * MVP Specification based on "what we now know"
+  * Establish initial sprint backlog
+* Provisioning for development and staging
+  * Tailor distro to project
+  * Provision team with local VMs on their laptops
+* First user story
+  * Design studio
+  * Estimates
+  * Acceptance test
+* Successive user stories
+* Sprint Acceptance
+* Post Mortem
+
+
+
+## Getting the team together
+
+## Kickoff session
+
+**See https://github.com/victorkane/lit-drupal-lean/issues/3 and refactory this whole outline accordingly**
+
+### Value hypotheses
+
+### Testing
+
+## Second planning session 
+
+### MVP Specification based on "what we now know"
+
+### Establish initial sprint backlog
+
+## Provisioning for development and staging
+
+### Tailor distro to project
+
+### Provision team with local VMs on their laptops
+
+## First user story
+
+### Design studio
+
+### Estimates
+
+### Acceptance test
+
+## Successive user stories
+
+## Sprint Acceptance
+
+## Post Mortem (or Agile is the new Waterfall)
+
+
+So in this chapter we ran with the DurableDrupalDistro, built and delivered our project and installed in on our maintenance stack. After which we complied with the solemn post-mortem (hate that word, change it) and reviewed our list of lessons learned.
+
+For the rest of the book, we are going to drill down into the different moments of a more challenging project, as we learn how to overcome agile alone as the new waterfall, incorporating the painful lessons learned by the start-ups, as we adopt the lean process. Turn the page and find out what it's gonna be...

@@ -1,4 +1,4 @@
-# Chapter 1 - Overcoming Choice Panic - What frameworks should we use?
+# Appendix 1 - Overcoming Choice Panic - What frameworks should we use?
 
 In this chapter we'll be putting Choice Panic behind us and making a firm decision on the CMS framework we'll be using for our content-centric projects. First we'll place all our doubts right on the table for all to see (should we be using Drupal for this project? really?), sift through the options, and choose the best one as our initial hypothesis. In making that decision we'll base ourselves on our current backlog of projects and on the information we actually have to go on right now. We'll explore that particular choice and the characteristics that make it the most versatile and dynamic option open to us. We want to be comfortable with the decision, and have the whole team all on the same page.
 
