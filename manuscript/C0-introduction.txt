@@ -59,28 +59,28 @@ So here's what we'll be doing:
       * We had to do special training (not to mention train the trainers)
       * Client reps began a slew of change requests that could have come earlier if they had been familiar with the system
     
-* Chapter 3: Agile is the new waterfall - we need Lean!
+* Chapter 2: Validating our assumptions
   * New project!
   * Value hypotheses
   * Design studio for nerds... and for the client too
   * Getting the team working in parallel
   
-* Chapter 4: Functional prototypes
+* Chapter 3: MVP prototypes
 
-* Chapter 5: Grabbing the legacy content
+* Chapter 4: Grabbing the legacy content
 
-* Chapter 6: Candidate architecture
+* Chapter 5: Candidate architecture
   * Choices panic revisited
   * We're evolving on top of best of breed
 
-* Chapter 7: Build the recursive MVP of MVP's
+* Chapter 6: Build the recursive MVP of MVP's
   * Every user story is an MVP
   * No project is ever anything more than an MVP
   
-* Chapter 8: Go team test team go go go
+* Chapter 7: Go team test team go go go
     The advantage of using frameworks isn't just that they're tried and tested, but that they empower testing and TTD
     
-* Chapter 9: Build, deploy, maintain
+* Chapter 8: Build, deploy, maintain
   * Rinse and repeat over "development"
 
 * Appendix 1: Overcoming Choice Panic - What frameworks should we use?
