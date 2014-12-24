@@ -4,9 +4,86 @@ To find out what DurableDrupal Lean is all about, let's dive right in and work t
 
 ## First meeting with the client
 I met with Stuart on Skype. He told me about a neighborhood non-profit that runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but now they're stuck. They want to be able to manage their content without depending on anyone else for that.
+Stakeholder detection.
+Existing solution survey.
+I hit him with Problem, Market, Product just to get initial feedback, and we wrote an initial hypothesis.
+
+## Forming the team
+
+It was a minimum team but had to have:
+
+* Front-end developer
+* Back-end developer
+* Graphic designer
+* Usability person
+* TODO complete from UX books where they list the roles
+
+## Single Theme project encompassing 3 Sprints aimed at MVP
+
+I planned for a Lean process with the team, blending Lean with Scrum with the Theme approach discussed in Gothelf which avoids output handoff, deliverables and waterfall in favor of everyone working in cross-collaboration based on ... the whole team working on the same thing at the same time (TODO: redact). A single set of 3 2-week sprints was going to be enough to deliver and test an MVP after initial prototypes and a first MVP had been tested and corrected in the first two sprints.
+
+### Sprint 1
+
+#### Kick-off Assumptions Declaration and Design Studio meeting
+
+* Problem statements
+* Assumption declarations
+* Market and Product preliminary hypotheses
+* Break for GOOB and Problem & Market Validation
+
+#### GOOB and Validation
+
+#### Main Assumptions Declaration and Design Studio meeting with feedback
+
+* Complete hypotheses cycle
+* Design studio
+* Framework discussion (see Appendix 1)
+
+#### Iteration Planning Meetings
+
+* User Stories
+* 9 tools
+* Backlog generation for Sprint
+* Planning for interspersed usability and prototype/MVP product value testing including two cross-collaboration meetings
+
+#### Sprint 1
+
+* IPM
+  * Selection of DurableDrupalDistro based on discussion in Appendix 1
+  * Provisioning and Team workflow presentation (see Appendix 2)
+* Provisioning for office, server, individual team members
+* Workflow for jobs of work integration and continuous build
+* Backlog
+* Testing
+* Conversations
+* Guaranteeing creative time for all
+* Prototype delivered and tested
+
+#### Sprint 2
+
+* IPM
+* Backlog
+* Testing
+* Conversations
+
+#### Sprint 3
+
+* Backlog
+* Testing
+* Conversations
+* Delivery
+* Testing
+* Retrospective meeting
+
+TODO work in artifacts (3rd appendix?) plus Klein's 9 tools, etc.
+
+
+
+
 
 
 ----- TODO rework the following on the basis of our actual Lean process followed for the chapter project.
+
 
 ## Exactly how we build this thing
 
