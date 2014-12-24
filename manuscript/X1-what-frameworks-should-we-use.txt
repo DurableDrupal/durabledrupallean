@@ -1,18 +1,12 @@
 # Appendix 1 - Overcoming Choice Panic - What frameworks should we use?
 
-In this chapter we'll be putting Choice Panic behind us and making a firm decision on the CMS framework we'll be using for our content-centric projects. First we'll place all our doubts right on the table for all to see (should we be using Drupal for this project? really?), sift through the options, and choose the best one as our initial hypothesis. In making that decision we'll base ourselves on our current backlog of projects and on the information we actually have to go on right now. We'll explore that particular choice and the characteristics that make it the most versatile and dynamic option open to us. We want to be comfortable with the decision, and have the whole team all on the same page.
+If we take the neighborhood youth program website from Chapter 1, or the online community of writers used in successive chapters, the question inevitably arises: what frameworks should we use? 
+
+In this appendix we'll be putting Choice Panic behind us and making a firm decision on the CMS framework we'll be using for our content-centric projects. First we'll place all our doubts right on the table for all to see (should we be using Drupal for this project? really?), sift through the options, and choose the best one as our initial hypothesis. In making that decision we'll base ourselves on our current backlog of projects and on the information we actually have to go on right now. We'll explore that particular choice and the characteristics that make it the most versatile and dynamic option open to us. We want to be comfortable with the decision, and have the whole team all on the same page.
 
 Now, also, above and beyond the framework, we are adopting a process which bases itself brutally on what we need and what our clients need, and which abandons vested vendor lock-in of any kind. We can't be married to any one set of frameworks any more. So the framework we select must be able to fit into our adopted, evolving and tailored process at a time when the industry is exploding with change and opportunities.
 
 At the same time, we bear in mind that this is not a one-off question, but one which must be addressed periodically. The thing is, it must be addressed in order to allow you to work in a context of confidence that you are using the best tools for the job, instead of always having that question lurking in the back of your mind.
-
-## This is what we need and we need it now
-
-Let's suppose we are a new web development team and we have our first job together. In the best agile tradition it's a "light" one, so that we can get to know each other and build some synergy to prepare us for a bigger project we'll be starting in a month or so (an online community of writers, a more challenging project we will be dealing with in successive chapters). 
-
-A neighborhood non-profit runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but now they're stuck. They want to be able to manage their content without depending on anyone else for that.
-
-So what to do?
 
 ## "Building from Scratch" or not? Frameworks or not? {#building-from-scratch}
 

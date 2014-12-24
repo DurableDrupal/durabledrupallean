@@ -1,15 +1,18 @@
 # Chapter 1 - First Lean DurableDrupalDistro Project
+ 
+To find out what DurableDrupal Lean is all about, let's dive right in and work through a project together using the DurableDrupalDistro. We'll show how the team works together in full parallel cross-collaboration from start to finish. As always there will be some room for improvement, and this will be caught in the process retrospective at the end of the chapter. We will then drill down in later chapters in "just enough" detail as we work through a second and more substantive real life project.
+
+## First meeting with the client
+I met with Stuart on Skype. He told me about a neighborhood non-profit that runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but now they're stuck. They want to be able to manage their content without depending on anyone else for that.
 
 
-Having made ourselves comfortable with the decision to fork, tailor and maintain a ready-to-use Drupal 7 distro as our workhorse, this chapter will actually relive the entire process of using it for the dynamic community website project. 
-
-This chapter will give a bird's eye overview of the process, from inception to delivery and maintenance, showing how the team works together from the process, implementation and devops points of view. An typical lean/agile process will be followed, although this will be the team's first time attempting to do so, and some mistakes will be made and caught in the retrospective at the end of the chapter. Then the following chapters will be drilling down into the different aspects and elements of applying a lean/agile process to Drupal website and web app building and development. 
-
-Now, of course we don't want to miss out on detailed instructions for actually doing this ourselves as we read along! These detailed instructions will be found linked to the appropriate [Appendix 1](#) from the text as we work on through. We can jump over to the appendix for details, while at the same time it will stand alone as a kind of categorized cookbook for DurableDrupalDistro. Fork it, add your own recipes and send us a pull request!
+----- TODO rework the following on the basis of our actual Lean process followed for the chapter project.
 
 ## Exactly how we build this thing
 
 * Getting the team together
+  * Provisioning
+  * See Appendix 1 xxxxx on why the team chose DurableDrupalDistro as the framework of choice for this project. 
 * First planning session
   * Value hypotheses
   * Testing

@@ -10,9 +10,9 @@ In the process, you will actually be evolving for yourselves a lean web factory 
 
 ## Change, maintenance, continous delivery and the long haul
 
-Successful web developers and agencies know that the real challenge is how to embrace continuous delivery throughout the web app life cycle.
+Successful web developers and agencies know that the real challenge is how to embrace continuous innovation and delivery throughout the web app life cycle.
 
-**Delivering websites and web apps is only the beginning. The real question for success in web development is how to continue to ply your client with continual fixes and releases in order to fix problems and satisfy change requests.**
+**Delivering websites and web apps is only the beginning. The real question for success in web development is how to continue to ply your client with continual fixes and releases in order to fix problems and satisfy change requests, to optimize value at all times.**
 
 Because constant change is inevitable, and ever-present throughout the web app life-cycle: 
 
@@ -29,23 +29,14 @@ We're here for the long haul.
 
 And we're using [Drupal](https://www.drupal.org/) now.
 
+And we're using Lean process now. 
+
 ## Overview of Book Contents
 
 So here's what we'll be doing:
 
-* Chapter 1: Overcoming Choice Panic - What frameworks should we use?
-  
-    We need to free ourselves from choice panic which can paralyze us or disrupt our work. Dialog is necessary to ensure that the project stakeholders (all of them) are on board with the major framework optionss. We need to have this discussion sooner rather than later in order to share a common perspective and be ready to get down to work. In order to achieve this, we will be facing some tough questions together:
-    
-  * Building from scratch or not? Frameworks or not?
-  * Proprietary or not? Open-source or not?
-  * WordPress or not?
-  * Drupal or not?
-  * Drupal 8 or not?
-  * Backdrop or not?
-  * Vanilla Drupal 7 or not? Distro or not?
-  * Presenting DurableDrupalDistro: fork it, tailor it, maintain it, branch and release it over all your projects!
-  * Preparing to migrate gradually all along, so we'll be ready when the time comes
+* Chapter 1: First Lean DurableDrupalDistro Project
+  * First meeting with the client
 
 * Chapter 2: Setting up just enough shop to deliver our first web app
   * Team consciousness: client reps and dev team together
@@ -91,6 +82,22 @@ So here's what we'll be doing:
     
 * Chapter 9: Build, deploy, maintain
   * Rinse and repeat over "development"
+
+* Appendix 1: Overcoming Choice Panic - What frameworks should we use?
+  
+    We need to free ourselves from choice panic which can paralyze us or disrupt our work. Dialog is necessary to ensure that the project stakeholders (all of them) are on board with the major framework optionss. We need to have this discussion sooner rather than later in order to share a common perspective and be ready to get down to work. In order to achieve this, we will be facing some tough questions together:
+    
+  * Building from scratch or not? Frameworks or not?
+  * Proprietary or not? Open-source or not?
+  * WordPress or not?
+  * Drupal or not?
+  * Drupal 8 or not?
+  * Backdrop or not?
+  * Vanilla Drupal 7 or not? Distro or not?
+  * Presenting DurableDrupalDistro: fork it, tailor it, maintain it, branch and release it over all your projects!
+  * Preparing to migrate gradually all along, so we'll be ready when the time comes
+ 
+ * Appendix 2: Team Workflow and Provisioning
 
 ## Formatting Conventions
 
