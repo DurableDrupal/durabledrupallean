@@ -1,5 +1,9 @@
 # Chapter 1 - First Lean DurableDrupalDistro Project
 
+To find out what DurableDrupal Lean is all about, let's dive right in and work through a project together using the DurableDrupalDistro using a lean process. At the end of this chapter we can do a retrospective and then drill down in later chapters to some of the more meaty parts as we work through a real life project.
+
+
+
 
 Having made ourselves comfortable with the decision to fork, tailor and maintain a ready-to-use Drupal 7 distro as our workhorse, this chapter will actually relive the entire process of using it for the dynamic community website project. 
 
