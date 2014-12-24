@@ -68,6 +68,7 @@ So here's what we'll be doing:
 * Chapter 3: MVP prototypes
 
 * Chapter 4: Grabbing the legacy content
+This should be postponed for migrations book
 
 * Chapter 5: Candidate architecture
   * Choices panic: see Appendex 1 xxxxxx
