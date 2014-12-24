@@ -59,7 +59,7 @@ So here's what we'll be doing:
       * We had to do special training (not to mention train the trainers)
       * Client reps began a slew of change requests that could have come earlier if they had been familiar with the system
     
-* Chapter 2: Validating our assumptions
+* Chapter 2: Pain driven development
   * New project!
   * Value hypotheses
   * Design studio for nerds... and for the client too
@@ -70,7 +70,7 @@ So here's what we'll be doing:
 * Chapter 4: Grabbing the legacy content
 
 * Chapter 5: Candidate architecture
-  * Choices panic revisited
+  * Choices panic: see Appendex 1 xxxxxx
   * We're evolving on top of best of breed
 
 * Chapter 6: Build the recursive MVP of MVP's
