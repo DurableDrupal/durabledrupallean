@@ -1,5 +1,41 @@
 # Appendix 2 - Team Workflow and Provisioning
 
+## Team roles
+
+Basing ourselves on [Web Style Guide by Patric J. Lynch and Sarah Horton](http://webstyleguide.com/wsg3/1-process/2-development-team.html), published a few years ago in 2009 by Yale University Press. At that point, the traditional Website development team core skillset were presented as being:
+
+* Strategy and planning
+* Project management
+* Information architecture and user interface design
+* Graphic design for the web
+* Web technology
+* Site production
+
+with Web Team roles and responsibilities being:
+
+* Project stakeholder or sponsor
+* Web project manager
+  * Account executive
+  * Quality assurance tester
+* Usability lead
+* Information architect
+* Art director
+  * Web graphic designer
+  * Interactive designer (Flash, JavaScript, Ajax)
+  * Media specialist (photography, illustration, audiovisual, Adobe Flash)
+* Web technology lead
+  * Web application programmer (.Net, Java, php/Perl, Ruby)
+  * Web page engineer (xhtml, css, JavaScript, Ajax)
+  * Database administrator
+  * Web systems expert or webmaster
+* Site production lead
+  * html page coder
+* Site editor
+ * Site copywriter
+ * Content domain expert (content coordination, research)
+
+TODO Translate this in steps to our current team role set introduced in [Chapter 1](#).
+
 ## Basic team workflow
 clone
 pull, branch, work, pull request

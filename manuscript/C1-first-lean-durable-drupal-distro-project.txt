@@ -6,17 +6,30 @@ To find out what DurableDrupal Lean is all about, let's dive right in and work t
 I met with Stuart on Skype. He told me about a neighborhood non-profit that runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but now they're stuck. They want to be able to manage their content without depending on anyone else for that.
 Stakeholder detection.
 Existing solution survey.
-I hit him with Problem, Market, Product just to get initial feedback, and we wrote an initial hypothesis.
+I hit him with Problem, Market, Product just to get initial feedback, and explained about us needing to postpone jumping in and talking right away about design and functionality ideas in favor of first clearly understanding current pain points and problems, and understanding what the organization's valued outcomes might be. And that afterwards we would all brainstorm about designs and functionality that could be tested out to see if they might achieve those objectives. As usual it was pretty hard to sell this point since clients always want to talk about widgets, colors and what blocks should be handy to click on right away, but I think we were all on the same page, and I came away from the meeting with some good notes.
+The good news was that Stewart agreed to be readily available for ongoing feedback and understood about our methods of continuous delivery.
+TODO: What the client can understand in a first meeting is what fits into this chapter. So, simple explanations over buzz words.
 
 ## Forming the team
 
-It was a minimum team but had to have:
+It was a minimum team but had to have the following areas covered (with some team members covering more than one role):
 
+* Product owner
+* Process coach
+* Software Architect
+* User experience/User interface designer 
+* Graphic designer
+* Multimedia designer
+* Structured Content specialist/Information architect
 * Front-end developer
 * Back-end developer
-* Graphic designer
-* Usability person
-* TODO complete from UX books where they list the roles
+* Marketing specialist
+* Content creator/Copywriter
+* DevOps specialist
+
+Notice the absence of Project Manager. It's important to escape the rockstar fantasy and indispensable hero syndrome. It's the team the whole team and nothing but the team. It just works.
+
+The exact definitiion of each of the roles will become apparent by the end of this chapter and throughout the book. If you need an abstract definition, see [Appendix 2](#).
 
 ## Single Theme project encompassing 3 Sprints aimed at MVP
 
@@ -29,7 +42,7 @@ I planned for a Lean process with the team, blending Lean with Scrum with the Th
 * Problem statements
 * Assumption declarations
 * Market and Product preliminary hypotheses
-* Break for GOOB and Problem & Market Validation
+* 2-day break for GOOB and Problem & Market Validation
 
 #### GOOB and Validation
 
@@ -42,13 +55,12 @@ I planned for a Lean process with the team, blending Lean with Scrum with the Th
 #### Iteration Planning Meetings
 
 * User Stories
-* 9 tools
 * Backlog generation for Sprint
 * Planning for interspersed usability and prototype/MVP product value testing including two cross-collaboration meetings
 
 #### Sprint 1
 
-* IPM
+* IPM as above, and
   * Selection of DurableDrupalDistro based on discussion in Appendix 1
   * Provisioning and Team workflow presentation (see Appendix 2)
 * Provisioning for office, server, individual team members
@@ -61,13 +73,14 @@ I planned for a Lean process with the team, blending Lean with Scrum with the Th
 
 #### Sprint 2
 
-* IPM
+* IPM as above
 * Backlog
 * Testing
 * Conversations
 
 #### Sprint 3
 
+* IPM as above
 * Backlog
 * Testing
 * Conversations
@@ -75,8 +88,9 @@ I planned for a Lean process with the team, blending Lean with Scrum with the Th
 * Testing
 * Retrospective meeting
 
-TODO work in artifacts (3rd appendix?) plus Klein's 9 tools, etc.
+TODO work in artifacts (3rd appendix?) plus tools from both books (Klein's 9 tools, etc.)
 
+TODO just do it
 
 
 
