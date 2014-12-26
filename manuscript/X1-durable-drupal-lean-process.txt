@@ -4,11 +4,13 @@ What follows is an overview of how to make use of the process, with links drilli
 
 T> If you would like more background, please feel free to skip first to the [Agile Software Development. Background and Resources](#agile-background-resources) section.
 
-We will describe the process via a listing of typical chronological steps and activities, although it is important to bear in mind that certain projects will want to tailor the use of the tools and artifacts to their own contexts.
+We will describe the process via a listing of typical chronological steps and activities, although it is important to bear in mind that certain projects will want to tailor the use of the tools and artifacts to their own specific characteristics.
 
 ### Project inception
 
-Somewhere, somehow the project is born. 
+#### Initial contact with the project owner
+Somewhere, somehow the project is born. Whether it's a meeting with a prospective client or an interview as part of a RFP (Request for Proposal), a dialog is started concerning the fulfillment of a specific need.
+
 
 
 
