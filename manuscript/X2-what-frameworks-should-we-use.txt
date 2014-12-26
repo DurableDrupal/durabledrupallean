@@ -1,4 +1,4 @@
-# Appendix 1 - Overcoming Choice Panic - What frameworks should we use?
+# Appendix 2. Overcoming Choice Panic - What frameworks should we use? {#appendix-02}
 
 If we take the neighborhood youth program website from Chapter 1, or the online community of writers used in successive chapters, the question inevitably arises: what frameworks should we use? 
 

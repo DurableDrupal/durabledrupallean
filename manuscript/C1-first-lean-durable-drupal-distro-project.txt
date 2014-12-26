@@ -1,6 +1,10 @@
-# Chapter 1 - First Lean DurableDrupalDistro Project
+# Chapter 1. First Lean DurableDrupalDistro Project {#chapter01}
  
 To find out what DurableDrupal Lean is all about, let's dive right in and work through a project together using the DurableDrupalDistro. We'll show how the team works together in full parallel cross-collaboration from start to finish. As always there will be some room for improvement, and this will be caught in the process retrospective at the end of the chapter. We will then drill down in later chapters in "just enough" detail as we work through a second and more substantive real life project.
+
+I> ## Durable Drupal Lean in a Nutshell
+I>
+i> You can get an abstract overview of the process in [Appendix 1. DurableDrupal Lean Process Overview and Guides](#)
 
 ## First meeting with the client
 I met with Stuart on Skype. He told me about a neighborhood non-profit that runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but now they're stuck. They want to be able to manage their content without depending on anyone else for that.
@@ -29,7 +33,7 @@ It was a minimum team but had to have the following areas covered (with some tea
 
 Notice the absence of Project Manager. It's important to escape the rockstar fantasy and indispensable hero syndrome. It's the team the whole team and nothing but the team. It just works.
 
-The exact definitiion of each of the roles will become apparent by the end of this chapter and throughout the book. If you need an abstract definition, see [Appendix 2](#).
+The exact definition of each of the roles will become apparent by the end of this chapter and throughout the book. If you need an abstract definition, see [Appendix 2](#).
 
 ## Single Theme project encompassing 3 Sprints aimed at MVP
 

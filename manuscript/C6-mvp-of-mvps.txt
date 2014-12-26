@@ -1,2 +1,2 @@
-# Chapter 6 - Build the recursive MVP of MVPs
+# Chapter 6. Build the recursive MVP of MVPs
 

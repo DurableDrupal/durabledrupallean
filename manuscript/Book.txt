@@ -10,5 +10,8 @@ C6-mvp-of-mvps.txt
 C7-go-team-test-team.txt
 C8-build-deploy-rinse-repeat.txt
 backmatter.txt
-X1-what-frameworks-should-we-use.txt
-X2-team-workflow-and-provisioning.txt
+X1-durable-drupal-lean-process.txt
+X1A-durable-drupal-lean-process-guides.txt
+X1B-durable-drupal-lean-process-templates.txt
+X2-what-frameworks-should-we-use.txt
+X3-team-workflow-and-provisioning.txt
