@@ -1,14 +1,14 @@
 # Appendix 1. DurableDrupal Lean Process. Overview {#appendix01}
 
-## Overview
-
 What follows is an overview of how to make use of the process, with links drilling down to useful guides and templates you can use immediately as you go along. 
 
 T> If you would like more background, please feel free to skip first to the [Agile Software Development. Background and Resources](#agile-background-resources) section.
 
 We will describe the process via a listing of typical chronological steps and activities, although it is important to bear in mind that certain projects will want to tailor the use of the tools and artifacts to their own contexts.
 
-### 
+### Project inception
+
+Somewhere, somehow the project is born. 
 
 
 
@@ -33,9 +33,9 @@ The baseline in software development is what is called the [Waterfall Model](htt
 [Winston W. Royce's original article Managing the Development of Large Software Systems](http://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf) (interesting that even it includes quite a bit on iteration)
 
 A> The waterfall model is a sequential design process, used in software development processes, in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of Conception, Initiation, Analysis, Design, Construction, Testing, Production/Implementation and Maintenance.
-
+A>
 A> The waterfall development model originates in the manufacturing and construction industries; highly structured physical environments in which after-the-fact changes are prohibitively costly, if not impossible. Since no formal software development methodologies existed at the time, this hardware-oriented model was simply adapted for software development.[1]
-
+A>
 A> > [Wikipedia: Waterfall Model](http://en.wikipedia.org/wiki/Waterfall_model)
 
 In following the Waterfall Model, the various disciplines are executed in a single, non-iterative cycle: Requirements, Design, Construction, Integration, Testing, Installation and Maintenance. 
@@ -99,9 +99,9 @@ emerge from self-organizing teams.
 to become more effective, then tunes and adjusts 
 its behavior accordingly.
 
-I> ## This author is proud to have [signed the Agile Manifesto in August 2006](http://agilemanifesto.org/sign/display.cgi?ms=000000067)
-I>
-I> Victor Kane: (AWebFactory) Building software must be built around real human needs, and neither the product nor the process shoved down people's throats. The need for software and the need to produce that software must be framed in a process (the process mirrored in the product - Hudson), is optimized by open, flowing structures reflecting those very real needs and their most excellent solutions. Obstacles imposed by greed and the need to defend privilege must be removed. Working people who produce and use software must together manage that process themselves, worldwide.
+Q> ## This author is proud to have [signed the Agile Manifesto in August 2006](http://agilemanifesto.org/sign/display.cgi?ms=000000067)
+Q>
+Q> Victor Kane: (AWebFactory) Building software must be built around real human needs, and neither the product nor the process shoved down people's throats. The need for software and the need to produce that software must be framed in a process (the process mirrored in the product - Hudson), is optimized by open, flowing structures reflecting those very real needs and their most excellent solutions. Obstacles imposed by greed and the need to defend privilege must be removed. Working people who produce and use software must together manage that process themselves, worldwide.
 
 ### Scrum
 
