@@ -9,11 +9,25 @@ We will describe the process via a listing of typical chronological steps and ac
 ## Project inception: Preparation for Kickoff
 
 ### Initial contact with the project owner
-Somewhere, somehow the project is born. Whether it's a meeting with a prospective client or an interview as part of a RFP (Request for Proposal), a dialog is started concerning the fulfillment of a specific need.
+Somewhere, somehow the project is born. Whether it's during a meeting with a prospective client or an interview after having submitted an RFP (Request for Proposal), a dialog is started concerning the building of a product capable of solving a specific problem felt by a significant group of people.
 
+L;aura Klein, author of [Lean UX - Applying Lean principles to Improve User Experience by Jeff Gothelf and Josh Seiden](http://www.jeffgothelf.com/blog/lean-ux-book/#sthash.22gOyp12.dpbs) ... m p p
 
+Q> ### Defining Market, Problem and Product
+Q> "A market is the group of people you think might want to buy your product.... A problem is the reason that those people are going to use your product... A product is simply the way that you’re going to solve the user’s problem. It’s the end result of what you’re building. It’s the thing that people, presumably in the target market, are going to pay you money for." (Klein, Chapter 1)
+Q>
+Q> ### On Validating the Problem
+Q> "You are going to discover a problem that exists within your target market that you are capable of solving. Remember, if there’s no problem, then there is no compelling reason for people to purchase your product.... You’ll know that you’ve validated a problem when you start to hear particular groups of people complaining about something specific."
+Q>
+Q> ### On Validating the Market
+Q> "Validating the Market: You’ll know that you’ve successfully validated your market when you can accurately predict that a particular type of person will have a specific problem and that the problem will be severe enough that that person is interested in purchasing a solution."
+Q>
+Q> ### On Validating the Product
+Q> "Just because you have discovered a real problem and have a group of people willing to pay you to solve their problem, that doesn’t necessarily mean that your product is the right solution.... You’ll know that you’ve validated your product when a large percentage of your target market offers to pay you money to solve their problem."
 
+So it's important to bring up the method of Validation Driven Design right from the start with the client, and even in the first interviews, learn as much as is possible without further testing and research about the Problem and Market the proposed Product is related to. And to emphasize how all the development, even (especially) after delivery will be concerned with validating all three cornerstones.
 
+The DurableDrupal Lean process helps that along by providing an optional MVP Template. There is a guide on how to work with it. It's optional because we never want to impose an obligatory paper-heavy process on anyone. If you feel this template (and [the other two or three]() we include) helps to organize, so much the better. Feel free.
 
 
 ## Agile Software Development. Background and Resources {#agile-background-resources}
@@ -134,5 +148,5 @@ Kanban is where Agile and one of its industrial manufacturing predecessars, JIT 
 * [User Stories Applied by Mike Cohn](http://www.amazon.com/User-Stories-Applied-Software-Development/dp/0321205685)
 * [Kanban and Scrum by Henrik Kniberg and Mattias Skarin](http://www.infoq.com/minibooks/kanban-scrum-minibook)
 * [The Lean Startup by Eric Ries](http://theleanstartup.com/book)
-* [Lean UX - Applying Lean principles to Improve User Experience](http://www.jeffgothelf.com/blog/lean-ux-book/#sthash.22gOyp12.dpbs)
-* [UX for Lean Startups: Faster, Smarter User Experience Research and Design](http://www.amazon.com/UX-Lean-Startups-Experience-Research/dp/1449334911)
+* [Lean UX - Applying Lean principles to Improve User Experience by Jeff Gothelf and Josh Seiden](http://www.jeffgothelf.com/blog/lean-ux-book/#sthash.22gOyp12.dpbs)
+* [UX for Lean Startups: Faster, Smarter User Experience Research and Design by Laura Klein](http://www.amazon.com/UX-Lean-Startups-Experience-Research/dp/1449334911)
