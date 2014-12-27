@@ -4,7 +4,9 @@ To find out what DurableDrupal Lean is all about, let's dive right in and work t
 
 I> ## Durable Drupal Lean in a Nutshell
 I>
-i> You can get an abstract overview of the process in [Appendix 1. DurableDrupal Lean Process Overview and Guides](#)
+I> You can get an overview of the process in [Appendix 1. DurableDrupal Lean Process Overview](#appendix01) which also references all Guides and Templates.
+
+T> Feel free to skip the links to the Guides and Templates referenced in the rest of the chapter as you read on, if you prefer. It might be a good idea to read this chapter twice, once to get a feeling for the process, and once to dig a little deeper. The Guides and Templates and all instances of their use can be found in the TODO WTF! node, files ... SOCORRO ... live style guide ... live user hypotheses ...
 
 ## First meeting with the client
 I met with Stuart on Skype. He told me about a neighborhood non-profit that runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but now they're stuck. They want to be able to manage their content without depending on anyone else for that.
@@ -163,7 +165,12 @@ TODO just do it
 
 ## Retrospective (or Agile is the new Waterfall)
 
+X> ## Dig a little deeper 
+X>
+X> Now that you have seen a live example, now would be a great time to learn more about the DurableDrupal Lean process in [Appendix 1. DurableDrupal Lean Process Overview](#appendix01) which also references all Guides and Templates.
+X> You can also take a look at the Guides in [Appendix 1A. DurableDrupal Lean Process. Guides](#appendix01a) and at the Templates in [Appendix 1B. DurableDrupal Lean Process. Templates](#appendix01b)
 
 So in this chapter we ran with the DurableDrupalDistro, built and delivered our project and installed in on our maintenance stack. After which we complied with the solemn retrospective and reviewed our list of lessons learned.
 
-For the rest of the book, we are going to drill down into the different moments of a more challenging project, as we learn how to overcome agile alone as the new waterfall, incorporating the painful lessons learned by the start-ups, as we adopt the lean process. Turn the page and find out what it's gonna be...
+TODO not so gushy, but should be emotional, yes; we need to prepare for the question of how the distro is related to the process... could it have the process incorporated into it?
+For the rest of the book, we are going to drill down into a more detailed view of the building, delivery and ongoing validation (the new maintenance) of the Literary Workshop and how the current maturity and richness of the Drupal 7 distro eco-system used in conjunction with an evolving distro and process can streamline our work.
