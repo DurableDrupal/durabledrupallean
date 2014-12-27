@@ -45,7 +45,7 @@ I planned for a Lean process with the team, blending Lean with Scrum with the Th
 
 * Problem statements
 * Assumption declarations
-* Market and Product preliminary hypotheses
+* Market, Problem and Product preliminary hypotheses
 * 2-day break for GOOB and Problem & Market Validation
 
 #### GOOB and Validation
