@@ -1,15 +1,18 @@
 # Chapter 1. First Lean DurableDrupalDistro Project {#chapter01}
  
-To find out what DurableDrupal Lean is all about, let's dive right in and work through a project together using the DurableDrupalDistro. We'll show how the team works together in full parallel cross-collaboration from start to finish. As always there will be some room for improvement, and this will be caught in the process retrospective at the end of the chapter. We will then drill down in later chapters in "just enough" detail as we work through a second and more substantive real life project.
+To find out what DurableDrupal Lean is all about, let's dive right in and work through a project together using the DurableDrupalDistro. In this chapter we'll show how the team works together in full parallel cross-collaboration from start to finish. We will then drill down in later chapters in "just enough" detail to see how stuff gets done in this real life project. As always there will be some room for improvement, and this will be caught in the retrospective at the end of the book. 
 
-I> ## Durable Drupal Lean in a Nutshell
-I>
-I> You can get an overview of the process in [Appendix 1. DurableDrupal Lean Process Overview](#appendix01) which also references all Guides and Templates.
-
-T> Feel free to skip the links to the Guides and Templates referenced in the rest of the chapter as you read on, if you prefer. It might be a good idea to read this chapter twice, once to get a feeling for the process, and once to dig a little deeper. The Guides and Templates and all instances of their use can be found in the TODO WTF! node, files ... SOCORRO ... live style guide ... live user hypotheses ...
+T> ## Durable Drupal Lean in a Nutshell
+T>
+T> You can get an overview of the process in [Appendix 1. DurableDrupal Lean Process Overview](#appendix01) and in the reference links in the rest of this chapter. Feel free to skip those links as you read through this, though, especially the first time. It might be a good idea to read this chapter twice, once to get a feeling for the process, and once to dig a little deeper. 
+T>
+T> TODO The Overview and Templates and all instances of their use can be found in the TODO WTF! node, files ... SOCORRO ... live style guide ... live user hypotheses ...
 
 ## First meeting with the client
-I met with Stuart on Skype. He told me about a neighborhood non-profit that runs programs for youth in the community. They've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but now they're stuck. They want to be able to manage their content without depending on anyone else for that.
+I met with Stuart on Skype. He is a very well-known writer of [Flash Fiction](http://en.wikipedia.org/wiki/Flash_fiction), and had sent me to read [Pamelyn Casto's Flashes On The Meridian: Dazzled by Flash Fiction](http://www.heelstone.com/meridian/meansarticle1.html) by way of preparation. Stuart has been running a remote workshop for flash fiction writers for decades, using a moderated email list. The workshop also has a website, where bulletins about writing opportunities are put up, along with a flash fiction zine publishing selected material written by the workshop members themselves as well as by flash fiction masters.
+
+He told me they've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but now they're stuck. They also want to be able to manage their content without depending on anyone else for that. 
+
 Stakeholder detection.
 Existing solution survey.
 I hit him with Problem, Market, Product just to get initial feedback, and explained about us needing to postpone jumping in and talking right away about design and functionality ideas in favor of first clearly understanding current pain points and problems, and understanding what the organization's valued outcomes might be. And that afterwards we would all brainstorm about designs and functionality that could be tested out to see if they might achieve those objectives. As usual it was pretty hard to sell this point since clients always want to talk about widgets, colors and what blocks should be handy to click on right away, but I think we were all on the same page, and I came away from the meeting with some good notes.
@@ -172,5 +175,4 @@ X> You can also take a look at the Guides in [Appendix 1A. DurableDrupal Lean Pr
 
 So in this chapter we ran with the DurableDrupalDistro, built and delivered our project and installed in on our maintenance stack. After which we complied with the solemn retrospective and reviewed our list of lessons learned.
 
-TODO not so gushy, but should be emotional, yes; we need to prepare for the question of how the distro is related to the process... could it have the process incorporated into it?
-For the rest of the book, we are going to drill down into a more detailed view of the building, delivery and ongoing validation (the new maintenance) of the Literary Workshop and how the current maturity and richness of the Drupal 7 distro eco-system used in conjunction with an evolving distro and process can streamline our work.
+For the rest of the book, we are going to drill down into a more detailed view of the building, delivery and ongoing validation (the new maintenance) of the Literary Workshop and how the current maturity and richness of the Drupal 7 distro eco-system used in conjunction with an evolving distro and process can streamline our work. So on to Chapter 2, where we'll get to experience the Kickoff session up close.
