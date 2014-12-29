@@ -180,9 +180,10 @@ No database updates required                                         [success]
 Finished performing updates.                                         [ok]
 $ git status
 $ git add .
-$ git commit -am "Maintenance update to drupal core 7.32 plus updated contrib modules"
+$ git commit -am "Maintenance update to drupal core 7.34 plus updated contrib modules"
+$ git push
 $ git tag
-$ git tag -a "October2014" -m "Maintenance core and contrib update"
+$ git tag -a "December2014" -m "Maintenance core and contrib update"
 $ git push --tags
 ~~~~~~~~
 
