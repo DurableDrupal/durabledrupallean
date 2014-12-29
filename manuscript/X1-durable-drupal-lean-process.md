@@ -1,15 +1,44 @@
 # Appendix 1. DurableDrupal Lean Process. Overview {#appendix01}
 
-What follows is an overview of how to make use of the process, with links drilling down to useful guides and templates you can use immediately as you go along. 
+What follows is an overview of how to make use of the process. There are also links drilling down to templates you can use immediately as your project gets going. 
 
-T> If you would like more background, please feel free to skip first to the [Agile Software Development. Background and Resources](#agile-background-resources) section.
+T> If you would like more background as to why Agile and why Lean, please feel free to skip first to the [Agile Software Development. Background and Resources](#agile-background-resources) section.
+T>
+T> We will describe the process via a listing of typical chronological steps and activities, although it is important to bear in mind that certain projects will want to tailor the use of the tools and artifacts in accordance with their own specific characteristics. 
 
-We will describe the process via a listing of typical chronological steps and activities, although it is important to bear in mind that certain projects will want to tailor the use of the tools and artifacts to their own specific characteristics. For example, just in order to complete the initial MVP vision, some projects will warrant a fully-functional MVP prototype or test landing page before going any further, while others will base their first prototype on a set of user stories.
 
-## Project inception: Preparation for Kickoff
+TODO place this snippet somewher: For example, just in order to complete the initial MVP vision, some projects will warrant a fully-functional MVP prototype or test landing page before going any further, while others will base their first prototype on a set of user stories.
 
-### Initial contact with the project owner
-Somewhere, somehow the project is born. Whether it's during a meeting with a prospective client or an interview after having submitted an RFP (Request for Proposal), a dialog is started concerning the building of a product capable of solving a specific problem felt by a significant group of people.
+## Project inception {#appendix01-project-inception}
+
+### Initial contact with the project owner 
+Somewhere, somehow the project is born. A telephone call or an email is received, a comment made during a chance encounter on the street or at the mall. The job of the agency member is to initiate an organized process involving a job of work. As such, an invitation is issued for a meeting, either in person or through a remote service such as [Skype](http://www.skype.com/en/) or [Google Hangouts](https://plus.google.com/hangouts). Once the invitation is accepted, the project is born.
+
+At this point, an agency member opens up a [Kanban board](http://en.wikipedia.org/wiki/Kanban_board) for the project. DurableDrupal Lean works very well with the light-weight and powerful [Trello](https://trello.com/), but you can use any other alternative you are familiar with, including the following (most have some kind of free account):
+
+* Build your own
+  * [Make a personal Kanban board](http://www.instructables.com/id/Kanban-Organization-thru-post-it-notes/)
+  * You can use a whiteboard with post-it notes and then take photos to capture state
+  * [Kanban examples](http://leankit.com/kanban/kanban-examples/)
+* [Mingle](http://www.thoughtworks.com/products/mingle-agile-project-management)
+* [Pivotal Tracker](http://www.pivotaltracker.com/)
+* [Fulcrum](https://github.com/fulcrum-agile/fulcrum) Open source clone of Pivotal Tracker
+* [Gitban](http://www.gitban.com/) Worth trying since it uses Github Issues directly from your repo
+* [HuBoard](https://huboard.com) Another Kanban board built on top of Github Issues
+* [LeanKit](http://leankit.com/)
+
+After creating a new board, generally three columns are created:
+
+ 
+
+
+
+Whether it's during a meeting with a prospective client or an interview after having submitted an RFP (Request for Proposal), a dialog is started concerning the building of a product capable of solving a specific problem felt by a significant group of people.
+
+
+
+
+
 
 Laura Klein, author of [Lean UX - Applying Lean principles to Improve User Experience by Jeff Gothelf and Josh Seiden](http://www.jeffgothelf.com/blog/lean-ux-book/#sthash.22gOyp12.dpbs) ... m p p
 

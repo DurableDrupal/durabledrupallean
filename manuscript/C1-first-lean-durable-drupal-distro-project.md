@@ -1,17 +1,22 @@
 # Chapter 1. First Lean DurableDrupalDistro Project {#chapter01}
  
-To find out what DurableDrupal Lean is all about, let's dive right in and work through a project together using the DurableDrupalDistro. In this chapter we'll show how the team works together in full parallel cross-collaboration from start to finish. We will then drill down in later chapters in "just enough" detail to see how stuff gets done in this real life project. As always there will be some room for improvement, and this will be caught in the retrospective at the end of the book. 
+To find out what DurableDrupal Lean is all about, let's dive right in and work through a project together using the DurableDrupalDistro. In this chapter we'll show how the team from AWebFactory work together in full parallel cross-collaboration from start to finish. We will then drill down in later chapters with "just enough" detail to see how stuff gets done in this real life project. As always there will be some room for improvement, and this will be caught in the retrospective sessions we have from time to time and at the end of the book. 
 
-T> ## Durable Drupal Lean in a Nutshell
-T>
-T> You can get a nice clear overview of the process, if you prefer, in [Appendix 1. DurableDrupal Lean Process Overview](#appendix01), which serves also as a handy future reference, as well as in the links in the rest of this chapter. Feel free to skip those links, though, if you prefer the "practical" overview presented here first. 
-T>
-T> It might be a good idea to read this chapter twice, once to get a quick feeling for how the process is used, and a second time to dig a little deeper!
-T>
-T> TODO The Overview and Templates and all instances of their use can be found in the TODO WTF! node, files ... SOCORRO ... live style guide ... live user hypotheses ...
+At AWebFactory any member of the team can start a project by reaching an agreement with a client, form a team and do a job of work.
 
-## First meeting with the client
-I met with Stuart on Skype. He is a very well-known writer of [Flash Fiction](http://en.wikipedia.org/wiki/Flash_fiction), and had sent me to read [Pamelyn Casto's Flashes On The Meridian: Dazzled by Flash Fiction](http://www.heelstone.com/meridian/meansarticle1.html) by way of preparation. Stuart has been running a remote workshop for flash fiction writers for decades, using a moderated email list. The workshop also has a website, where bulletins about writing opportunities are put up, along with a flash fiction zine publishing selected material written by the workshop members themselves as well as by flash fiction masters.
+## Project start
+
+Lisa, a team member at AWebFactory, gets a mail from Stuart. He is a very well-known writer of [Flash Fiction](http://en.wikipedia.org/wiki/Flash_fiction), and has been running a remote workshop for flash fiction writers for decades using a moderated email list. The workshop also has a website, where bulletins about writing opportunities are put up, along with a flash fiction zine publishing selected material written by the workshop members themselves as well as by flash fiction masters. In the mail Stuart tells Lisa they need to redo their website and asks to have a Skype chat about this.
+
+As far as Lisa is concerned, the project has already begun. It may have a very short life if no agreement is made with the client, but it has already been born.
+
+T> Check out the [Project Inception overview](#appendix01-project-inception) for more detail.
+
+So Lisa opens up a project Kanban board using Trello with the title FlashFictionWorkshop. She adds the typical three columns to start out with (To Do, Doing, Done), she adds a first card, **MVP Vision**, to the To Do list in order to structure that first meeting. She also adds a **Read [Pamelyn Casto's Flashes On The Meridian: Dazzled by Flash Fiction](http://www.heelstone.com/meridian/meansarticle1.html)** card for extra credit domain knowledge homework.
+
+She populates the **MVP Vision** card from the [MVP Vision Template](), reads Pam Casto's article and drags that card to the Done column.
+
+### First meeting with the client
 
 He told me they've had a webmaster who managed the content on their site for them, but he seems to have disappeared and they've lost access to their old stuff. Actually they've been wanting to re-do their site for some time, so they have some ideas, but now they're stuck. They also want to be able to manage their content without depending on anyone else for that. 
 
@@ -20,6 +25,14 @@ Existing solution survey.
 I hit him with Problem, Market, Product just to get initial feedback, and explained about us needing to postpone jumping in and talking right away about design and functionality ideas in favor of first clearly understanding current pain points and problems, and understanding what the organization's valued outcomes might be. And that afterwards we would all brainstorm about designs and functionality that could be tested out to see if they might achieve those objectives. As usual it was pretty hard to sell this point since clients always want to talk about widgets, colors and what blocks should be handy to click on right away, but I think we were all on the same page, and I came away from the meeting with some good notes.
 The good news was that Stewart agreed to be readily available for ongoing feedback and understood about our methods of continuous delivery.
 TODO: What the client can understand in a first meeting is what fits into this chapter. So, simple explanations over buzz words.
+
+T> ## Durable Drupal Lean in a Nutshell
+T>
+T> You can get a nice clear overview of the process, if you prefer, in [Appendix 1. DurableDrupal Lean Process Overview](#appendix01), which serves also as a handy future reference, as well as in the links in the rest of this chapter. Feel free to skip those links, though, if you prefer the "practical" overview presented here first. 
+T>
+T> It might be a good idea to read this chapter twice, once to get a quick feeling for how the process is used, and a second time to dig a little deeper!
+T>
+T> TODO The Overview and Templates and all instances of their use can be found in the TODO WTF! node, files ... SOCORRO ... live style guide ... live user hypotheses ...
 
 ## Forming the team
 
