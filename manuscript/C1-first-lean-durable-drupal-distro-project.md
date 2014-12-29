@@ -4,7 +4,9 @@ To find out what DurableDrupal Lean is all about, let's dive right in and work t
 
 T> ## Durable Drupal Lean in a Nutshell
 T>
-T> You can get an overview of the process in [Appendix 1. DurableDrupal Lean Process Overview](#appendix01) and in the reference links in the rest of this chapter. Feel free to skip those links as you read through this, though, especially the first time. It might be a good idea to read this chapter twice, once to get a feeling for the process, and once to dig a little deeper. 
+T> You can get a nice clear overview of the process, if you prefer, in [Appendix 1. DurableDrupal Lean Process Overview](#appendix01), which serves also as a handy future reference, as well as in the links in the rest of this chapter. Feel free to skip those links, though, if you prefer the "practical" overview presented here first. 
+T>
+T> It might be a good idea to read this chapter twice, once to get a quick feeling for how the process is used, and a second time to dig a little deeper!
 T>
 T> TODO The Overview and Templates and all instances of their use can be found in the TODO WTF! node, files ... SOCORRO ... live style guide ... live user hypotheses ...
 
