@@ -11,7 +11,7 @@ We will describe the process via a listing of typical chronological steps and ac
 ### Initial contact with the project owner
 Somewhere, somehow the project is born. Whether it's during a meeting with a prospective client or an interview after having submitted an RFP (Request for Proposal), a dialog is started concerning the building of a product capable of solving a specific problem felt by a significant group of people.
 
-L;aura Klein, author of [Lean UX - Applying Lean principles to Improve User Experience by Jeff Gothelf and Josh Seiden](http://www.jeffgothelf.com/blog/lean-ux-book/#sthash.22gOyp12.dpbs) ... m p p
+Laura Klein, author of [Lean UX - Applying Lean principles to Improve User Experience by Jeff Gothelf and Josh Seiden](http://www.jeffgothelf.com/blog/lean-ux-book/#sthash.22gOyp12.dpbs) ... m p p
 
 Q> ### Defining Market, Problem and Product
 Q> "A market is the group of people you think might want to buy your product.... A problem is the reason that those people are going to use your product... A product is simply the way that you’re going to solve the user’s problem. It’s the end result of what you’re building. It’s the thing that people, presumably in the target market, are going to pay you money for." (Klein, Chapter 1)
