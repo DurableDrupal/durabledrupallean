@@ -174,7 +174,7 @@ Kanban is where Agile and one of its industrial manufacturing predecessars, JIT 
 * [Leankit's What is Kanban article](http://leankit.com/kanban/what-is-kanban/)
   * [Leankit's Manage Projects with Kanban](http://leankit.com/kanban/online-kanban-board/)
   * [Leankit's 10 kanban boards examples implementation](http://leankit.com/blog/2010/12/10-kanban-boards-leankit-kanban-style/)
-  * [LeanKanban University](http://www.leankanban.com/)
+  * [LeanKanban University - Definition of Kanban Method](http://www.leankanban.com/node/10)
   
 #### Books
 
