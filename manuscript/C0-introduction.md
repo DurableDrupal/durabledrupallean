@@ -25,6 +25,8 @@ So here's what we'll be doing:
   * Preparing to migrate gradually all along, so we'll be ready when the time comes
  
  * Appendix 2. Overcoming Choice Panic - What frameworks should we use?
+ 
+ * Appendix 3. Team Workflow and Provisioning
 
 ## Formatting Conventions
 
