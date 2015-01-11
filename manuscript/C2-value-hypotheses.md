@@ -1,1 +1,0 @@
-# Chapter 2. Value Hypotheses for the project
