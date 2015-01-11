@@ -160,28 +160,96 @@ TODO Kanban section
 
 Kanban is where Agile and one of its industrial manufacturing predecessars, JIT (Just in Time). And is what gives origin to the today's everyday agile expression "Just enough, just in time".
 
-### Agile and Lean Bibliography
+### Bibliography
 
-#### Websites
+#### Agile/Lean
 
 * [The Agile Manifesto](http://agilemanifesto.org)
 * [Extreme Programming: A gentle introduction](http://www.extremeprogramming.org/)
 * [Agile Software Development: A gentle introduction](http://www.agile-process.org/)
+* [The Lean Startup by Eric Ries](http://theleanstartup.com/book)
 * [Mike Cohn's Scrum and Agile site](http://www.mountaingoatsoftware.com/)
 * [Agile @ Adobe Agile Resources](http://blogs.adobe.com/agile/2014/12/05/agile-resources/). Excellent comprehensive list of all kinds of Agile and Scrum Resources
+* [Extreme Programming Explained: Embrace Change by Ken Beck](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658/ref=sr_1_1)
+* [Agile Software Development with Scrum by Ken Schwaber & Mike Beedle](http://www.amazon.com/dp/0130676349). Original Scrum book.
+* [User Stories Applied by Mike Cohn](http://www.amazon.com/User-Stories-Applied-Software-Development/dp/0321205685)
+
+#### Lean UX
+
+* [Lean UX - Applying Lean principles to Improve User Experience by Jeff Gothelf and Josh Seiden](http://www.jeffgothelf.com/blog/lean-ux-book/#sthash.22gOyp12.dpbs)
+* [UX for Lean Startups: Faster, Smarter User Experience Research and Design by Laura Klein](http://www.amazon.com/UX-Lean-Startups-Experience-Research/dp/1449334911)
+
+#### Kanban
+
 * [Mattias Skarin's Kanban resource page](https://www.crisp.se/gratis-material-och-guider/kanban)
   * [10 kanban boards and their context (Examples](http://blog.crisp.se/2010/12/03/mattiasskarin/1291361993216)
 * [Leankit's What is Kanban article](http://leankit.com/kanban/what-is-kanban/)
   * [Leankit's Manage Projects with Kanban](http://leankit.com/kanban/online-kanban-board/)
   * [Leankit's 10 kanban boards examples implementation](http://leankit.com/blog/2010/12/10-kanban-boards-leankit-kanban-style/)
   * [LeanKanban University - Definition of Kanban Method](http://www.leankanban.com/node/10)
-  
-#### Books
-
-* [Extreme Programming Explained: Embrace Change by Ken Beck](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658/ref=sr_1_1)
-* [Agile Software Development with Scrum by Ken Schwaber & Mike Beedle](http://www.amazon.com/dp/0130676349). Original Scrum book.
-* [User Stories Applied by Mike Cohn](http://www.amazon.com/User-Stories-Applied-Software-Development/dp/0321205685)
 * [Kanban and Scrum by Henrik Kniberg and Mattias Skarin](http://www.infoq.com/minibooks/kanban-scrum-minibook)
-* [The Lean Startup by Eric Ries](http://theleanstartup.com/book)
-* [Lean UX - Applying Lean principles to Improve User Experience by Jeff Gothelf and Josh Seiden](http://www.jeffgothelf.com/blog/lean-ux-book/#sthash.22gOyp12.dpbs)
-* [UX for Lean Startups: Faster, Smarter User Experience Research and Design by Laura Klein](http://www.amazon.com/UX-Lean-Startups-Experience-Research/dp/1449334911)
+
+#### Content Strategy
+
+##### Content Audits and Inventories
+
+* [Misty Weaver and The Art of Content Audits
+Audits, inventories, and the fabulous world of content planning](https://www.lullabot.com/blog/podcasts/insert-content-here/22-misty-weaver-and-art-content-audits)
+  * [Misty Weaver, on the web](http://www.meaningandmeasure.com/)
+* [Doing Content Inventories by Jeffrey Veen](http://www.adaptivepath.com/ideas/doing-content-inventory/)
+* [Drupal Content Audit Module](https://www.drupal.org/project/content_audit)
+* [http://growingventuresolutions.com/blog/content-inventory-and-content-audit-views.html
+
+Content Strategy for the Web, by Kristina Halvorson, particularly Chapters 4 and 12
+
+[A Checklist for Content Work by Erin Kissane](http://alistapart.com/article/a-checklist-for-content-work)
+
+The Elements of Content Strategy by Erin Kissane
+
+Information Architecture for the World Wide Web by Peter Morville and Louis Rosenfeld
+
+A Project Guide to UX Design by Russ Unger and Carolyn Chandler
+
+##### Structured Content
+
+Karen McGrane
+      http://wimleers.com/article/drupal-8-structured-content-authoring-experience 
+Drupalcon Portland 2013 Keynote “Thriving in a world of change”
+     http://karenmcgrane.com/2013/05/23/drupalcon-keynote-video-and-talk-notes/
+A separate mobile website: no forking way!
+     http://www.netmagazine.com/opinions/separate-mobile-website-no-forking-way
+Jeff Eaton
+Drupalcon Portland 2013 “building for the post-mobile world”
+video: https://portland2013.drupal.org/node/1353
+slides: https://speakerdeck.com/eaton/building-for-the-post-mobile-world
+Larry Garfield
+Drupalcon Portland 2013 “Is Drupal a CMS? Do we even know what that means?”
+video: https://portland2013.drupal.org/node/3908
+slides: http://www.garfieldtech.com/presentations/dcportland2013-is-drupal-cms/#/
+Wim Leers
+Drupal 8: best authoring experience for structured content?
+     http://wimleers.com/article/drupal-8-structured-content-authoring-experience
+
+A Smallcore Manifesto 
+Adrian Rossouw
+Where do we go from here?
+Drupal is not a CMS 
+Larry Garfield
+COPE: Create Once, Publish Everywhere 
+Daniel Jacobson
+Content Strategy for Mobile 
+Karen McGrane
+Adaptive Content Management 
+Mark Boulton
+Inline Editing and the cost of leaky abstractions 
+Jeff Eaton
+Content Geography
+The Art and Practice of Content Assembly 
+Deane Barker
+
+#### Core Model
+
+* [Original 2007 presentation by Are Halland: Core+Paths: A Design Framework for Findability, Prioritization and Value](http://www.slideshare.net/aregh/corepaths-a-design-framework-for-findability-prioritization-and-value) (Also see additional recommended slides on Slideshare)
+* [The Core Model: Designing Inside Out for Better Results by Ida Aalen](http://alistapart.com/article/the-core-model-designing-inside-out-for-better-results)
+  * [The Core Model: Links and Resources](http://alistapart.com/blog/post/the-core-model-links-and-resources)
+
