@@ -2,6 +2,12 @@
 
 ## Tool up for solid web apps now and maintain them for years with a powerful Drupal distro
 
+DurableDrupal Lean is a practical easy to use a template free, concise approach synthesizing Agile + Lean + Lean UX + Content inventory + Core Model + structured content in order for teams to develop dynamic websites and web apps using a tailored and evolving solid Drupal distro. The objective is to build outcomes for content centric projects capable of lasting for years, now. 
+
+## Diving in with a real world project
+
+DurableDrupal Lean needs a website to sell this book. Victor Kane, the author, feels that the book has an important contribution to make to folks trying to set themselves up developing dynamic websites and web applications in the midst of immense confusion, change and crisis in the industry, with escalating cost to market for deliverables. The objective is to empower small and medium sized businesses and organizations, working as individuals or at small to medium development shops with a solid process and solid readily available open source tools.
+
 ## Overview of Book Contents
 
 So here's what we'll be doing:
