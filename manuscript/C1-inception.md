@@ -27,6 +27,7 @@ Sherrie (Graphic design)
 
 Anna started the meeting with the MVP vision:
 
+![Figure 1-2. Empty Kanban Board for New Project](images/c1_02.png)
 
 
 
