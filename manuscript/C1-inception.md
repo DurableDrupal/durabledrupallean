@@ -46,6 +46,10 @@ The rest of the meeting is used to plan out on the Kanban board the minimum numb
 
 After some discussion, the Kanban board looks like this:
 
+The main thing to understand about Kanban is that it is not based on the pre-estimated "sprints" designed to deliver a complete mini-release one finds when using Scrum. Rather it is a continuous flow process. Core outcomes are implemented one at a time, and their associated issues pass through various states (represented by columns) in the process. At the start all issues are placed in the New column (state). Then a few are prioritized and are placed in the limited backlog "To Do" column, which is a limited column. When team members work on an issue, it is placed in the "In Progress" or "Doing" column. This column is also limited in the number of issues it can contain. The reason for this is the key to why Kanban is different: it champions focus and prohibits people working on too many things at the same time. This is called a Work in Progress (WIP) limit, and it replaces the constraint of the sprint cycle length found in Scrum. So while there are no sprints, only a continuous flow of work being done, the key constraint for each state is to be found in the WIP limit, which can be found in parenthesis in the To Do and In Progress column titles. The actual number is calculated by taking into account team size and velocity, and is adjusted optimally and flexibly as the project matures.
+
+ 
+
 vision -> cut to the core in kick-off meeting
 provisioning of team dev environments 
 
