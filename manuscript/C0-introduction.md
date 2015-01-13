@@ -2,7 +2,7 @@
 
 ## Tool up for solid web apps now and maintain them for years with a powerful Drupal distro
 
-DurableDrupal Lean is a practical easy to use a template free, concise approach synthesizing Agile + Lean + Lean UX + Content inventory + Core Model + structured content in order for teams to develop dynamic websites and web apps using a tailored and evolving solid Drupal distro. The objective is to build outcomes for content centric projects capable of lasting for years, now. 
+DurableDrupal Lean is a practical easy to use a template free, concise approach synthesizing Agile + Lean + Lean UX + Content inventory + Core Model + structured content in order for teams to develop dynamic websites and web apps using a tailored and evolving solid Drupal distro. The objective is to build testable and evolving outcomes for content centric projects capable of lasting for years, now. 
 
 ## Diving in with a real world project
 
