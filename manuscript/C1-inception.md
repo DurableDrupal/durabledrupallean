@@ -13,7 +13,7 @@ We start with an empty Kanban board. There are four columns:
 
 Jeff used [Trello](https://trello.com/) to create the board (Figure 1-1).
 
-![Figure 1-1. Empty Kanban Board for New Project](images/c1_01.png)
+![Figure 1-1. Empty Kanban Board for New Project](images/c1_01.jpg)
 
 A team meeting was called to get the ball rolling.
 
@@ -27,7 +27,7 @@ Sherrie (Graphic design)
 
 Anna started the meeting with the MVP vision:
 
-![Figure 1-2. Empty Kanban Board for New Project](images/c1_02.png)
+![Figure 1-2. Empty Kanban Board for New Project](images/c1_02.jpg)
 
 
 
