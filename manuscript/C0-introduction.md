@@ -6,7 +6,7 @@ DurableDrupal Lean is a practical easy to use a template free, concise approach 
 
 ## Diving in with a real world project
 
-DurableDrupal Lean needs a website to sell this book. Victor Kane, the author, feels that the book has an important contribution to make to folks trying to set themselves up developing dynamic websites and web applications in the midst of immense confusion, change and crisis in the industry, with escalating cost to market for deliverables. The objective is to empower small and medium sized businesses and organizations, working as individuals or at small to medium development shops with a solid process and solid readily available open source tools.
+DurableDrupal Lean needs a website to sell this book. Victor Kane, the author, feels that the book has an important contribution to make to folks trying to set themselves up developing dynamic websites and web applications in the midst of immense confusion, change and crisis in the industry, with escalating cost to market for deliverables and confusion as to how to evaluate what value is actually delivered. The objective is to empower small and medium sized businesses and organizations, working as individuals or at small to medium development shops, with a solid process and readily available open source tools.
 
 ## Overview of Book Contents
 

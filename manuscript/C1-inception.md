@@ -30,15 +30,21 @@ A team meeting is held to get the ball rolling. The team is made up as follows:
 * Victor (Project Coach)
 * Sherrie (Graphic design)
 
-Anna starts the meeting by reading out a vision of what a minimum viable product ([MVP](http://en.wikipedia.org/wiki/Minimum_viable_product)) might be in this particular case:
+Anna starts the meeting by reading out a short vision of what a minimum viable product ([MVP](http://en.wikipedia.org/wiki/Minimum_viable_product)) might be in this particular case:
 
-> In order to survive and thrive, many small and medium website and web app development workshops ...
+> Many small and medium website and web app development workshops are perplexed by the growth in complexity in the demands made upon them by their customers as companies rush to compete with new and competitive products while striving to cut costs into the bargain.
+>
+> In the realm of computing hardware, [Moore's Law](http://en.wikipedia.org/wiki/Moore's_law) observes that in the late twentieth and early twenty-first centuries "the number of transistors in a dense integrated circuit doubles approximately every two years." Just as this is closely related to the exponential growth in memory capacity and the number of pixels in digital cameras, in the software industry we can observe similar high rates of growth in the complexity and features offered by operating systems and applications thriving atop the growing number of different kinds of devices they run on today.
+>
+> This tendency towards creating new products aimed at increasing market share while simultaneously cutting costs often involves software development based on open source projects and communities. 
+>
+> As a result, in order to survive and thrive, many small and medium website and web app development workshops ...
 
-The reading of the MVP Vision is interrupted at this point and Victor proposes that the team build a prototype in order to prepare for the [Project Kickoff](#chapter-02). At the Kickoff the team will cut to the core of that vision, revealing what the project is really about and reaching team consensus on the what characteristics the initial value testable MVP will have and what jobs of work need prioritizing in order to make that delivery.
+The reading of the MVP Vision is interrupted at this point and Victor proposes that the team build a prototype in order to prepare for the [Project Kickoff: Chapter 2](#chapter-02). At the Kickoff the team will cut to the core of that vision, revealing what the project is really about and arriving at a team consensus on the characteristics the initial value testable MVP will have and on what jobs of work need prioritizing in order to make that delivery.
 
 The prototype needed as prep for the kickoff can be as simple as a home page featuring a suitable version of the project vision and an email signup form. This provides a snap starting point on an immediate concrete footing. The build process will have a lot in common with upcoming MVP iterations, allowing for initial decisions to be made on tools, stacks, frameworks and infrastructure. 
 
-The meeting is now used to plan out on the Kanban board the actual jobs of work needed so that the team can build the prototype as quickly and directly as possible. 
+The project inception meeting is now used to plan out on the Kanban board the actual jobs of work needed so that the team can build the prototype as quickly and directly as possible. 
 
 After some discussion, the Kanban board looks like this:
 
