@@ -32,9 +32,17 @@ A team meeting is held to get the ball rolling. The team is made up as follows:
 
 Anna starts the meeting by reading out a vision of what a minimum viable product ([MVP](http://en.wikipedia.org/wiki/Minimum_viable_product)) might be in this particular case:
 
-> In order to survive and thrive, many small and medium website and web app development workshops ...
+> We can share a solution we have found: concentrate on the real needs of the users (biz needs of user as provider and user needs of biz's users). Never mind the desperate mystification of the rock stars and the lackeys tnd the fear, uncertainty and doubt they disseminate. Our solution can help any team calmly and systematically determine what they really need, and how to get there.
+> 
+> By using a solid Drupal distribution that has a best and rich set of modules for most use cases that you can just download and use (among others tailored for other use cases), which can then be curated to evolve with the special needs of the workshop, and by adopting a lean process tailored to that framework, folks can avoid the confusion spread by and simply concentrate on the one true solution: to concentrate on users real needs instead of flying off in search of holy grails...
 
-The reading of the MVP Vision is interrupted at this point and Victor proposes that the team build a prototype in order to prepare for the [Project Kickoff](#chapter-02). At the Kickoff the team will cut to the core of that vision, revealing what the project is really about and reaching team consensus on the what characteristics the initial value testable MVP will have and what jobs of work need prioritizing in order to make that delivery.
+> We can offer that in a series of books and media packages to the burgeoning number of individuals and workshops who work every day and are confused by all the change and smoke and mirrors of the desperate ... 
+
+> and in future editions we can offer a journey into the future, whatever it may behold, by showing how all of this can evolve and migrate.... backdrop drupal 8 other frameworks and into the future of full stack development, showing how to migrate existing drupal websites and web apps to those frameworks and environments.  
+
+> A way out of the wilderness, a journey picking a calm and productive path through the minefield: we can help many small and medium website and web app development workshops survive and thrive.
+
+At this point Victor proposes that the team build a prototype in order to prepare for the [Project Kickoff](#chapter-02). At the Kickoff the team will cut to the core of that vision, revealing what the project is really about and reaching team consensus on the what characteristics the initial value testable MVP will have and what jobs of work need prioritizing in order to make that delivery.
 
 The prototype needed as prep for the kickoff can be as simple as a home page featuring a suitable version of the project vision and an email signup form. This provides a snap starting point on an immediate concrete footing. The build process will have a lot in common with upcoming MVP iterations, allowing for initial decisions to be made on tools, stacks, frameworks and infrastructure. 
 
