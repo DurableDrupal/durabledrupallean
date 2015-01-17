@@ -1,8 +1,8 @@
-# Appendix 2. Overcoming Choice Panic - What frameworks should we use? {#appendix-02}
+# Appendix 2. Overcoming Choice Panic. What frameworks should we use? {#appendix-02}
 
-If we take the neighborhood youth program website from Chapter 1, or the online community of writers used in successive chapters, the question inevitably arises: what frameworks should we use? 
+At the onset of any project, the question inevitably arises: what frameworks should we use? 
 
-In this appendix we'll be putting Choice Panic behind us and making a firm decision on the CMS framework we'll be using for our content-centric projects. First we'll place all our doubts right on the table for all to see (should we be using Drupal for this project? really?), sift through the options, and choose the best one as our initial hypothesis. In making that decision we'll base ourselves on our current backlog of projects and on the information we actually have to go on right now. We'll explore that particular choice and the characteristics that make it the most versatile and dynamic option open to us. We want to be comfortable with the decision, and have the whole team all on the same page.
+In this appendix we'll be putting Choice Panic behind us and making a firm decision on the CMS framework we'll be using for our content-centric projects. First we'll place all our doubts right on the table for all to see: Should we be using Drupal for this project? really? is Drupal secure after 7.32? What about Backdrop? What about Drupal 8? Should we use that? Then we sift through the options, and choose the best one as our initial hypothesis. In making that decision we'll base ourselves on our current backlog of projects and on the information we actually have to go on right now. And that can change quickly, so we are not married to any framework, we simply want the best tools to get the job done. We'll explore that particular choice and the characteristics that make it the most versatile and dynamic option open to us. We want to be comfortable with the decision, and have the whole team all on the same page.
 
 Now, also, above and beyond the framework, we are adopting a process which bases itself brutally on what we need and what our clients need, and which abandons vested vendor lock-in of any kind. We can't be married to any one set of frameworks any more. So the framework we select must be able to fit into our adopted, evolving and tailored process at a time when the industry is exploding with change and opportunities.
 
@@ -220,8 +220,9 @@ Will it think out a proper workflow (i.e. be a solution for devs as well as end 
 The most important Backdrop feature is workflow with everything in code. D8 already has their workflow. What's Backdrop's? Difficulties in getting onto Pantheon for example, show workflow not thought out.
 For example, export and import of config from one system to another is easy in the GUI. But what if I want to automate that with ansible as part of a deployment scheme? In my opinion, we would want code+db+files+config, we don't want config to be mixed either with code for all sites (since it is specific to one) ... we don't want you to have to push files or push database to live!!!!!!! 
 
-We'll come back to this (see how it matures) in the Migrations volume (next) in the DurableDrupal series.
-(we'll fork backdrop, practice using it, then make a push request or else at the very least raise an issue concerning workflow blockers when we write Vol. 2 (Migrations) for the DurableDrupal series.
+The exciting news recently has been the release of Backdrop 1.0.0. We'll come back to this (see how it matures) in the Migrations volume (next) in the DurableDrupal series (or there might be a Backdrop CMS version of this book).
+
+We'll fork Backdrop CMS, practice using it, then make a push request or else at the very least raise an issue concerning workflow blockers when we write Vol. 2 (Migrations) for the DurableDrupal series.
 
 ## Drupal 7 or not?
 

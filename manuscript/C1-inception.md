@@ -2,9 +2,7 @@
 
 We are diving right into a real world project, the Durable Drupal Website, in order to demonstrate. But just where do we dive in? Where does inception live?
 
-## First team meeting
-
-### Empty Kanban Board
+## The first team meeting and the empty Kanban Board
 
 We start with an empty Kanban board. There are four columns:
 
@@ -22,7 +20,7 @@ I>
 I> Now, just as this production strategy was put into place with great discipline and sacrifice by Toyota and other companies in order to survive the booms and bubbles as well as the bursts ([Lost Decade](http://en.wikipedia.org/wiki/Lost_Decade_(Japan))) inherent in the world capitalist economy, [Kanban for software developers](http://en.wikipedia.org/wiki/Kanban_(development)) (and all [knowledge workers](http://en.wikipedia.org/wiki/Knowledge_workers)) is a wonderful way to optimize energies and resources of all kinds through a just in time delivery flow in our own neck of the woods.
 I> Above and beyond Drupal or any other framework or stack we might be using, one of the principal objectives of this book is to show how we can move from Kanban, Agile and Lean as buzzwords to success through actual best practices
 
-### Team gets together
+## Team gets together
 
 A team meeting is held to get the ball rolling. The team is made up as follows:
 
@@ -34,7 +32,7 @@ A team meeting is held to get the ball rolling. The team is made up as follows:
 * Victor (Project Coach)
 * Sherrie (Graphic design)
 
-### MVP Vision
+## MVP Vision
 
 Anna starts the meeting by reading out a short vision of what a minimum viable product ([MVP](http://en.wikipedia.org/wiki/Minimum_viable_product)) might be in this particular case:
 
@@ -50,13 +48,13 @@ Anna starts the meeting by reading out a short vision of what a minimum viable p
 >
 > We can help many small and medium website and web app development workshops survive and thrive.
 
-### Snap starting point. Prototype
+## Snap starting point. Prototype!
 
 At this point Victor proposes that the team build a prototype in order to prepare for the [Project Kickoff](#chapter-02). At the Kickoff the team will cut to the core of this vision, revealing what the project is really about and reaching team consensus on the what characteristics the initial value testable MVP will have and what jobs of work need prioritizing in order to make that delivery.
 
 The prototype needed as prep for the kickoff can be as simple as a home page featuring a suitable version of the project vision and an email signup form. This provides a snap starting point on an immediate concrete footing. The build process will have a lot in common with upcoming MVP iterations, allowing for initial decisions to be made on tools, stacks, frameworks and infrastructure. 
 
-### Getting things done
+## Getting things done
 
 The project inception meeting is now used to plan out on the Kanban board the actual jobs of work needed so that the team can build the prototype as quickly and directly as possible.
 
@@ -64,9 +62,9 @@ Now, part of our idea is to keep a Zen approach here, instead of Just In Time an
 
 So the first thing we do with the Kanban board is to brainstorm about which jobs of work comply with the guideline of the minimum necessary to build the prototype as quickly as possible.
 
-### Prototype jobs of work listed and prioritized
+## Prototype jobs of work listed and prioritized
 
-In line with keeping it simple, we go round robin around the team and stick no more than 20 items into the New column. We then remove what is not absolutely needed for the prototype (for example, the site map and menu navigation should will definitely be changed after the kickoff session, so no sense in including throwaway jobs).
+In line with keeping it simple, we go round robin around the team and stick no more than 20 items into the New column. We then remove what is not absolutely needed for the prototype (for example, which hosting or cloud platform should be used for deployment, and the site map and menu navigation, all of which will definitely be subject to change after the kickoff session, so no sense in including throwaway jobs).
 
 After some discussion, the Kanban board looks like this:
 
@@ -78,29 +76,14 @@ After some discussion, the Kanban board looks like this:
 |Create social networking accounts (Product)|
 |Home Page Feature (Front end)(Back end)|
 
-The main thing to understand about Kanban is that it is not based on the pre-estimated "sprints" designed to deliver a complete mini-release one finds when using Scrum. Rather it is a continuous flow process. Core jobs of work seeking a particular outcome are implemented one at a time, and their associated issues pass through various states (represented by columns) in the process. At the start all issues are placed in the New column (state). Then a few are prioritized and are placed in the limited backlog "To Do" column, which is a limited column. 
+The main thing to understand about Kanban is that it is not based on the pre-estimated "sprints" designed to deliver a complete mini-release one finds when using Scrum. Rather it is a continuous flow process. Core jobs of work seeking a particular outcome are implemented one at a time in cross-collaboration, and their associated cards pass through various states (represented by columns) in the process. At the start all issues are placed in the New column (state). Then these are prioritized and a number of them are placed in the limited backlog "To Do" column.
 
 ![Figure 1-2. Kanban Board for initial prototype](images/c1_02.jpg)
 
-When team members work on an issue, it is placed in the "In Progress" or "Doing" column. This column is also limited in the number of issues it can contain. The reason for this is the key to why Kanban is different: it champions focus and prohibits people working on too many things at the same time. This is called a Work in Progress (WIP) limit, and it replaces the constraint of the sprint cycle length found in Scrum. In this way, Kanban frees us from waterfall-like mini-release "estimates". So while there are no sprints, only a continuous flow of jobs of work being delivered for value testing, the key constraint for each state is to be found in the WIP limit, seen in parenthesis in the To Do and In Progress column titles. The actual number is calculated and optimized by taking into account team size and velocity, and is adjusted for maximum productivity without overloading the team as the project matures.
+Then, when team members work on a job, it is placed in the "In Progress" or "Doing" column. This column is also limited in the number of issues it can contain. The reason for these constraints is key to why Kanban is different: it champions focus and prohibits people working on too many things at the same time. This is called a Work in Progress (WIP) limit, and it replaces the constraint of the sprint cycle length and time frame restrictions found in Scrum. In this way, Kanban frees us from waterfall-like mini-release "estimates". So while there are no sprints, only a continuous flow of jobs of work being delivered for outcome value testing, the WIP limit, seen in parenthesis in the To Do and In Progress column titles, seeks to optimize productivity without overload. The actual number is calculated by taking into account team size and velocity, and is adjusted for maximum productivity without overloading the team as the project matures. We limit the To Do column and the Doing column to 4 (number of separate disciplines being worked on with semi-paired programming).
 
 Another benefit is that since the focus is on jobs of work and not abstract mini-releases, it is much easier to foster multi-discipline cross-collaboration. 
 
-Lets take a look at the individual (tasks, wot?)
+## Summary
 
-vision -> cut to the core in kick-off meeting
-provisioning of team dev environments 
-
-First of all, everything is pushed into the New column. Then ...
-
-We limit the To Do column and the Doing column to 3 (number of separate disciplines being worked on with semi-paired programming).
-
-There were a couple of heated discussions.
-
-## frameworks to be used
-
-## provisioning for dev environments
-
-## deployment
-
-## other tasks needed to plan for the kick-off
+In this chapter we've gotten a glimpse of what it's like for a team to dive into a new project using DurableDrupal Lean. We've seen how the Kanban Board can be used to get started by planning a prototype on the basis of an initial MVP vision. In the next chapter we'll get a detailed close-up of each job of work deemed essential for the realization of that prototype.
