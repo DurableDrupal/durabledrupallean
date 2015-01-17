@@ -1,10 +1,36 @@
 # Chapter 2. Project Inception. Workflow {#chapter-02}
 
-## Frameworks to be used
+In this chapter we want to get in the face of the detailed workflow surrounding each of the jobs that need to be done in order to build an initial prototype featuring an MVP vision as preparation for the Project Kickoff that will cut to the core of the project:
+
+* Setup base architecture on the basis of a forked DurableDrupalDistro
+* Provisioning for local team VMs
+* Create front-end base feature
+* Create social networking accounts for use in the prototype 
+* Welcome Page Feature (including MVP Vision)
+
+## Setup base architecture on the basis of a forked DurableDrupalDistro
+
+In order to setup the base architecture for the project, the following steps must be taken:
+
+* Select the frameworks to be used
+* Select a usable starter set or distro that can give us a head start using that framework for most of our projects
+* Clone that distro for this project
+
+### Frameworks to be used
 
 During the course of the prioritization of these jobs, which we will see up close in the next chapter dealing with their associated workflow, there were a few heated discussions, on which framework to use for the project, for example, as well as how the team environments should be provisioned.
 [Appendix 2. Overcoming Choice Panic. What frameworks should we use?](#appendix-02) thrashes out this important and confusing question. 
 
 > In this appendix we'll be putting Choice Panic behind us and making a firm decision on the CMS framework we'll be using for our content-centric projects. First we'll place all our doubts right on the table for all to see: Should we be using Drupal for this project? really? is Drupal secure after 7.32? What about Backdrop? What about Drupal 8? Should we use that? Then we sift through the options, and choose the best one as our initial hypothesis. In making that decision we'll base ourselves on our current backlog of projects and on the information we actually have to go on right now. And that can change quickly, so we are not married to any framework, we simply want the best tools to get the job done. We'll explore that particular choice and the characteristics that make it the most versatile and dynamic option open to us. We want to be comfortable with the decision, and have the whole team all on the same page.
 
-## Provisioning for dev environments
+### Select a usable starter set or distro that can give us a head start using that framework for most of our projects
+
+###  Clone that distro for this project
+
+## Provisioning for local team VMs
+
+Now that we have an initial distro for this project we are ready to provision team member's with Virtual Machines replicating the target production environment, but which will be able to run on their local development environments.
+
+## Create front-end base feature
+
+## Create social networking accounts for the prototype
