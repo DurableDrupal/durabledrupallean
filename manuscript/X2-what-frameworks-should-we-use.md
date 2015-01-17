@@ -220,7 +220,7 @@ Will it think out a proper workflow (i.e. be a solution for devs as well as end 
 The most important Backdrop feature is workflow with everything in code. D8 already has their workflow. What's Backdrop's? Difficulties in getting onto Pantheon for example, show workflow not thought out.
 For example, export and import of config from one system to another is easy in the GUI. But what if I want to automate that with ansible as part of a deployment scheme? In my opinion, we would want code+db+files+config, we don't want config to be mixed either with code for all sites (since it is specific to one) ... we don't want you to have to push files or push database to live!!!!!!! 
 
-The exciting news recently has been the release of Backdrop 1.0.0. We'll come back to this (see how it matures) in the Migrations volume (next) in the DurableDrupal series (or there might be a Backdrop CMS version of this book).
+The exciting news recently has been the release of Backdrop 1.0.0. We'll come back to this (see how it matures) in the Migrations volume (next) in the DurableDrupal series (or there might be a Backdrop CMS workbook companion to this book).
 
 We'll fork Backdrop CMS, practice using it, then make a push request or else at the very least raise an issue concerning workflow blockers when we write Vol. 2 (Migrations) for the DurableDrupal series.
 
