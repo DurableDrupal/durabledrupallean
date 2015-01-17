@@ -2,7 +2,9 @@ frontmatter.txt
 C0-introduction.md
 mainmatter.txt
 C1-inception.md
-C2-kickoff.md
+C2-inception-workflow.md
+C3-kickoff.md
+C4-kickoff-workflow.md
 backmatter.txt
 X1-durable-drupal-lean-process.md
 X2-what-frameworks-should-we-use.md

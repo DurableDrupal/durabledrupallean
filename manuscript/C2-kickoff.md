@@ -1,1 +1,0 @@
-# Chapter 2. Project Kickoff {#chapter-02}
