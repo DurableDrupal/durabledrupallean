@@ -19,7 +19,8 @@ In order to setup the base architecture for the project, Jake (DevOps) and Jeff 
 
 * Select the frameworks to be used
 * Select a usable starter set or distro that can give us a head start using that framework for most of our projects
-* Clone that distro for this project
+* Clone that distro for organization generic reuse
+* Clone what is now the organization starter distro for this project
 
 ### Frameworks to be used
 
@@ -40,9 +41,27 @@ D> All of these should be forked, made our own and should evolve as they are tai
 
 For the DurableDrupal website Jake and Jeff decide to go with our own (DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro), adopt it as the team's base general purpose distro, and use it for this project.
 
-###  Clone that distro for this project
+### Clone that distro for organization generic reuse
 
-Let's clone the distro to our own GitHub organization, where we can curate it for our own purposes and fork it individually for each project that comes up and requires a general purpose distro.
+Let's clone the distro to our own GitHub organization, where we can curate it for our own purposes and fork it individually for each project that comes up and requires a general purpose distro. 
+
+T> ## It won't always be like this!
+T>
+T> When you use the ansible playbook developed in the provisioning job (which follows this one) you won't have to worry about these details every time you provision a workstation or laptop or start a project since the whole process will be automated.
+T>
+T> The details are included here since at some point DevOps in your organization will want to be extending or modifying the setup.
+
+We have two m
+Actual steps taken:
+
+* Go to repo on GitHub https://github.com/DurableDrupal/durable-drupal-distro
+* Click on Fork
+* Indicate organization/user destination
+* GitHub forks the repo and takes you to that page
+* Clone the repo, tailor to organization, update and tag
+
+### Clone what is now the organization starter distro for this project
+
 
 ## Provisioning for local team VMs
 
