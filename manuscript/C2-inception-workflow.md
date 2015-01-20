@@ -1,16 +1,21 @@
 # Chapter 2. Project Inception. Workflow {#chapter-02}
 
-In this chapter we want to get in the face of the detailed workflow surrounding each of the jobs that need to be done in order to build an initial prototype featuring an MVP vision as preparation for the Project Kickoff that will cut to the core of the project:
+In this chapter we want to get in the face of the detailed workflow surrounding each of the jobs that need to be done in order to build an initial prototype featuring an MVP vision as preparation for the Project Kickoff that will cut to the core of the project. The Kanban To Do column is filled to the brim with:
 
 * Setup base architecture on the basis of a forked DurableDrupalDistro
 * Provisioning for local team VMs
 * Create front-end base feature
 * Create social networking accounts for use in the prototype 
-* Welcome Page Feature (including MVP Vision)
+
+When these are In Progress, the Welcome Page Feature (including MVP Vision) will be placed in The To Do column.
+
+As each card is placed in the In Progress column (two at any one time given the size of the team and the need for paired development), conversation takes place among the team members and finally the job is confirmed upon acceptance. And the [Kickoff](#chapter-03) will make use of the MVP 1 (prototype) in order to carry out value proposition evaluation. Then, as we drill down into the [Kickoff workflow details](#chapter-04) see how agile's venerable [card, conversation and confirmation](http://xprogramming.com/articles/expcardconversationconfirmation/) branches out into new forms and develops in a much more useful fashion with assumptions discovery and value hypotheses using lean.
+
+Let's peek into the conversations going on around each job.
 
 ## Setup base architecture on the basis of a forked DurableDrupalDistro
 
-In order to setup the base architecture for the project, the following steps must be taken:
+In order to setup the base architecture for the project, Jake (DevOps) and Jeff (Back end), the job of work mini-team, broke it down into three main tasks:
 
 * Select the frameworks to be used
 * Select a usable starter set or distro that can give us a head start using that framework for most of our projects
@@ -27,10 +32,14 @@ So for this project, we're going with (Drupal 7)[https://www.drupal.org/start], 
 
 ### Select a usable starter set of distros that can give us a head start using that framework for different kinds of projects
 
-It's important to base your work on a set of [distros](https://www.drupal.org/documentation/build/distributions), one for each kind of project. For example, a general purpose distro, like [Panopoly](https://www.drupal.org/project/panopoly), or our own (DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro) which has the advantage of sporting a quick, open local [Ansible playbook VM installer](https://github.com/victorkane/ansible-vagrant-durable-drupal-distro right on GitHub), or [Acquia Drupal](https://www.acquia.com/products-services/acquia-drupal), which provides a proprietary one click local stack installer. For ecommerce sites, you should start out with [Commerce Kickstart](https://www.drupal.org/project/commerce_kickstart). 
-[COD Conference Organizing](http://usecod.com/), [Acquia Commons for networking sites](http://acquia.com/products-services/acquia-commons-social-business-software), [Open Publish](http://openpublishapp.com/) and [CiviCRM](https://civicrm.org/) are other domain-specific [Drupal distribution](https://www.drupal.org/project/project_distribution) starting points.
+Pair programming discussion:
 
-All of these should be forked, made your own and tailored based on your historical and anticipated workflow.
+D> It's important to base your work on a set of [distros](https://www.drupal.org/documentation/build/distributions), one for each kind of project. For example, a general purpose distro, like [Panopoly](https://www.drupal.org/project/panopoly), or our own (DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro) which has the advantage of sporting a quick, open local [Ansible playbook VM installer](https://github.com/victorkane/ansible-vagrant-durable-drupal-distro right on GitHub), or [Acquia Drupal](https://www.acquia.com/products-services/acquia-drupal), which provides a proprietary one click local stack installer. For ecommerce sites, you should start out with [Commerce Kickstart](https://www.drupal.org/project/commerce_kickstart). 
+[COD Conference Organizing](http://usecod.com/), [Acquia Commons for networking sites](http://acquia.com/products-services/acquia-commons-social-business-software), [Open Publish](http://openpublishapp.com/) and [CiviCRM](https://civicrm.org/) are other domain-specific [Drupal distribution](https://www.drupal.org/project/project_distribution) starting points.
+D> 
+D> All of these should be forked, made your own and should be tailored to your historical and anticipated workflow.
+
+For the DurableDrupal website Jake and Jeff decide to go with our own (DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro), adopt it as the team's base general purpose distro, and use it for this project.
 
 ###  Clone that distro for this project
 
