@@ -19,7 +19,7 @@ In order to setup the base architecture for the project, Jake (DevOps) and Jeff 
 
 * Select the frameworks to be used
 * Select a usable starter set or distro that can give us a head start using that framework for most of our projects
-* Clone that distro for organization generic reuse
+* Fork that distro for organization generic reuse
 * Clone what is now the organization starter distro for this project
 
 ### Frameworks to be used
@@ -41,24 +41,37 @@ D> All of these should be forked, made our own and should evolve as they are tai
 
 For the DurableDrupal website Jake and Jeff decide to go with our own (DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro), adopt it as the team's base general purpose distro, and use it for this project.
 
-### Clone that distro for organization generic reuse
+### Fork that distro for organization generic reuse
 
-Let's clone the distro to our own GitHub organization, where we can curate it for our own purposes and fork it individually for each project that comes up and requires a general purpose distro. 
+Let's fork the distro to our own GitHub organization, where we can curate it for our own purposes and then clone it individually for each project that comes up and requires a general purpose distro. 
 
-T> ## It won't always be like this!
+T> ### It won't always be like this!
 T>
-T> When you use the ansible playbook developed in the provisioning job (which follows this one) you won't have to worry about these details every time you provision a workstation or laptop or start a project since the whole process will be automated.
+T> If this sounds complicated, bear in mind that it is extremely useful info for the DevOps folks in your organization. 
+T>
+T> Most team members will be using the automated Ansible playbook developed in the provisioning job (which follows this one) so you won't have to worry about these details every time you provision a workstation or laptop or start a project since the whole process will be automated.
 T>
 T> The details are included here since at some point DevOps in your organization will want to be extending or modifying the setup.
 
-We have two m
-Actual steps taken:
+Actual steps taken to fork the :
 
 * Go to repo on GitHub https://github.com/DurableDrupal/durable-drupal-distro
 * Click on Fork
 * Indicate organization/user destination
 * GitHub forks the repo and takes you to that page
 * Clone the repo, tailor to organization, update and tag
+
+The last step breaks down as follows:
+
+command line steps
+
+T> ### Advanced tip for creating multiple forks of a GitHub repo in a single account or organization.
+
+We need a kind of "pseudo fork" on GitHub, with all the networking accounting maintained so as to be able to update from upstream, but without the disadvantage of only a single fork being allowed for any given repo to any given individual or organization.
+
+If you create an organization for each project, then this problem goes away. But if you find you need to include multiple effective forks of a single repo in the same account, the following is [an acceptable workaround for creating multiple forks of a GitHub repo](https://adrianshort.org/create-multiple-forks-of-a-github-repo/).
+
+
 
 ### Clone what is now the organization starter distro for this project
 
