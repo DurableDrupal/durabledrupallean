@@ -71,6 +71,8 @@ We need a kind of "pseudo fork" on GitHub, with all the networking accounting ma
 
 If you create an organization for each project, then this problem goes away. But if you find you need to include multiple effective forks of a single repo in the same account, the following is [an acceptable workaround for creating multiple forks of a GitHub repo](https://adrianshort.org/create-multiple-forks-of-a-github-repo/).
 
+*** estamos aquí ***
+
 
 
 ### Clone what is now the organization starter distro for this project
