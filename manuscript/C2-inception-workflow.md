@@ -21,7 +21,7 @@ In order to setup the base architecture for both this particular project and wha
 
 * Select the frameworks to be used (Drupal? Start from scratch with PHP or Node.js?)
 * Based on framework selection, select a usable starter set or distro that can give us a head start for most of our projects
-* Fork that distro for organization generic reuse
+* Fork that distro for team tailoring and generic reuse
 * Clone what is now the organization starter distro for this project
 
 ### Frameworks to be used
@@ -32,7 +32,7 @@ Jeff took some notes of the converstion in which they thrash out this important 
 
 T> Go ahead and [read Jeff's notes in full](#appendix-02) before going on, in order to see why Drupal 7 is selected at this time.
 
-So for this project, we're going with (Drupal 7)[https://www.drupal.org/start], extended and tailored in the form of a Drupal Distribution.
+So for this project, we're going with (Drupal 7)[https://www.drupal.org/start], which will be supported for years even after Drupal 8 comes into use. And we're extending and tailoring Drupal 7 in the form of a Drupal Distribution.
 
 ### Select a usable starter set of distros that can give us a head start using that framework for different kinds of projects
 
@@ -45,7 +45,7 @@ D> All of these should be forked, made our own and should evolve as they are tai
 
 For the DurableDrupal website Jake and Jeff decide to go with our own (DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro), adopt it as the team's base general purpose distro, and use it for this project.
 
-### Fork that distro for organization generic reuse
+### Fork that distro for team tailoring and generic reuse
 
 Let's fork the distro to our own GitHub organization, where we can curate it for our own purposes and then clone it individually for each project that comes up and requires a general purpose distro. 
 
