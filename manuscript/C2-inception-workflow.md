@@ -13,22 +13,24 @@ When these are In Progress, the Welcome Page Feature (including MVP Vision) will
 
 As each card is placed in the In Progress column (two at any one time given the size of [the team](#chapter-01-team) and the need for paired development and cross-collaboration on the job), conversation takes place among the team members assigned to the job, which is finally confirmed upon acceptance and moved to the MVP 1 column. And the [Kickoff](#chapter-03) will make use of the MVP 1 (prototype) in order to carry out value proposition evaluation. Then, we'll drill down into the [Kickoff workflow details](#chapter-04) and see how agile's venerable [card, conversation and confirmation](http://xprogramming.com/articles/expcardconversationconfirmation/) branches out into new forms and develops in a much more useful fashion with assumptions discovery and value hypotheses using DurableDrupal Lean.
 
-Let's peek into the conversations going on around each MVP 1 job so we can get at the details.
+Let's peek into the conversations going on around each MVP 1 job as they are getting done so we can get at the details.
 
 ## Setup base architecture on the basis of a forked DurableDrupalDistro
 
-In order to setup the base architecture for the project, Jake (DevOps) and Jeff (Back end), the job of work mini-team, broke it down into three main tasks:
+In order to setup the base architecture for both this particular project and what is actually a brand-new team, Jake (DevOps), Jeff (Back end) and Victor, the job of work mini-team, broke the job down into three main tasks:
 
-* Select the frameworks to be used
-* Select a usable starter set or distro that can give us a head start using that framework for most of our projects
+* Select the frameworks to be used (Drupal? Start from scratch with PHP or Node.js?)
+* Based on framework selection, select a usable starter set or distro that can give us a head start for most of our projects
 * Fork that distro for organization generic reuse
 * Clone what is now the organization starter distro for this project
 
 ### Frameworks to be used
 
-Jeff has drawn up a summary of their discussion entitled [Overcoming Choice Panic. What frameworks should we use?](#appendix-02) in which they thrash out this important and sometimes confusing question.
+Jeff took some notes of the converstion in which they thrash out this important and sometimes confusing question: [Overcoming Choice Panic. What frameworks should we use?](#appendix-02):
 
 > We are putting Choice Panic behind us and making a firm decision on the CMS framework we'll be using for our content-centric projects. First we'll place all our doubts right on the table for all to see: Should we be using Drupal for this project? really? is Drupal secure after 7.32? What about Backdrop? What about Drupal 8? Should we use that? Then we sift through the options, and choose the best one as our initial hypothesis. In making that decision we'll base ourselves on our current backlog of projects and on the information we actually have to go on right now. And that can change quickly, so we are not married to any framework, we simply want the best tools to get the job done. We'll explore that particular choice and the characteristics that make it the most versatile and dynamic option open to us. We want to be comfortable with the decision, and have the whole team all on the same page.... [Read on](#appendix-02)!
+
+T> Go ahead and [read Jeff's notes in full](#appendix-02) before going on, in order to see why Drupal 7 is selected at this time.
 
 So for this project, we're going with (Drupal 7)[https://www.drupal.org/start], extended and tailored in the form of a Drupal Distribution.
 
