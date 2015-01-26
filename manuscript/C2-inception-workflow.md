@@ -1,6 +1,8 @@
 # Chapter 2. Project Inception. Workflow {#chapter-02}
 
-In this chapter we want to get in the face of the detailed workflow surrounding each of the jobs that need to be done in order to build the initial prototype featuring an MVP vision as preparation for the Project Kickoff that will cut to the core of the project. The Kanban To Do column is filled to the brim with:
+In this chapter we want to prepare for Project Kickoff that will cut to the core of the project. To do so we need to build an initial prototype, which will be a simple landing page featuring an initial MVP vision to dissect. In order to build that prototype we need to break down each of the jobs on the MVP 1 Kanban board we currently have in focus (New + To Do + In Progress + MVP 1 columns) into a detailed workflow.
+
+The Kanban To Do column is filled to the brim with:
 
 * Setup base architecture on the basis of a forked DurableDrupalDistro
 * Provisioning for local team VMs
