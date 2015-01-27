@@ -51,38 +51,45 @@ Let's fork the distro to our own GitHub organization, where we can curate it for
 
 T> ### It won't always be like this!
 T>
-T> If this sounds complicated, bear in mind that it is extremely useful info for the DevOps folks in your organization. 
+T> If this sounds complicated, bear in mind that all this forking and cloning is basically for the DevOps folks in your organization. 
 T>
-T> Most team members will be using the automated Ansible playbook developed in the provisioning job (which follows this one) so you won't have to worry about these details every time you provision a workstation or laptop or start a project since the whole process will be automated.
-T>
-T> The details are included here since at some point DevOps in your organization will want to be extending or modifying the setup.
+T> Most team members will be using the automated Ansible playbook developed in the provisioning job (which follows this one) which boils down to a simple automated install process, so you won't have to worry about these details every time you provision your workstation or laptop. If you like, just skip to the [Local Team Provisioning section](#chapter-02-team-provisioning).
 
-Actual steps taken to fork the :
+Actual steps taken to fork the distro:
 
 * Go to repo on GitHub https://github.com/DurableDrupal/durable-drupal-distro
 * Click on Fork
 * Indicate organization/user destination
 * GitHub forks the repo and takes you to that page
-* Clone the repo, tailor to organization, update and tag
+* Update, tailor to organization, update and tag release
 
-The last step breaks down as follows:
+Let's go into more detail on the last step:
+
+#### Update, tailor to organization, update and tag release
+
+We can always update from upstream (the repo from which we forked), but most probably there may be other tweaks, and we want to bring in security patches and so on and so forth when we deem fit (sometimes everyone rushes to apply a fix only to realize that there is a serious bug in the quick fix, and it would have been better to wait just a short spell and test first, unless the security patch is absolutely urgent).
+
+So let's see what performing core and contrib updates looks like, as well as changing the mix of base contrib modules and/or themes.
+
+##### Drupal core and third-party module updates
+
+Jeff and Jake have already cloned and installed the forked DurableDrupalDistro by using an easy-as-pie Ansbile Playbook automation method we'll see in the [Team Provisioning] section. Since the installation of [Drush the Drupal command-line shell]() is automatically installed as part of that process, they can use it very easily to carry out all kinds of tasks, including updates and third-party module installs right from the command line in the document root of the cloned distro. 
+
+
+
+Tailoring involves 
 
 command line steps
 
-T> ### Advanced tip for creating multiple forks of a GitHub repo in a single account or organization.
 
-We need a kind of "pseudo fork" on GitHub, with all the networking accounting maintained so as to be able to update from upstream, but without the disadvantage of only a single fork being allowed for any given repo to any given individual or organization.
 
-If you create an organization for each project, then this problem goes away. But if you find you need to include multiple effective forks of a single repo in the same account, the following is [an acceptable workaround for creating multiple forks of a GitHub repo](https://adrianshort.org/create-multiple-forks-of-a-github-repo/).
-
-*** estamos aquí ***
 
 
 
 ### Clone what is now the organization starter distro for this project
 
 
-## Provisioning for local team VMs
+## Provisioning for local team VMs {#chapter-02-team-provisioning}
 
 Now that we have an initial distro for this project we are ready to provision team member's with Virtual Machines replicating the target production environment, but which will be able to run on their local development environments.
 
