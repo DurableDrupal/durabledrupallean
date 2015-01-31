@@ -424,9 +424,51 @@ $ drush status
 
 ### Update core and contrib
 
-with drush
+We now wish to update Drupal core and any contrib modules and then test and make sure the site is still running as expected.
+
+We update on the command-line, of course, with drush:
+
+~~~~~~~~
+$ drush pm-refresh
+Refreshing update status information ...
+Done.
+
+$ drush pm-update -y
+ Name                  Installed Version  Proposed version  Message
+ Chaos tools (ctools)  7.x-1.5            7.x-1.6           Update available
+ Features (features)   7.x-2.2            7.x-2.3           Update available
+ Panels (panels)       7.x-3.4            7.x-3.5           Update available
+
+
+Update information last refreshed: Sat, 01/31/2015 - 14:33
+Code updates will be made to the following projects: Chaos tool suite (ctools) [ctools-7.x-1.6], Features [features-7.x-2.3], Panels [panels-7.x-3.5]
+
+Note: A backup of your project will be stored to backups directory if it is not managed by a supported version control system.
+Note: If you have made any modifications to any file that belongs to one of these projects, you will have to migrate those modifications after updating.
+Do you really want to continue with the update process? (y/n): y
+Project ctools was updated successfully. Installed version is now 7.x-1.6.
+Backups were saved into the directory                                [ok]
+/home/drupallean/drush-backups/ddd/20150131150546/modules/ctools.
+Project features was updated successfully. Installed version is now 7.x-2.3.
+Backups were saved into the directory                                [ok]
+/home/drupallean/drush-backups/ddd/20150131150546/modules/features.
+Project panels was updated successfully. Installed version is now 7.x-3.5.
+Backups were saved into the directory                                [ok]
+/home/drupallean/drush-backups/ddd/20150131150546/modules/panels.
+ Ctools  7000  Enable the custom CSS cache handler.
+ Ctools  7001  Increase the length of the ctools_object_cache.obj column.
+Do you wish to run all pending updates? (y/n): y
+Performed update: ctools_update_7000                                 [ok]
+Performed update: ctools_update_7001                                 [ok]
+'all' cache was cleared.                                             [success]
+Finished performing updates.
+~~~~~~~~
+
+To test we could use devel_generate to create users, vocabularies, terms, menu items, and content, then set up some simple views and a panel or two (given what has been updated) but we'll do that just before committing and pushing our changes to the repo. 
 
 ### Make any other changes
+
+On this occasion we are going to add the linkit and picture modules. [linkit]() allows us to easily link content within the site without having to know the exact url of the target URLs.  
 
 add linkit and picture
 
