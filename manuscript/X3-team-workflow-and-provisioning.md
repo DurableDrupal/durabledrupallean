@@ -290,3 +290,152 @@ Installation complete.  User name: admin  User password: omg     [ok]
 ~~~~~~~~
 
 
+
+## Updating DurableDrupalDistro itself redux {#appendix-03-update-distro}
+
+TODO Ansible operations playbook or role or whatever to do this on any server
+
+### Clone
+
+    $ git clone git@github.com:DurableDrupal/durable-drupal-distro.git
+
+### Install
+
+#### Create virtual host for this instance
+
+Step into the cloned distro directory and grab document root path
+
+    $ cd durable-drupal-distro/
+    $ pwd
+    /home/drupallean/durable-drupal-distro
+
+Create an Apache HTTP Server sites-available file for all DurableDrupal instances: 
+
+    $ sudo vi /etc/apache2/sites-available/durabledrupal
+
+Add the following text:
+
+˜˜˜˜˜˜˜˜
+<VirtualHost *:80>
+ ServerName durable-drupal-distro.awebfactory.net
+ DocumentRoot /home/drupallean/durable-drupal-distro
+ <Directory "/home/drupallean/durable-drupal-distro">
+   Options Indexes FollowSymLinks MultiViews
+   AllowOverride All
+ </Directory>
+</VirtualHost>
+˜˜˜˜˜˜˜˜
+
+Register with Apache Server and reload configuration to enable virtual host:
+
+˜˜˜˜˜˜˜˜
+$ sudo a2ensite durabledrupal
+Enabling site durabledrupal.
+To activate the new configuration, you need to run:
+  service apache2 reload
+$ sudo service apache2 reload
+ * Reloading web server config apache2                                   [ OK ]
+˜˜˜˜˜˜˜˜
+
+#### Set up instance database
+
+Create MySql database for the instance, say database ddd with db user ddd and password dddpw22, either following instructions in ./INSTALL.mysql.txt or else with something like [Phpmyadmin](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-14-04).
+
+#### Configure file permissions
+
+Set up everything required to install from the command line with [drush](http://www.drush.org/en/master/), the Drupal shell. The following procedure is [idempotent](http://en.wikipedia.org/wiki/Idempotence#Computer_science_meaning) (will produce the same results if executed multiple times) and will consequently work for a fresh install or in order to zap an existing site and start over. See [Quick install for developers (command line)](https://www.drupal.org/documentation/install/developers) for more details.
+
+First zap or create the Drupal settings.php file:
+
+    $ cp sites/default/default.settings.php sites/default/settings.php
+
+Give the web server write privileges (666 or u=rw,g=rw,o=rw) to the configuration file.
+
+    $ chmod a+w sites/default/settings.php
+
+Give the web server write privileges to the sites/default directory.
+
+    $ chmod a+w sites/default
+
+If there is no sites/default/files directory create it, then:
+
+    sudo chown -R www-data sites/default/files
+    sudo find sites/default/files -type d -exec chmod 775 {} \; 
+    sudo find sites/default/files -type f -exec chmod 664 {} \; 
+
+#### Install Drupal site from the command line with drush
+
+Continuing in the document root and execute the following command:
+
+~~~~~~~~
+$ drush si drupallean -y --site-name=DurableDrupalDistro --account-name=admin --account-pass=admin --account-mail=dddadmin@awebfactory.com.ar --site-mail=durabledrupal@awebfactory.com.ar --db-url=mysql://ddd:dddpw22@localhost/ddd
+You are about to DROP all tables in your 'ddd' database. Do you want to continue? (y/n): y
+No tables to drop.                                                   [ok]
+Starting Drupal installation. This takes a few seconds ...           [ok]
+WD php: Warning: Invalid argument supplied for foreach() in          [warning]
+_features_restore() (line 966 of
+/home/drupallean/durable-drupal-distro/sites/all/modules/contrib/features/features.module).
+Installation complete.  User name: admin  User password: admin       [ok]
+~~~~~~~~
+
+This is one time that the command-line is way quicker and more convenient than interactive mode!
+
+### Test
+
+We need to test that it is installed and running correctly before we make any changes.
+
+We can now visit http://durable-drupal-distro.awebfactory.net/user, log in, and verify at http://durable-drupal-distro.awebfactory.net/admin/config/system/site-information that site is enabled with the following configuration as per the above drush site-install command parameters:
+
+* Site name: DurableDrupalDistro
+* E-mail address: durabledrupal@awebfactory.com.ar
+
+and then at http://durable-drupal-distro.awebfactory.net/user/1/edit that
+
+* Username: admin
+* E-mail address: dddadmin@awebfactory.com.ar
+
+while the database settings are verified both by the mysql info in sites/default/settings.php and by the fact that the site is operating.
+
+Finally,
+
+~~~~~~~~
+$ drush status
+ Drupal version                  :  7.34
+ Site URI                        :  http://default
+ Database driver                 :  mysql
+ Database username               :  ddd
+ Database name                   :  ddd
+ Database                        :  Connected
+ Drupal bootstrap                :  Successful
+ Drupal user                     :  Anonymous
+ Default theme                   :  drupallean
+ Administration theme            :  seven
+ PHP executable                  :  /usr/bin/php
+ PHP configuration               :  /etc/php5/cli/php.ini
+ PHP OS                          :  Linux
+ Drush version                   :  6.2.0
+ Drush configuration             :
+ Drush alias files               :
+ Drupal root                     :  /home/drupallean/durable-drupal-distro
+ Site path                       :  sites/default
+ File directory path             :  sites/default/files
+ Temporary file directory path   :  /tmp
+~~~~~~~~
+
+### Update core and contrib
+
+with drush
+
+### Make any other changes
+
+add linkit and picture
+
+### Zap and reinstall to test
+
+We need to test before commiting
+
+### Commit distro without state
+
+### Push to repo
+
+### Tag and push tags
