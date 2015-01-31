@@ -132,166 +132,7 @@ So we're in oue workspace, let's say on a VPS.
 #### Install with drush on the command line
 #### Check it out
 
-## Updating DurableDrupalDistro itself
-
-~~~~~~~~
-$ drush pm-refresh
-Refreshing update status information ...
-Done.
-$ drush pm-update
- Name                 Installed  Proposed  Message
-                      Version    version
- Drupal               7.31       7.32      SECURITY UPDATE available
- Calendar (calendar)  7.x-3.4    7.x-3.5   Update available
- CKEditor (ckeditor)  7.x-1.15   7.x-1.16  SECURITY UPDATE available
- Profiler Builder     7.x-1.1    7.x-1.2   Update available
- (profiler_builder)
-
-
-Update information last refreshed: Tue, 10/21/2014 - 13:20
-NOTE: A security update for the Drupal core is available.
-Drupal core will be updated after all of the non-core projects are updated.
-
-Security and code updates will be made to the following projects: Calendar [calendar-7.x-3.5], CKEditor - WYSIWYG HTML editor [ckeditor-7.x-1.16], Profiler Builder [profiler_builder-7.x-1.2]
-
-Note: A backup of your project will be stored to backups directory if it is not managed by a supported version control system.
-Note: If you have made any modifications to any file that belongs to one of these projects, you will have to migrate those modifications after updating.
-Do you really want to continue with the update process? (y/n):
-Project calendar was updated successfully. Installed version is now 7.x-3.5.
-Backups were saved into the directory                                [ok]
-/home/drupallean/drush-backups/drupal_lean/20141021132817/modules/calendar.
-Project ckeditor was updated successfully. Installed version is now 7.x-1.16.
-Backups were saved into the directory                                [ok]
-/home/drupallean/drush-backups/drupal_lean/20141021132817/modules/ckeditor.
-Project profiler_builder was updated successfully. Installed version is now 7.x-1.2.
-Backups were saved into the directory                                [ok]
-/home/drupallean/drush-backups/drupal_lean/20141021132817/modules/profiler_builder.
-
-Code updates will be made to drupal core.
-WARNING:  Updating core will discard any modifications made to Drupal core files, most noteworthy among these are .htaccess and robots.txt.  If you have made any modifications to these files, please back them up before updating so that you can re-create your modifications in the updated version of the file.
-Note: Updating core can potentially break your site. It is NOT recommended to update production sites without prior testing.
-
-Do you really want to continue? (y/n):
-Project drupal was updated successfully. Installed version is now 7.32.
-Backups were saved into the directory                                [ok]
-/home/drupallean/drush-backups/drupal_lean/20141021132817/drupal.
-No database updates required                                         [success]
-'all' cache was cleared.                                             [success]
-Finished performing updates.                                         [ok]
-$ git status
-$ git add .
-$ git commit -am "Maintenance update to drupal core 7.34 plus updated contrib modules"
-$ git push
-$ git tag
-$ git tag -a "December2014" -m "Maintenance core and contrib update"
-$ git push --tags
-~~~~~~~~
-
-Now we need to prepare the site (see [Quick install for developers (command line)](https://www.drupal.org/documentation/install/developers)
-
-    cp sites/default/default.settings.php sites/default/settings.php
-
-Give the web server write privileges (666 or u=rw,g=rw,o=rw) to the configuration file.
-
-    chmod a+w sites/default/settings.php
-
-Give the web server write privileges to the sites/default directory.
-
-    chmod a+w sites/default
-
-so we can re-install from scratch to test. Check out incredible options available with drush help:
-
-~~~~~~~~
-$ drush help site-install
-Install Drupal along with modules/themes/configuration using the specified
-install profile.
-
-Examples:
- drush site-install expert --locale=uk     (Re)install using the expert install
-                                           profile. Set default language to
-                                           Ukranian.
- drush site-install                        Install using the specified DB
- --db-url=mysql://root:pass@localhost:por  params.
- t/dbname
- drush site-install                        Install using SQLite (D7+ only).
- --db-url=sqlite://sites/example.com/file
- s/.ht.sqlite
- drush site-install --account-name=joe     Re-install with specified uid1
- --account-pass=mom                        credentials.
- drush site-install standard               Pass additional arguments to the
- install_configure_form.site_default_coun  profile (D7 example shown here - for
- try=FR                                    D6, omit the form id).
- my_profile_form.my_settings.key=value
- drush site-install                        Disable email notification during
- install_configure_form.update_status_mod  install and later. If your server
- ule='array(FALSE,FALSE)'                  has no smtp, this gets rid of an
-                                           error during install.
-
-Arguments:
- profile                                   the install profile you wish to run.
-                                           defaults to 'default' in D6,
-                                           'standard' in D7+
- key=value...                              any additional settings you wish to
-                                           pass to the profile. Fully supported
-                                           on D7+, partially supported on D6
-                                           (single step configure forms only).
-                                           The key is in the form [form
-                                           name].[parameter name] on D7 or just
-                                           [parameter name] on D6.
-
-Options:
- --account-mail                            uid1 email. Defaults to
-                                           admin@example.com
- --account-name                            uid1 name. Defaults to admin
- --account-pass                            uid1 pass. Defaults to a randomly
-                                           generated password. If desired, set
-                                           a fixed password in drushrc.php.
- --clean-url                               Defaults to 1
- --db-prefix                               An optional table prefix to use for
-                                           initial install.  Can be a key-value
-                                           array of tables/prefixes in a
-                                           drushrc file (not the command line).
- --db-su=<root>                            Account to use when creating a new
-                                           database. Must have Grant permission
-                                           (mysql only). Optional.
- --db-su-pw=<pass>                         Password for the "db-su" account.
-                                           Optional.
- --db-url=<mysql://root:pass@host/db>      A Drupal 6 style database URL. Only
-                                           required for initial install - not
-                                           re-install.
- --locale=<en-GB>                          A short language code. Sets the
-                                           default site language. Language
-                                           files must already be present. You
-                                           may use download command to get
-                                           them.
- --site-mail                               From: for system mailings. Defaults
-                                           to admin@example.com
- --site-name                               Defaults to Site-Install
- --sites-subdir=<directory_name>           Name of directory under 'sites'
-                                           which should be created. Only needed
-                                           when the subdirectory does not
-                                           already exist. Defaults to 'default'
-
-Aliases: si
-~~~~~~~~
-
-So let's install in Spanish, specifying db credentials, uid1 user name and password, uid1 user email, site email and site name
-
-~~~~~~~~
-site-install drupallean --locale=es --db-url=mysql://drupal_lean:lean@localhost/drupal_lean --account-name=admin --account-pass=omg --account-mail=victorkane@gmail.com --site-mail=drupallean@awebfactory.com.ar --site-name=DrupalLean
-
-You are about to DROP all tables in your 'drupal_lean' database. Do you want to continue? (y/n): y
-No tables to drop.                                                   [ok]
-Starting Drupal installation. This takes a few seconds ...           [ok]
-WD php: Warning: Invalid argument supplied for foreach() in          [warning]
-_features_restore() (line 966 of
-/home/drupallean/drupal-lean/sites/all/modules/contrib/features/features.module).
-Installation complete.  User name: admin  User password: omg     [ok]
-~~~~~~~~
-
-
-
-## Updating DurableDrupalDistro itself redux {#appendix-03-update-distro}
+## Updating DurableDrupalDistro itself {#appendix-03-update-distro}
 
 TODO Ansible operations playbook or role or whatever to do this on any server
 
@@ -468,16 +309,89 @@ To test we could use devel_generate to create users, vocabularies, terms, menu i
 
 ### Make any other changes
 
-On this occasion we are going to add the linkit and picture modules. [linkit]() allows us to easily link content within the site without having to know the exact url of the target URLs.  
+On this occasion we are going to add the linkit and picture modules.
 
-add linkit and picture
+[linkit](https://www.drupal.org/project/linkit) allows us to easily link content within the site without having to know the exact url of the target URLs:  
 
-### Zap and reinstall to test
+> Linkit provides an easy interface for internal and external linking with editors and fields by using an autocomplete field.
 
-We need to test before commiting
+The [picture](https://www.drupal.org/project/picture) module
+
+> The proposed HTML "picture" element (see responsiveimages.org - almost accepted for HTML 5 (already part of chrome canary) - is implemented as a display formatter for image fields.
+>
+> This module is a backport of Drupal 8 Responsive Image module. This module will deliver alternate image sources based on device capabilities to prevent wasted bandwidth and optimize display for both screen and print.
+
+is just one more example of something we're seeing more and more: Drupal 8 hotness in Drupal 7 and in BackdropCMS.
+
+#### Download the modules with drush
+
+We download the modules and any dependencies with drush from the command-line.
+
+~~~~~~~~
+$ drush dl linkit picture breakpoints
+Project linkit (7.x-3.3) downloaded to                               [success]
+sites/all/modules/contrib/linkit.
+Project picture (7.x-2.9) downloaded to                              [success]
+sites/all/modules/contrib/picture.
+Project picture contains 2 modules: flexslider_picture, picture.
+Project breakpoints (7.x-1.3) downloaded to                          [success]
+sites/all/modules/contrib/breakpoints.
+~~~~~~~~
+
+Edit profiles/drupallean/drupallean.info and add these modules as dependencies so that they will be enabled upon distro installation:
+
+~~~~~~~~
+...
+; Picture
+**dependencies[] = picture**
+; Other
+dependencies[] = addtoany
+dependencies[] = advanced_help
+dependencies[] = auto_entitylabel
+**dependencies[] = breakpoints**
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = insert
+dependencies[] = libraries
+**dependencies[] = linkit**
+...
+~~~~~~~~
+
+### Zap Drupal instance and reinstall to test
+
+Drush zaps the database for us:
+
+~~~~~~~~
+$ drush si drupallean -y --site-name=DurableDrupalDistro --account-name=admin --account-pass=admin --account-mail=dddadmin@awebfactory.com.ar --site-mail=durabledrupal@awebfactory.com.ar --db-url=mysql://ddd:dddpw22@localhost/ddd
+~~~~~~~~
 
 ### Commit distro without state
 
+The `.gitignore` file makes sure we commit without state (file assets, etc.).
+
+~~~~~~~~
+$ git add .
+$ git commit -am "Updated core and contrib modules"
+~~~~~~~~
+
 ### Push to repo
 
+    $ git push
+
 ### Tag and push tags
+
+~~~~~~~~
+$ git tag
+August2014
+December2014
+June2014
+October2014
+drupallean@awebfactory:~/durable-drupal-distro$ git tag -a "January2015" -m "Maintenance core and contrib, added linkit and picture modules"
+drupallean@awebfactory:~/durable-drupal-distro$ git push --tags
+Counting objects: 1, done.
+Writing objects: 100% (1/1), 195 bytes, done.
+Total 1 (delta 0), reused 0 (delta 0)
+To git@github.com:DurableDrupal/durable-drupal-distro.git
+ * [new tag]         January2015 -> January2015
+~~~~~~~~
