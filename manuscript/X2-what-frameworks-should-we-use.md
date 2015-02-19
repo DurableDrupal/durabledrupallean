@@ -149,27 +149,85 @@ So much internationally active talent, so much engineering, so much quality! Dru
 
 ## Drupal 8 or not?
 
-### Drupal 8 cannot be used now
-
->"Drupal 8 is currently in development and is not yet ready for production use."
-> > *[drupal.org](https://www.drupal.org/documentation/version-info)*
-
+### Benefits of Drupal 8
 
 > "Drupal 8 will set a new standard for ease of use, while offering countless new ways to tailor and deploy your content to the Web. Easily customize data structures, listings, and pages, and take advantage of new capabilities for displaying data on mobile devices, building APIs, and adapting to multilingual needs.
 
 > "With a leaner and meaner core, easier migration process from earlier versions, in-place content editing tools and loads more power for modules and themes thanks to a modern Object Oriented Programming (OOP) approach on the backend, there is something for everyone to love in Drupal 8. When will it be released? [See the FAQ](https://drupal.org/drupal-8.0/faq)."
 > > [drupal.org on Drupal 8](https://www.drupal.org/drupal-8.0)
 
-So however interesting Drupal 8 and Symfony may appear cannot be used now for production website or web applications.
+Larry Garfield, in his presentation at DrupalCon Latin America 2015 in Bogotá summed up the benefits of Drupal 8 in startling fashion (see [video](https://www.youtube.com/watch?v=-lLILaIZr44) and [slides](http://www.palantir.net/presentations/dcbogota2015-drupal-and-us/#/2/1) when he explained that not only is Drupal 8 a new generation PHP Platform, but that far from what we have been led to expect, namely that it will only be useful only for experienced developers, for large companies with huge resources, actually, it can do much more for everyone right off-the-shelf even for plain old site-building (a long but well-deserved summary of the slides are included here because it is one of the best summaries of the benefits of Drupal 8):
+
+| Drupal 7 | Drupal 8 |
+|----------|----------|
+|PHP4 architecture|PHP 5.4 architecture|
+|Everything is a page|Everything is a (different kind of) response|
+|All home grown|Embrace other communities and tools|
+|A good start for a CMS|Build real-world sites right away just with core|
+
+* Benefits for site builders **for everyone, out of the box**: Build real sites with core
+  * More fields in core (Entity Reference, Date, Link, Email, Telephone) with the Field API (rich data model just with core)
+  * Views in core (saves 6 months)
+    * Admin uses views, much more customizable (VBO in core!)
+    * Content modeling, editing, assembly, delivery out of the box
+    * Content delivery
+  * Configuration management
+    * Much better solution for dev -> testing -> production workflow
+    * Everyone, large and small, has the right to have access to configuration management tools
+    * Real Configuration API
+    * Config import/export built in
+    * Modules can include default config
+    * Database has content only
+  * Translation (of interface, content AND configuration!) has been completely revamped, compacted, improved and better integrated in core
+* Benefits for content editors
+  * Rich editing experience (in core: WYSIWYG editor, editing in place, more usable forms; works without configuration)
+  * Back to site button (instead of overlay :) )
+  * Accessibility WAI-ARIA, keyboard control, voice control with Drupal Announce API so that reportedly a sight-impaired person may edit in place. Best accessibilityt there is. All built in and automatic.
+  * New text-based help system (including context-sensitive help)
+* For themers
+  * Out with IE6-8
+    * Module for IE8 if you need it
+  * HTML5 + CSS3
+  * Everything responsive out of the box (including menus and toolbars)
+  * HTML5 Forms which also work on mobile!
+  * [Twig](https://www.drupal.org/theme-guide/8/twig) template engine.
+    * Instead of PHP required for templates, designers only need knowledge of TWIG
+  * 25% fewer divs
+* Benefits for coders (under the hood)
+  * Modern version of PHP 5.4, re-visioning how Drupal uses a modern language.
+  	* Interface-driven development
+  	* Loose coupling
+  	* "Hack core without hacking core"; fewer Drupalisms
+  	* No more Not Invented Here; now Proudly Invented Elsewhere
+  	  * Symfony2 components (HttpFoundation, HttpKernel, DependencyInjection, EventDispatcher, Routing, Serializer, Validator, Yaml)
+  	  * Symfony CMF (co-authored with Symfony, Easy CMS)
+  	  * Zend Feed (including Atom, and with greatly reduced dependencies)
+  	  * Doctrine Annotations
+  	  * Guzzle (best Http client in PHP)
+  	  * EasyRDF
+  	  * Twig
+  * Plugins: same pattern used all over
+  * Unified entity API, used all over
+  * Unit tests with PHPUnit
+  * RESTful pipeline
+  * Drupal has gotten off the island, meaning that general development experience in many PHP projects transfer to Drupal 8 and multiple platforms
+  * Drupal Console built on Symfony Console for scaffolding and code generation, instrospection and profiling
+  	
+However interesting Drupal 8 may appear to be, though, it cannot be used at the present time for production website or web applications.
+
+### When will Drupal 8 be able to be used for production ready projects?
+
+>"Drupal 8 is currently in development and is not yet ready for production use."
+> > *[drupal.org](https://www.drupal.org/documentation/version-info)*
 
 ### Drupal 8 will be ready for non-trivial site building sometime in 2016
-[Drupal Planet](https://www.drupal.org/planet) consensus seems to indicate that Drupal 8 will probably not have a production ready release until around mid-2015, and that another 6-12 months will have to go by before:
+[Drupal Planet](https://www.drupal.org/planet) consensus seems to indicate that Drupal 8 will probably not have a production ready release until around mid-to-late-2015, and that another 6-12 months will have to go by before:
 
-* The offering becomes stable.
-* Most third party modules and distributions get ported to Drupal 8, if at all, or replaced.
+* The offering becomes stable and complete.
+* Most third party modules and distributions get ported to Drupal 8, if at all, or replaced. 
 * A critical mass of Drupal developers become profficient in Drupal 8 development and it becomes cost-effective to equip a team with available developers.
 
-This is somewhat mitigated by the adoption in Drupal 8 core itself of key functionality that has historically been relegated to third-party modules:
+Again, it is worth repeating that this is mitigated by the adoption in Drupal 8 core itself of key functionality that has historically been relegated to third-party modules:
 
 * Configuration management 
   * Based on versionable YAML text files, no longer mixed with content in the database
@@ -189,7 +247,9 @@ This is somewhat mitigated by the adoption in Drupal 8 core itself of key functi
   * WYWIWYG editing in core 
   * (Some feel these kinds of features undermine structure content)
 
-But you will have to calculate true development costs since third-party based functionality you take for granted today may not be available.
+But you will have to calculate true development costs since third-party based functionality you take for granted today (and may or may not use depending on your current project) may not be available.
+
+The best criteria for being able to start production ready sites was given in the above-cited presentation by Larry Garfield (@crell), in which he pointed out that the single most important block to actually using Drupal 8 for projects is the current absence of an automatic upgrade path for beta to beta releases. It's best to wait until a release candidate is out or about to be out.
 
 ## Straight up [Symfony](http://symfony.com/) or not?
 
