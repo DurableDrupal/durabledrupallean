@@ -156,7 +156,7 @@ So much internationally active talent, so much engineering, so much quality! Dru
 > "With a leaner and meaner core, easier migration process from earlier versions, in-place content editing tools and loads more power for modules and themes thanks to a modern Object Oriented Programming (OOP) approach on the backend, there is something for everyone to love in Drupal 8. When will it be released? [See the FAQ](https://drupal.org/drupal-8.0/faq)."
 > > [drupal.org on Drupal 8](https://www.drupal.org/drupal-8.0)
 
-Larry Garfield, in his presentation at DrupalCon Latin America 2015 in Bogotá summed up the benefits of Drupal 8 in startling fashion (see [video](https://www.youtube.com/watch?v=-lLILaIZr44) and [slides](http://www.palantir.net/presentations/dcbogota2015-drupal-and-us/#/2/1) when he explained that not only is Drupal 8 a new generation PHP Platform, but that far from what we have been led to expect, namely that it will only be useful only for experienced developers, for large companies with huge resources, actually, it can do much more for everyone right off-the-shelf even for plain old site-building (a long but well-deserved summary of the slides are included here because it is one of the best summaries of the benefits of Drupal 8):
+Larry Garfield, in his presentation at DrupalCon Latin America 2015 in Bogotá summed up the benefits of Drupal 8 in startling fashion (see [video](https://www.youtube.com/watch?v=-lLILaIZr44) and [slides](http://www.palantir.net/presentations/dcbogota2015-drupal-and-us/#/2/1) when he explained that not only is Drupal 8 a new generation PHP Platform, but that far from what we have been led to expect, namely that it will only be useful for experienced developers and for large companies with huge resources, in actual fact it can do much more than any other CMS framework, for everyone, right off-the-shelf even for plain old site-building right in core without any configuration:
 
 | Drupal 7 | Drupal 8 |
 |----------|----------|
@@ -165,19 +165,18 @@ Larry Garfield, in his presentation at DrupalCon Latin America 2015 in Bogotá s
 |All home grown|Embrace other communities and tools|
 |A good start for a CMS|Build real-world sites right away just with core|
 
-* Benefits for site builders **for everyone, out of the box**: Build real sites with core
+* Benefits for site builders **for everyone, out of the box**: Build real sites with what comes in core, without any configuration
   * More fields in core (Entity Reference, Date, Link, Email, Telephone) with the Field API (rich data model just with core)
-  * Views in core (saves 6 months)
+  * Views API and UI in core (saves 6 months in terms of being able to use Drupal 8 after initial RC release, compared to having had to wait for views when Drupal 7 was released, without Views in core)
     * Admin uses views, much more customizable (VBO in core!)
     * Content modeling, editing, assembly, delivery out of the box
     * Content delivery
-  * Configuration management
-    * Much better solution for dev -> testing -> production workflow
+  * Configuration management based on versionable YAML text files; the configuration is no longer mixed with content in the database
+    * Much better solution for dev -> testing -> production workflow and deployment
     * Everyone, large and small, has the right to have access to configuration management tools
     * Real Configuration API
     * Config import/export built in
     * Modules can include default config
-    * Database has content only
   * Translation (of interface, content AND configuration!) has been completely revamped, compacted, improved and better integrated in core
 * Benefits for content editors
   * Rich editing experience (in core: WYSIWYG editor, editing in place, more usable forms; works without configuration)
@@ -200,7 +199,7 @@ Larry Garfield, in his presentation at DrupalCon Latin America 2015 in Bogotá s
   	* "Hack core without hacking core"; fewer Drupalisms
   	* No more Not Invented Here; now Proudly Invented Elsewhere
   	  * Symfony2 components (HttpFoundation, HttpKernel, DependencyInjection, EventDispatcher, Routing, Serializer, Validator, Yaml)
-  	  * Symfony CMF (co-authored with Symfony, Easy CMS)
+  	  * Symfony CMF (Content Management Framework, co-authored by the Symfony, Easy CMS and Drupal communities)
   	  * Zend Feed (including Atom, and with greatly reduced dependencies)
   	  * Doctrine Annotations
   	  * Guzzle (best Http client in PHP)
@@ -212,6 +211,13 @@ Larry Garfield, in his presentation at DrupalCon Latin America 2015 in Bogotá s
   * RESTful pipeline
   * Drupal has gotten off the island, meaning that general development experience in many PHP projects transfer to Drupal 8 and multiple platforms
   * Drupal Console built on Symfony Console for scaffolding and code generation, instrospection and profiling
+
+In addition:
+
+* Block is just another entity
+* The Drupal 7 context module is now in core
+
+It is no accident that the keynote, an example of excellent community leadership ("Drupal is a platform for the independent. For everyone. By all of us. Drupal 8 is going to kick-ass") caused huge excitement, and set the record straight for Drupal 8.
   	
 However interesting Drupal 8 may appear to be, though, it cannot be used at the present time for production website or web applications.
 
@@ -224,32 +230,12 @@ However interesting Drupal 8 may appear to be, though, it cannot be used at the 
 [Drupal Planet](https://www.drupal.org/planet) consensus seems to indicate that Drupal 8 will probably not have a production ready release until around mid-to-late-2015, and that another 6-12 months will have to go by before:
 
 * The offering becomes stable and complete.
-* Most third party modules and distributions get ported to Drupal 8, if at all, or replaced. 
+* Most third party modules and distributions get ported to Drupal 8, if at all, or replaced (or, as we have emphasized, might already be in core, so it's not the same as with previous major Drupal releases).
 * A critical mass of Drupal developers become profficient in Drupal 8 development and it becomes cost-effective to equip a team with available developers.
 
-Again, it is worth repeating that this is mitigated by the adoption in Drupal 8 core itself of key functionality that has historically been relegated to third-party modules:
+You will have to calculate true development costs yourself since third-party based functionality you take for granted today (and may or may not use depending on your current project) may not be available.
 
-* Configuration management 
-  * Based on versionable YAML text files, no longer mixed with content in the database
-* i18n and l10n multilingual platform
-* Content listings
-  * Views api and UI
-* More field types
-* The adoption of OOP and a rewritten core bring a number of advantages on the basis of its refactored routing component
-  * The Drupal 7 context module is now in core
-  * Web services
-    *Think REST API or services back-end option
-  * Block is just another entity
-* HTML 5 markup
-* Twig template based theming
-* Editorial benefits in core
-  * In place editing
-  * WYWIWYG editing in core 
-  * (Some feel these kinds of features undermine structure content)
-
-But you will have to calculate true development costs since third-party based functionality you take for granted today (and may or may not use depending on your current project) may not be available.
-
-The best criteria for being able to start production ready sites was given in the above-cited presentation by Larry Garfield (@crell), in which he pointed out that the single most important block to actually using Drupal 8 for projects is the current absence of an automatic upgrade path for beta to beta releases. It's best to wait until a release candidate is out or about to be out.
+The best criteria for being able to start production ready sites was given in the above-cited presentation by Larry Garfield (@crell), in which he pointed out that the single most important block to actually using Drupal 8 for projects is the current absence of an automatic upgrade path for beta to beta releases. And it's best to wait until a release candidate is out or about to be out.
 
 ## Straight up [Symfony](http://symfony.com/) or not?
 
