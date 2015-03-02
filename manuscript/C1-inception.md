@@ -88,4 +88,4 @@ Another benefit is that since the focus is on jobs of work and not abstract mini
 
 ## Summary
 
-In this chapter we've gotten a glimpse of what it's like for a team to dive into a new project using DurableDrupal Lean. We've seen how the Kanban Board can be used to get started by planning a prototype on the basis of an initial MVP vision. In the next chapter we'll get a detailed close-up of each job of work deemed essential for the realization of that prototype.
+In this chapter we've gotten a glimpse of what it's like for a team to dive into a new project using DurableDrupal Lean. We've seen how the Kanban Board can be used to get started by planning a prototype on the basis of an initial MVP vision. In the next chapter we'll get a detailed close-up of each job of work as it gets done for the realization of that prototype.
