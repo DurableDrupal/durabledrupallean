@@ -1,8 +1,18 @@
 # Introduction {#chapter-00}
 
+DurableDrupal Lean doesn't care which version of Drupal we are on. It doesn't care which hosting or platform we are using.
+
+It only cares that our process be future proof and vendor proof without exception (and that even includes Drupal, which is committed to based on best long-term value); that the process be free, freely accessible and open to everyone as their right; and that the process stride forward on the material foundation of DevOps, Lean UX and a curated quick-start Distro for our organization and teams; and that this is Drupal: empowerment sí; submission to the business models of Big Tech and the special needs of big multinational corporations, no!
+
+We shall migrate to new Drupal releases as soon as they provide an advantage in value. And we shall be ready. So now, we shall work in Drupal 8 as soon as there is a published upgrade path between successive minor releases and a release candidate in place or at least in sight (see [Larry Garfield's criteria discussed in Appendix 3](#appendix-02-when-d8-prod)), at which point [it will provide greater value](#appendix-02-d8-benefits). 
+
+In the meantime we shall use a defined sub and superset of Drupal 7, in both the form of a specified back-port rich distro and as a truly modern best practices based process. In this case we shall work in Drupal 7 as if it were Drupal 8 and in preparation for joining the web application renaissance which is the wider context of Drupal 8.
+
+This approach, both in code and in process, constitutes DurableDrupal Lean.
+
 ## Tool up for solid web apps now and maintain them for years with a powerful Drupal distro
 
-DurableDrupal Lean is a practical easy to use a flexible, light and concise approach synthesizing Agile + Lean + Lean UX + Content inventory + Core Model + structured content in order for teams to develop dynamic websites and web apps using a tailored and evolving solid Drupal distro. The objective is to build testable and evolving outcomes for content centric projects capable of lasting for years, now. 
+DurableDrupal Lean is a process factory. Lightweight and practical, easy to use and flexible. concise approach to building and evolving your own organization's continuous process improvement. It synthesizes Agile + Lean + Lean UX + DevOps + (Core Model + structured content) in order for teams to develop dynamic websites and web apps using a tailored and evolving solid Drupal distro. The objective is to build testable and evolving outcomes for content centric projects capable of lasting for years, now. 
 
 ## Diving in with a real world project
 

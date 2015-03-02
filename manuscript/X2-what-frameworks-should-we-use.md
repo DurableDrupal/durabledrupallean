@@ -149,7 +149,7 @@ So much internationally active talent, so much engineering, so much quality! Dru
 
 ## Drupal 8 or not?
 
-### Benefits of Drupal 8
+### Benefits of Drupal 8 {#appendix-02-d8-benefits}
 
 > "Drupal 8 will set a new standard for ease of use, while offering countless new ways to tailor and deploy your content to the Web. Easily customize data structures, listings, and pages, and take advantage of new capabilities for displaying data on mobile devices, building APIs, and adapting to multilingual needs.
 
@@ -221,8 +221,7 @@ It is no accident that the keynote, an example of excellent community leadership
   	
 However interesting Drupal 8 may appear to be, though, it cannot be used at the present time for production website or web applications.
 
-### When will Drupal 8 be able to be used for production ready projects?
-
+### When will Drupal 8 be able to be used for production ready projects? {#appendix-02-when-d8-prod} 
 >"Drupal 8 is currently in development and is not yet ready for production use."
 > > *[drupal.org](https://www.drupal.org/documentation/version-info)*
 
