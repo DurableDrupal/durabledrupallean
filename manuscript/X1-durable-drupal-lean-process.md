@@ -24,21 +24,37 @@ But when we're learning, of course, we need a list of conventions, a vocabulary,
 
 ### Waste that is eliminated by using DurableDrupal Lean
 
-Waste is of course, the opposite of value. In software development, it can be caused by:
+Waste is of course, the opposite of value. We sum up by reviewing the possible causes of waste in software development:
 
 * Unfinished work left rotting in isolated silos
 * Feature creep without validating for impact or value
 * Isolated silos keep on re-inventing the wheel
 * Handoffs chronically disrupts workflow
-* Delays cuz isolated silos and teams missing skills
-* Task switching cuz work overload and broken workflow
-* Mucho defect cuz chaotic focus and blocked knowledge sharing
+* Delays because isolated silos and teams missing skills
+* Task switching because work overload and broken workflow
+* Mucho defect because chaotic focus and blocked knowledge sharing
 
 See also [How to Manage the "7 Wastes" of Agile Software Development](https://www.scrumalliance.org/community/articles/2013/september/how-to-manage-the-7-wastes%E2%80%9D-of-agile-software-deve).
 
+## Kanban (not Scrum)
 
 
-## Bibliography
+## Project Inception and Vision
+
+
+## Team Kickoff
+
+
+## Development Workflow and Everything in (Versioned) Code
+
+
+## DevOps, Server Provisioning, Continuous Build and Deployment
+
+
+## User Validation
+
+
+## Bibliography {#appendix01-bibliography}
 
 ### Agile/Lean
 
