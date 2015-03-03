@@ -12,7 +12,7 @@ This approach, both in code and in process, constitutes DurableDrupal Lean.
 
 ## Tool up for solid web apps now and maintain them for years with a powerful Drupal distro
 
-DurableDrupal Lean is a process factory, providing reusable tools and processes for a team or team of teams within an organization, with the firm purpose of defeating waterfall and guaranteeing delivered value. Lightweight and practical, easy to use and flexible, it is a concise approach to building and evolving our organization's continuous improvement in its software and especially web development process. It synthesizes Agile + Lean + Lean UX + DevOps + (Core Model + structured content) in order for teams to develop dynamic websites and web apps using one or more tailored and evolving solid Drupal distros. The objective is to build testable and evolving outcomes for content centric projects capable of lasting for years, now. To make our lives easier all round and to measurably enhance our success rate.
+Lightweight and practical, easy to use and flexible, it is a concise approach to building and evolving our organization's continuous improvement in its software and especially web development process. It synthesizes Agile + Lean + Lean UX + DevOps + (Core Model + structured content) in order for teams to develop dynamic websites and web apps using one or more tailored and evolving solid Drupal distros. The objective is to build testable and evolving outcomes for content centric projects capable of lasting for years, now. To make our lives easier all round and to measurably enhance our success rate. And to stop wasting time, money and resources!
 
 ## Diving in with a real world project
 

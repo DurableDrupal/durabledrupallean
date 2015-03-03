@@ -1,6 +1,6 @@
 # Chapter 1. Project Inception {#chapter-01}
 
-We are diving right into a real world project, the Durable Drupal Website, in order to demonstrate. But just where do we dive in? Where does inception live?
+We are diving right into a real world project, the Durable Drupal Website, in order to demonstrate DurableDrupal Lean. But just where do we dive in? Where does inception live in any project?
 
 ## The first team meeting and the empty Kanban Board
 
