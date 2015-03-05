@@ -103,7 +103,7 @@ And since the Drupal community is not based solely in a single country, but rath
 
 Since highly talented people have always been attracted to the community, solutions have constantly emerged keeping those leveraging Drupal for their content-centric projects on the technological vanguard with minimal effort. In a rich, mature eco-system, there is, literally, "a module for everything", and not just those with sexy features, but also those promising integration with all major players in the modern web app universe. Today, for example, with no coding you can whip up a fully functional social network based platform with a back-end API, with node.js based chat and activity stream, and with a totally mobile first responsive theme to top it off in literally hours.
 
-#### Distributions
+#### Distributions {#appendix-02-distributions}
 
 In addition many first-class Drupal installation profiles ("distros") are available. These off-the-shelf domain-specific customizable solutions tailor Drupal to specific project needs. Some of the best examples:
 

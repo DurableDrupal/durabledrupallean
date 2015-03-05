@@ -1,8 +1,19 @@
 # Appendix 1. DurableDrupal Lean Process. Overview {#appendix01}
 
-DurableDrupal Lean is a process factory, providing reusable tools and processes for a team or team of teams within an organization, with the firm purpose of defeating waterfall and guaranteeing delivered value. 
+DurableDrupal Lean is a process factory, providing reusable tools and methods for a team or team of teams within an organization, with the firm purpose of defeating waterfall and guaranteeing delivered value. 
 
-Now, that's a mighty set of phrases right there. If we understood that sentence and knew how to use it on a daily basis, we could end this right now and go have a beer. Well, let's read on. And then go have a beer. But in the course of going through this overview we hope to do what we always do when we want to learn something: deconstruct it, that is, take it apart; and then synthesize our own process, that is, put it back together again, both abstractly, and then as we work through this book, in actual practice.
+Now, that's a mighty set of phrases right there. If we understood that sentence and knew how to use it on a daily basis, we could end this right now and go have a beer. Well, let's read on. And then go have a beer. For now, let's hunker down and do what we always do when we want to learn something: deconstruct it, that is, take it apart; and then synthesize our own process by putting it back together again, both abstractly, and then as we work through this book, in actual practice.
+
+* A process factory
+  * Because we don't want to take a rigid scheme and mechanically force ourselves to go through motions that may or may not have anything to do with who we are or what we are trying to accomplish. We want to learn how to create, recreate, evolve and maintain our own process, on every team in our organization, for every different kind of project.
+* DurableDrupal Lean
+  * We must be in the habit of using upstream Drupal distributions in our organization. In this book we are providing one, [DurableDistro](https://github.com/DurableDrupal/durable-drupal-distro), along with an Ansible playbook to easily provision it with Vagrant. W think it will give you a great head start and it can be easily curated as needed; and we also list [a lot of the most useful ones out there](#appendix-02-distributions) which you can use for many specialized purposes right off the shelf. The question as always is to stand on the shoulders of giants.
+  * Lean: Agile is the new Waterfall. We need Lean, and we want you to know what this software development process is all about and why it should be important to you.
+  * See below for explanation of what is Waterfall, Agile, Lean, etc.
+* Reusable tools and methods
+  * We want to review them here. Later on you will make your own. We want to keep it down to a dull roar though, in order to avoid top heavy, documentation laden wastes of time.
+* For a team or team of teams.
+  * We are talking continuous improvement in your organization, whether it's a one man shop (still a team!), an agency or company department   
 
 ## A very short history of modern software development process
 
