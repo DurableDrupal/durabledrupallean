@@ -1,4 +1,4 @@
-# Appendix 1. DurableDrupal Lean Process. Overview {#appendix01}
+#  1. DurableDrupal Lean Process. Overview {#appendix01}
 
 DurableDrupal Lean is a process factory, providing reusable tools and methods for a team or team of teams within an organization, with the firm purpose of defeating waterfall and guaranteeing delivered value. 
 
@@ -13,9 +13,22 @@ Now, that's a mighty set of phrases right there. If we understood that sentence 
 * Reusable tools and methods
   * We want to review them here. Later on you will make your own. We want to keep it down to a dull roar though, in order to avoid top heavy, documentation laden wastes of time.
 * For a team or team of teams.
-  * We are talking continuous improvement in your organization, whether it's a one man shop (still a team!), an agency or company department   
+  * We are talking continuous improvement in your organization, whether it's a one man shop (still a team!), an agency or company department with a single team, or a team of teams (we never want to work on a scale bigger than a team when we focus on work in progress). We are talking everyone face to face in a single building, or a world-wide distributed team or team of teams. 
+* Guaranteeing delivered value
+  * Because code can no longer be implemented on the basis of "functional requirements". Code's sole purpose in living is to be able to test a hypothesis envisioning value to be obtained by the client as a result of its existence. Code should be designed as such, and tested as such. Becuase neither is it enough to test code and be satisfied that it works as advertised in order to consider a job of work completed. The functionality designed to give value must be tested to make sure it actually delivers that expected value to the client. This is at the core of Lean and we'll be sure to drill down here.
 
-## A very short history of modern software development process
+In order to gain this insight, as we work through this book we will be needing to get comfortable (not necessarily all at once! we recommend just in time reading as needed, perhaps on a chapter by chapter basis) with the following:
+
+* [A very short history of modern software development process](#appendix01-short-history)
+* [Kanban (not Scrum)](appendix01-kanban)
+* [Project Inception and Vision](appendix01-inception)
+* [Team Kickoff](appendix01-team-kickoff)
+* [Development Workflow with Everything in Code](#appendix01-dev-workflow)
+* [DevOps, Server Provisioning and Deployment](#appendix01-devops-ci)
+* [User Validation](#appendix01-user-validation)
+* [Bibliography and Resources](#appendix01-bibliography)
+
+## A very short history of modern software development process {#appendix01-short-history}
 
 Why use process at all? Well, work is social in nature, ever since we humans gained an opposable thumb. It is also historical. So why do we want to engineer things using today's tools and processes? Certainly in order to avoid making the same expensive mistakes over and over again, and to avoid inventing the wheel when we tool up for a product.
 
@@ -47,22 +60,22 @@ Waste is of course, the opposite of value. We sum up by reviewing the possible c
 
 See also [How to Manage the "7 Wastes" of Agile Software Development](https://www.scrumalliance.org/community/articles/2013/september/how-to-manage-the-7-wastes%E2%80%9D-of-agile-software-deve).
 
-## Kanban (not Scrum)
+## Kanban (not Scrum) {#appendix01-kanban}
 
 
-## Project Inception and Vision
+## Project Inception and Vision {#appendix01-inception}
 
 
-## Team Kickoff
+## Team Kickoff {#appendix01-team-kickoff}
 
 
-## Development Workflow and Everything in (Versioned) Code
+## Development Workflow and Everything in (Versioned) Code {#appendix01-dev-workflow}
 
 
-## DevOps, Server Provisioning, Continuous Build and Deployment
+## DevOps, Server Provisioning, Continuous Build and Deployment {#appendix01-devops-ci}
 
 
-## User Validation
+## User Validation {#appendix01-user-validation}
 
 
 ## Bibliography {#appendix01-bibliography}
