@@ -1,6 +1,12 @@
 # Chapter 1. Project Inception {#chapter-01}
 
-We are diving right into a real world project, the Durable Drupal Website, in order to demonstrate DurableDrupal Lean. But just where do we dive in? Where does inception live in any project?
+We are diving right into a real world project, the Durable Drupal Website, in order to demonstrate DurableDrupal Lean. 
+
+T> ## An overview of DurableDrupal Lean is available if you prefer to see that before diving in
+T>
+T> Sometimes books should be read backwards! We invite you to jump over to the [DurableDrupal Lean Process Overview - Appendix 1](#appendix01). We didn't want to force you to read that first, but it's there if you prefer to see it first, and then serves as a handy reference, guide and resource center.
+
+Now, just where do we dive in? Where does inception live in any project?
 
 ## The first team meeting and the empty Kanban Board
 
