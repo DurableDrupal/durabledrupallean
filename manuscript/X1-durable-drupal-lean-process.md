@@ -49,7 +49,7 @@ Diserée Sy's article [Adapting Usability Investigations for Agile User-centered
 
 In other words, Agile is an improvement over Waterfall since the abyss separating requirements gathering from testing is shorter and since the mini-cycles allow for more testing and feedback. This can be seen in the following diagram from the article:
 
-![Waterfall and Agile](files/sy-waterfall-agile.png)
+![Waterfall and Agile](images/sy-waterfall-agile.png)
 
 The problem raised for the work of the User Experience Team and Graphic design in general, is that with Agile the cycles gave ... little ... time
 
@@ -57,8 +57,7 @@ The problem raised for the work of the User Experience Team and Graphic design i
 
 The solution was to bifurcate UX and Development so that a Cycle 0 (req gather initial meeting) and staggered sprints gave better timing ... so the user experience team could work iteratively and incrementally also. The following diagram from the article shows this:
 
-<< cycle 0 and staggered sprints diagram >>
-![Cycle 0 with Staggered Sprints](files/sy-miller-staggered-sprints.jpg)
+![Cycle 0 with Staggered Sprints](images/sy-miller-staggered-sprints.jpg)
 
 ### Achieving a still better process with Lean UX and Design + Dev
 
