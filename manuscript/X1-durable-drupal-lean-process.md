@@ -30,13 +30,9 @@ In order to gain this insight, as we work through this book we will be needing t
 
 ## A very short history of modern software development process {#appendix01-short-history}
 
-Why use process at all? Well, work is social in nature, ever since we humans gained an opposable thumb. It is also historical. So why do we want to engineer things using today's tools and processes? Certainly in order to avoid making the same expensive mistakes over and over again, and to avoid inventing the wheel when we tool up for a product.
+Why use process at all? Well, work is social in nature, ever since we humans gained an opposable thumb. And it always exists in an historical context. So we engineer things using today's tools and processes in order to avoid making the same expensive mistakes over and over again, and in order to avoid inventing the wheel every time we tool up for a product.
 
-But the main reason we need process is to avoid wasting time, money and resources. To avoid failing. Again and again.
-
-When we begin to try to understand a software development process that's described to us as the next best thing since sliced bread, the difficulty of getting that birds' eye view is that it is at its heart a grammar and specialized vocabulary, a set of conventions, tools and structures which only come alive when they are used dynamically and creatively in real world contexts. When it is used of course, it appears as a logical sequence. Like title, author, sections, sentences, phrases, words and expressions in a blog entry, or a series of instructions in a manual. But any attempt at explaining the grammar runs the risk of reducing the whole dialog to boring, lifeless and most importantly, useless abstractions. 
-
-But when we're learning, of course, we need a list of conventions, a vocabulary, and a grammar allowing us to see the options we have in making use of process, and in order to understand the language when we are new to a team. It's like starting to code using a new programming language and scrolling through the docs.
+We need process to avoid wasting time, money and resources. To avoid failing. Again and again.
 
 ### The limitations of Waterfall and Agile for Web development
 
