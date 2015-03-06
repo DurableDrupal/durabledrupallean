@@ -47,27 +47,49 @@ The much criticized [Waterfall Model](http://en.wikipedia.org/wiki/Waterfall_mod
 
 Diserée Sy's article [Adapting Usability Investigations for Agile User-centered Design](http://uxpajournal.org/wp-content/uploads/pdf/agile-ucd.pdf), published in 2007, first introduces the characteristics of both the Waterfall and Agile software development methodologies, contrasts the benefits of Agile to the deficiencies of Waterfall, and then goes on to enumerate certain "adaptations to the timing, granularity, and reporting used for Agile interactive usability investigations, with an intended audience of usability practitioners."
 
-In other words, Agile is an improvement over Waterfall since the abyss separating requirements gathering from testing is shorter and since the mini-cycles allow for more testing and feedback. This can be seen in the following diagram from the article:
+In other words, Agile is an improvement over Waterfall since the abyss separating requirements gathering from testing is shorter and since the mini-cycles allow for more cross-collaboration, testing and feedback. This can be seen in the following diagram from the article:
 
 ![Waterfall and Agile](images/sy-waterfall-agile.png)
 
-The problem raised for the work of the User Experience Team and Graphic design in general, is that with Agile the cycles gave ... little ... time
+> "However, this meant that we needed to find a way to conduct usability tests, interviews, and contextual inquiry—both in the lab and the field—within an Agile framework. To achieve this, we adjusted the timing and granularity of these investigations, and the way that we reported our usability findings. This paper describes our main adaptations." 
+> 
+> "It is possible to use the familiar arsenal of usability investigation methods on Agile (and other iterative development) projects, including formative usability testing, user and task analysis, interviews, and even field-based work like contextual inquiry. This is achieved by changing the timing and granularity of the investigations, and how results are reported."
+
+In the article, Sy and Miller describe in detail the method they developed for integrating Agile with user-centered design.
 
 ### Improving Agile with Cycle 0 and Staggered Sprints
 
-The solution was to bifurcate UX and Development so that a Cycle 0 (req gather initial meeting) and staggered sprints gave better timing ... so the user experience team could work iteratively and incrementally also. The following diagram from the article shows this:
+The solution resided in a technique called Cycle 0 (sometimes called Sprint 0 or Staggered Sprints), in which design activity takes place one sprint ahead of development. Work is designed and validated during the “design sprint” and then passed off into the development stream to be implemented during the development sprint. 
 
 ![Cycle 0 with Staggered Sprints](images/sy-miller-staggered-sprints.jpg)
 
+> "To allow the User Experience Team to iterate on designs, we usability tested prototypes at least one cycle ahead of developers, and then passed on the validated designs to be implemented. We would also conduct contextual inquiry for workflows at least two cycles ahead, and usability test the implemented working version to check for design drift."
+
 ### Achieving a still better process with Lean UX and Design + Dev
 
+> "Many teams have misinterpreted this model. Sy and Miller always advocated strong collaboration between designers and developers during both the design and development sprints. Many teams have missed this critical point and have instead created workflows in which designers and developers still communicated by handoff, creating a kind of mini-waterfall process within the agile cycles." (From *Gothelf, Jeff (2013-02-22). Lean UX: Applying Lean Principles to Improve User Experience, O'Reilly Media)*
 
+What occurs is that even when cross collaboration is encouraged, with staggered sprints it becomes very easy for the entire team to never be working on the same thing at the same time. You never realize the benefits of cross-functional collaboration because the different disciplines are most often focused on different things. Also, when two-week sprints are used in a Scrum context, designers do not get enough creative time.
 
+As a result it's necessary to go beyond staggered sprints.
+
+![Building Lean UX into the Rhythm of Scrum](images/gothelf-lean-plus-scrum.jpg)
+
+First of all, themes allow for several scrums to be united under the same umbrella, giving time for greater creativity on the part of graphic design and user experience team members, and "the entire team is working on the same thing at the same time".
+
+Each theme, and indeed each sprint, is kicked off with a series of brainstorming and validation exercises with the participation of the whole team (light green). The resulting ideas and sketches are taken to the traditional sprint planning meeting, where again the whole team participates in a process of writing user stories, and then evaluating and prioritizing them to form the sprint backlog (purple).
+
+Then, weekly user validation sessions are added in (blue-green), so that the ideas being implemented can be subject to testing for usability and value.
+
+See also [Beyond Staggered Sprints: How TheLadders.com Integrated UX into Agile](http://johnnyholland.org/2010/10/beyond-staggered-sprints-how-theladders-com-integrated-ux-into-agile/).
+  
 ### The Best Process we Know: Design + Dev + DevOps
+
+DurableDrupal Lean adds DevOps into the mix. Just as it is critical for cross-collaboration between design and development, so it is just as critical for there to be cross-collaboration between design, development and DevOps, both in provisioning so that the team can really work in parallel, as well as in building, feedback conversations, testing, continuous integration and deployment.
 
 ### Waste that is eliminated by using DurableDrupal Lean
 
-Waste is of course, the opposite of value. We sum up by reviewing the possible causes of waste in software development:
+Waste is of course, the opposite of value. Possible causes of waste in software development:
 
 * Unfinished work left rotting in isolated silos
 * Feature creep without validating for impact or value
