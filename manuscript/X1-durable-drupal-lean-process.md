@@ -103,6 +103,15 @@ See also [How to Manage the "7 Wastes" of Agile Software Development](https://ww
 
 ## Kanban (not Scrum) {#appendix01-kanban}
 
+![Figure 1 from Chapter 1. Empty Kanban Board for New Project](images/c1_01.jpg)
+
+The great thing about Kanban is that it does away with the arbitrary pre-estimated "sprints" one finds when using Scrum, designed to force the delivery of a "complete" mini-release. Rather it is a continuous flow process. Core jobs of work seeking a particular outcome are implemented one at a time in cross-collaboration, and their associated cards pass through various states (represented by columns) in the process. At the start all issues are placed in the New column (state). Then these are prioritized and a number of them are placed in the limited backlog "To Do" column.
+
+![Figure 2 from Chapter 1. Kanban Board for initial prototype](images/c1_02.jpg)
+
+Then, when team members work on a job, it is placed in the "In Progress" or "Doing" column. This column is also limited in the number of issues it can contain. The reason for these constraints is key to why Kanban is different: it champions focus and prohibits people working on too many things at the same time. This is called a Work in Progress (WIP) limit, and it replaces the constraint of the sprint cycle length and time frame restrictions found in Scrum. In this way, Kanban frees us from waterfall-like mini-release "estimates". So while there are no sprints, only a continuous flow of jobs of work being delivered for outcome value testing, the WIP limit, seen in parenthesis in the To Do and In Progress column titles, seeks to optimize productivity without overload. The actual number is calculated by taking into account team size and velocity, and is adjusted for maximum productivity without overloading the team as the project matures. We limit the To Do column and the Doing column to 4 (number of separate disciplines being worked on with semi-paired programming).
+
+Also see the [details given given in chapter 1 on the use of Kanban](#chapter-01-gtd).
 
 ## Project Inception and Vision {#appendix01-inception}
 

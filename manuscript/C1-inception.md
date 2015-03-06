@@ -61,7 +61,7 @@ At this point Victor proposes that the team build a prototype in order to prepar
 
 The prototype needed as prep for the kickoff can be as simple as a home page featuring a suitable version of the project vision and an email signup form. This provides a snap starting point on an immediate concrete footing. The build process will have a lot in common with upcoming MVP iterations, allowing for initial decisions to be made on tools, stacks, frameworks and infrastructure. 
 
-## Getting things done
+## Getting things done {#chapter-01-gtd}
 
 The project inception meeting is now used to plan out on the Kanban board the actual jobs of work needed so that the team can build the prototype as quickly and directly as possible.
 
