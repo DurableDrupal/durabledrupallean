@@ -36,20 +36,20 @@ We need process to avoid wasting time, money and resources. To avoid failing. Ag
 
 ### The limitations of Waterfall and Agile for Web development
 
-The much criticized [Waterfall Model](http://en.wikipedia.org/wiki/Waterfall_model) is a sequential process for software development "in which in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of Conception, Initiation, Analysis, Design, Construction, Testing, Production/Implementation and Maintenance." Which is to say, outputs are handed off in sequence from one discipline "silo" to another. It is no accident that this method, which at least raised software development from the level of artesanal improvisation to that of engineering, had its origins in the highly structured manufacturing and construction industries.
+The much criticized [Waterfall Model](http://en.wikipedia.org/wiki/Waterfall_model) is a sequential process for software development "in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of Conception, Initiation, Analysis, Design, Construction, Testing, Production/Implementation and Maintenance." Each phase corresponds to an autonomous silo which receives its input from the previous silo and performs additional work according to its particular discipline. So outputs are handed off in sequence from one discipline "silo" to another. It is no accident that this method, which at least raised software development from the level of artesanal improvisation to that of engineering, had its origins in the highly structured manufacturing and construction industries.
 
-[Agile software development methodologies](http://en.wikipedia.org/wiki/Agile_software_development) favor an iterative and incremental approach due to the following shortcomings of the Waterfall Model:
+[Agile software development methodologies](http://en.wikipedia.org/wiki/Agile_software_development), on the other hand, favor an iterative and incremental approach due to the following shortcomings evidenced by the Waterfall Model:
 
-* A minimum of 40% in change requests during project lifetime make it impossible for each discipline to  complete its work and then hand-off a perfect output to the next discipline in line since disciplines already "finished" will have to be revisited (i.e. design and even the candidate architecture may have to be re-done in line with the change requests).
-* Clients require working prototypes at various stages in order to properly finalize their requirements, so that Construction cannot be carried out in one fell swoop without a series of programmed opportunities for user feedback.
+* A minimum of 40% in change requests take place during project life-cycle, making it impossible for each discipline to  complete its work and then hand-off a perfect output to the next discipline in line: discipline silos having already "finished" their work will have to do it all over again to comply with those changes, and the impact may vary widely. For example, the design and even the candidate architecture may have to be completely re-done.
+* Clients often need to see working prototypes at various stages in order to properly finalize their requirements, so that Construction cannot be carried out in one fell swoop without a series of programmed opportunities for user feedback.
 * Design may dictate solutions impossible or very difficult to implement, which can only be seen during the Construction phase. In other words, a lot of design and construction work may have to be thrown away and started over.
 * By the same token, design may be dictated by stakeholders who are unaware of the full benefits of the technology, and only become aware as Construction progresses, which is one of the principle sources for the high rate of change requests in most projects.
 
 Diserée Sy's article [Adapting Usability Investigations for Agile User-centered Design](http://uxpajournal.org/wp-content/uploads/pdf/agile-ucd.pdf), published in 2007, first introduces the characteristics of both the Waterfall and Agile software development methodologies, contrasts the benefits of Agile to the deficiencies of Waterfall, and then goes on to enumerate certain "adaptations to the timing, granularity, and reporting used for Agile interactive usability investigations, with an intended audience of usability practitioners."
 
-In other words, Waterfall leads to the creation of isolated discipline silos where deliverables are implemented and then handed off to others without there being anywhere near enough cross-collaboration or feedback. Agile is an improvement over Waterfall since the abyss separating requirements gathering from testing is shorter and since the mini-cycles lend themselves to more testing and feedback taking place. This can be seen in the following diagram from the article:
+In other words, Agile is an improvement over Waterfall since the abyss separating requirements gathering from testing is shorter and since the mini-cycles allow for more testing and feedback. This can be seen in the following diagram from the article:
 
-<< waterfall and agile diagram >>
+![Waterfall and Agile](files/sy-waterfall-agile.png)
 
 The problem raised for the work of the User Experience Team and Graphic design in general, is that with Agile the cycles gave ... little ... time
 
@@ -58,6 +58,7 @@ The problem raised for the work of the User Experience Team and Graphic design i
 The solution was to bifurcate UX and Development so that a Cycle 0 (req gather initial meeting) and staggered sprints gave better timing ... so the user experience team could work iteratively and incrementally also. The following diagram from the article shows this:
 
 << cycle 0 and staggered sprints diagram >>
+![Cycle 0 with Staggered Sprints](files/sy-miller-staggered-sprints.jpg)
 
 ### Achieving a still better process with Lean UX and Design + Dev
 
