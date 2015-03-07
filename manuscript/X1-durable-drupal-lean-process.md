@@ -423,15 +423,56 @@ Every team member will need at least:
 
 Let's examine three possible solutions, at least:
 
-* Rolling our own (OMG)
+* Rolling our own (the idea was to keep it simple...)
 * Kalabox 2 dev environment and tools with, say, Pantheon
 * Platform.sh cloud plus local continuous integration environment
 
+### Everything in code with features demo
+
+Example workflow:
+
+~~The demo starts at minute 14:35 of the demo video (no good in Spanish!)~~
+
+* We change the default theme and change the Site Name
+* We create a feature
+* We specify elements to include
+* We create the feature and save it to the file system
+* We enable the feature, moving the configuration of the selected elements to code
+* We change the theme and the site name
+* We see the feature is overriden (database is overriding code because of the changes)
+* We "revert" the feature (force the database to adapt to the code)
+
 ## DevOps, Server Provisioning, Continuous Build and Deployment {#appendix01-devops-ci}
 
+### Resources for Server Provisioning and Deployment
+
+In this short presentation we really wanted to emphasize the practical use of Lean, Lean UX and Lean DevOps. But here is a short list of the many available resources for the all important question of server provisioning and deployment automation for frequent and continuous build approaches. Without this, team paralysis, delays and workflow blowup will haunt us as the handoff monster rears its ugly default waterfall head.
+
+
+### Resources for Server Provisioning and Deployment
+* [Jeff Geerling's book Ansible for DevOps: Server Configuration Management for humans](https://leanpub.com/ansible-for-devops)
+  * [GitHub Repo for the book (very actively kept up-to-date)](https://github.com/geerlingguy/ansible-for-devops)
+  * [Jeff's Austin DrupalCon presentation DevOps for Humans - Ansible for Drupal Deployment Victory!](https://austin2014.drupal.org/session/devops-humans-ansible-drupal-deployment-victory.html)
+    * [Slides](http://www.slideshare.net/geerlingguy/devops-for-humans-ansible-for-drupal-deployment-victory)
+  
+* DigitalOcean tutorial [How To Create an Ansible Playbook To Automate Drupal Installation on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-create-an-ansible-playbook-to-automate-drupal-installation-on-ubuntu-14-04)
 
 ## User Validation {#appendix01-user-validation}
 
+### Maximum 5 days until next User Validation
+
+<p class="text-center">
+![Gothelf Lean + Scrum](images/gothelf-lean-plus-scrum.jpg)
+</p>
+
+### Levels of Validation
+
+* Unit tests and integration tests must be written by developer and run as part of automated frequent or continuous delivery
+* Problem statement(s) validated by getting out of the building!
+* Personas must be posited as proto-personas and validated and developed by... Getting out of the building
+* User stories are validated via built in acceptance test (Given, When, Then)
+* Hypotheses can only be run by testing users with the MVP
+  * That's what the MVP is for
 
 ## Bibliography {#appendix01-bibliography}
 
