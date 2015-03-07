@@ -273,13 +273,159 @@ The Product Owner ideally comes from the client's organization, is responsible f
 
 ### Prototype for Kickoff Starting Point?
 
-In the absence of any legacy site, a simple prototype might be worthwhile for the first team meeting, at Kickoff.
+In the absence of any legacy site, a simple prototype might be worthwhile for the first team meeting, at Kickoff. As a kind of discovery exercise.
 
 ## Team Kickoff {#appendix01-team-kickoff}
+
+![Gothelf Lean + Scrum](images/gothelf-lean-plus-scrum.jpg)
+
+* Every sprint has a kickoff, not just the first
+* Everyone participates
+* Domain experts are invited where needed
+* May last a few hours or a week, whatever it takes
+
+
+### What goes on at the Kickoff
+
+Brainstorming and validation exercises which will enable the team to define a minimum viable product (MVP) as a set of user stories constituting the current backlog.
+
+* Problems, Assumptions, Hypotheses
+* Collaborative Design and Prototype towards Initial MVP
+* MVP is the minimum release of the product capable of testing the hypotheses
+* Once the MVP is defined, a subsequent Iteration Planning Meeting defines user story backlog
+
+
+### Problems, Assumptions, Hypotheses
+
+* Clarify problem statements
+* List assumptions gleaned from the problem statements
+* Prioritize assumptions in order to create hypotheses to test those assumptions
+* Personas
+* Feature brainstorming
+Note:
+"Our goal is not to create a deliverable, it’s to change something in the world — to create an outcome. We start with assumptions instead of requirements. We create and test hypotheses. We measure to see whether we’ve achieved our desired outcomes."
+
+The MVP will be the minimum running product capable of testing the hypotheses. Later iterations will break the hypotheses down into sub-hypotheses as the final testable MVP emerges. 
+
+
+### Problem Statement Template
+
+[Our service/ product] was designed to achieve [these goals]. We have observed that the product/ service isn’t meeting [these goals], which is causing [this adverse effect] to our business. How might we improve [service/ product] so that our customers are more successful based on [these measurable criteria]?
+
+
+### Problem Statement Example
+
+Our service offers a conduit between job seekers and employers trying to hire them. Through our service, employers can reach out to job seekers in our ecosystem with employment opportunities. We have observed that one critical factor affecting customer satisfaction is how frequently job seekers respond to employer messages. Currently, job seekers are replying to these communications at a very low rate. How might we improve the efficacy of our communication products, thus making employers more successful in their jobs and job seekers more satisfied with our service?
+
+
+### Hypothesis template
+
+We believe [this statement is true]. We will know we’re [right/ wrong] when we see the following feedback from the market: [qualitative feedback] and/ or [quantitative feedback] and/ or [key performance indicator change].
+
+
+### Hypothesis example
+
+We believe that creating an efficient communication system within TheLadders’ product experience for recruiters and employers will achieve a higher rate of contact success and an increase in product satisfaction. We will know this is true when we see an increase in the number of replies from job seekers to recruiter contacts and an increase in the number of messages initiated by recruiters in our system.
+
+
+### Sub-hypothesis template
+
+We believe that [doing this/ building this feature/ creating this experience] for [these people/ personas] will achieve [this outcome]. We will know this is true when we see [this market feedback, quantitative measure, or qualitative insight].
+
+The prioritized list of sub-hypotheses consitutes one of the most important results of the kickoff.
+
+
+### Personas
+
+ * Atavar or sketch, name, age, city, occupation, etc.
+ * Behavorial demographic information
+   * Marital status, Number of children, their ages, Working conditions, Leisure time, lifestyle, etc.
+ * Pain points and needs
+ * Potential solutions
+ 
+Create Proto-personas, research this in the field to validate and develop. To do this research we need to "get out of the building" ([Steve Blank](http://steveblank.com/2010/03/11/teaching-entrepreneurship-%E2%80%93-by-getting-out-of-the-building/)) to test the problem statement and associated assumptions. Why take advice from an entreupeneur coach?
+
+**Because every project is a start-up**!
+
+
+### Feature brainstorming
+
+Once we have personas with real problems that have been (ideally) researched and validated, we can brainstorm on features that will drive customer behavior towards the desired outcomes. We brainstorm and  create a list (stick them all up on the wall and then prioritize them).
+
+**Features will be the basis for themes** (focused sets of sprints or work in progress on the basis of plenty of time for designer creativity and cross-collaboration).
+
+
+### Collaborative Design and Prototype towards Initial MVP
+
+#### Why and what
+
+* Everybody gets to design together
+* Low fidelity sketches and artifacts increase collaboration
+* Methods such as group design studio build a shared understanding of features across the team
+
+#### Methods and techniques
+
+* Collective design studio
+* Style guides and pattern libraries
+* Special techniques for remote distributed teams
+
+
+### Iteration Planning Meeting
+
+The classic meeting using everything we've gathered together so far to write user stories (together) and specify the iteration backlog.
+
+
+### User story template
+
+Influenced by [A framework for modern User Stories by @jonatisokon](https://medium.com/@jonatisokon/a-framework-for-user-stories-bc3dc323eca9).
+
+**Classic format**
+
+As a [persona, user] I want to [perform action] so that [achievable goal].
+
+**User validation test addendum**
+
+Given that I'm [performing action] ... 
+When [point of observation]
+Then [observable result]
+
+
+### User story example
+
+As a writer I want to save my story so that it can be critiqued.
+
+Given that I have saved my story
+When I tap the save icon to save my story
+Then saved to my stories and visible to fellow workshop members
+
+
+
+
+
 
 
 ## Development Workflow and Everything in (Versioned) Code {#appendix01-dev-workflow}
 
+By the time the user stories are written for the current backlog, the whole team has been "kicked off" on each of them. A short excerpt from Gothelf shows what collective development is like as the team works to complete the backlog:
+
+> It’s Tuesday and Rick, Mark, Olga, and Arti are standing at the whiteboard , looking at a wireframe that they’ve drawn. Arti has a marker in her hand, but she’s not drawing. “Rick, I don’t understand what you’re driving at. Can you explain the problem?” Rick takes the marker, wipes clear a section of the board, and explains the regulation again. The team is designing an app for stock traders, and the app has to obey a strict set of regulations. Rick, the business analyst, is responsible for making sure that the team’s designs support the rules. After a while, the team is nodding, and Arti takes the marker again. She suggests a change to the wireframe design of the app on the board and the team nods again. They all take out their iPhones, take photos of the board, and agree to reconvene the next day. They’re confident that what they’ve agreed on will be ready for user testing on Thursday. Arti, the designer, goes back to her desk to start detailing the design they’ve sketched. Mark, the front-end developer, starts building the page — he uses premade components from the living style guide the team has put in place, so he doesn’t need to wait for Arti before getting the basic pieces in place. Rick opens the project’s wiki and begins to document the decisions the team has made about the application behavior. He’ll review these choices with the product owner later in the day. And Olga, the QA tester, begins the process of writing tests for the new section of the app. (*Gothelf, Jeff (2013-02-22). Lean UX: Applying Lean Principles to Improve User Experience*)
+
+"This is the day-to-day rhythm of Lean UX: a team working collaboratively, iteratively, and in parallel, with few handoffs, minimal deliverables, and a focus on working software and market feedback."
+
+With the process flowing smoothly, there's nothing to stop us in our Development Workflow. Let's drill down to how this actually works. 
+
+Every team member will need at least:
+
+* Their own working environment as close to target production characteristics as possible
+* Gitflow (distributed version control branching model) for all!
+* Continuous integration (automated and managed commits, testing and deploy to the integration dev server instance)
+* Special workflow for framework idiosyncracies: for example, an "everything in code" strategy for Drupal Development, a SASS environment for Drupal and/or full-stack theming.
+
+Let's examine three possible solutions, at least:
+
+* Rolling our own (OMG)
+* Kalabox 2 dev environment and tools with, say, Pantheon
+* Platform.sh cloud plus local continuous integration environment
 
 ## DevOps, Server Provisioning, Continuous Build and Deployment {#appendix01-devops-ci}
 
