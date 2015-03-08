@@ -460,6 +460,18 @@ In this short presentation we really wanted to emphasize the practical use of Le
 
 ## Continuous Integration and Continuous Delivery {#appendix01-ci-cd}
 
+For true team cross-collaboration to exist we'd better have enough feedback on changes to the codebase and on deployment to environments. And that includes automated feedback. In a nutshell we are actually talking about ALM: Application Lifecycle Management.
+
+These may be evolving terms, but if we're using them (and we are) we'd better get them straight. Bryan Root makes [a good distinction](http://blog.nwcadence.com/continuousintegration-continuousdelivery/):
+
+> "So what is CI?  In short, it is an integration of code into a known or working code base.... The top benefits are to provide fast feed back to the members of the team and to ensure any new changes don’t break the working branch."
+>
+> "CD... is an automated process to deliver a software package to a environment.... we can now extend the fast feedback loops and reduction of constraints with packaging techniques, automation workflows, and integrated tools that keep track of the software versions in different environments."
+>
+> " CI and CD are two completely separated practices that are tightly interlocked to create a unified ALM workflow."
+
+So, it's not just tools, the question is for the following feedback to be available: on the one hand, build and automated test results, and on the other, application status upon deployments of new features to environments (i.e., development/integration, staging, live). 
+
 ## User Validation {#appendix01-user-validation}
 
 ### Maximum 5 days until next User Validation
