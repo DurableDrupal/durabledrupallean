@@ -24,7 +24,8 @@ In order to gain this insight, as we work through this book we will be needing t
 * [Project Inception and Vision](appendix01-inception)
 * [Team Kickoff](appendix01-team-kickoff)
 * [Development Workflow with Everything in Code](#appendix01-dev-workflow)
-* [DevOps, Server Provisioning and Deployment](#appendix01-devops-ci)
+* [DevOps](#appendix01-devops)
+* [Continuous Integration and Continuous Delivery](#appendix01-ci-cd)
 * [User Validation](#appendix01-user-validation)
 * [Bibliography and Resources](#appendix01-bibliography)
 
@@ -442,7 +443,7 @@ Example workflow:
 * We see the feature is overriden (database is overriding code because of the changes)
 * We "revert" the feature (force the database to adapt to the code)
 
-## DevOps, Server Provisioning, Continuous Build and Deployment {#appendix01-devops-ci}
+## DevOps {#appendix01-devops}
 
 ### Resources for Server Provisioning and Deployment
 
@@ -456,6 +457,8 @@ In this short presentation we really wanted to emphasize the practical use of Le
     * [Slides](http://www.slideshare.net/geerlingguy/devops-for-humans-ansible-for-drupal-deployment-victory)
   
 * DigitalOcean tutorial [How To Create an Ansible Playbook To Automate Drupal Installation on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-create-an-ansible-playbook-to-automate-drupal-installation-on-ubuntu-14-04)
+
+## Continuous Integration and Continuous Delivery {#appendix01-ci-cd}
 
 ## User Validation {#appendix01-user-validation}
 
