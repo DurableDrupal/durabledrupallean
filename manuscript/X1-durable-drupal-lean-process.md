@@ -370,6 +370,11 @@ Once we have personas with real problems that have been (ideally) researched and
 * Style guides and pattern libraries
 * Special techniques for remote distributed teams
 
+A big proponent of style guides in the Drupal Community, including setting up automated style guides, is [John Albin](https://www.drupal.org/u/johnalbin). See for example [Style Guide Driven Development](https://melbourne2015.drupal.org.au/session/style-guide-driven-development):
+
+> "We suck at what we do. We know the websites we build need excellent front-end performance, full accessibility, compelling designs, and reusable parts. We learn. We plan. We build. We make a mad scramble to finish on time and deliver a product that falls short of what we know we could have achieved. Every. Single. Time."
+>
+> "And it turns out integrating agile development with web development is actually very simple. It's called *style-guide-driven development*." 
 
 ### Iteration Planning Meeting
 
@@ -508,6 +513,8 @@ So, it's not just tools, the question is for the following feedback to be availa
 
 * [Lean UX - Applying Lean principles to Improve User Experience by Jeff Gothelf and Josh Seiden](http://www.jeffgothelf.com/blog/lean-ux-book/#sthash.22gOyp12.dpbs)
 * [UX for Lean Startups: Faster, Smarter User Experience Research and Design by Laura Klein](http://www.amazon.com/UX-Lean-Startups-Experience-Research/dp/1449334911)
+* A big proponent of style guides in the Drupal Community, including setting up automated style guides, is [John Albin](https://www.drupal.org/u/johnalbin). See for example [Style Guide Driven Development](https://melbourne2015.drupal.org.au/session/style-guide-driven-development):
+  * Automated style sheet guide [KSS-node](github.com/kss-node/kss-node)
 
 ### Kanban
 
