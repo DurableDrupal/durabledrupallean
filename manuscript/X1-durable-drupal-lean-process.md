@@ -17,6 +17,8 @@ DurableDrupal Lean is a process factory, providing reusable tools and methods fo
 * For a team or team of teams.
   * We are talking continuous improvement in your organization, whether it's a one man shop (still a team!), an agency or company department with a single team, or a team of teams (we never want to work on a scale bigger than a team when we focus on work in progress). We are talking everyone face to face in a single building, or a world-wide distributed team or team of teams. 
   * We are talking continuous improvement in the organization as curated evolution of process and tools. Delivered and tested feature retrospectives keep the best for re-use, look for better ways, extend lessons learned to other teams.
+* Defeating waterfall
+  * Great success comes from great failures. Even the failures may have looked like a good idea at the time. But we want to prevent failure and encourage success. We really want to be able to deliver the best we have. So we must learn to fit productively with the process and evolve that process.
 * Guaranteeing delivered value
   * Because code can no longer be implemented on the basis of "functional requirements". Code's sole purpose in living is to be able to test a hypothesis envisioning value to be obtained by the client as a result of its existence. Code should be designed as such, and tested as such. Becuase neither is it enough to test code and be satisfied that it works as advertised in order to consider a job of work completed. The functionality designed to give value must be tested to make sure it actually delivers that expected value to the client. This is at the core of Lean and we'll be sure to drill down here.
 
