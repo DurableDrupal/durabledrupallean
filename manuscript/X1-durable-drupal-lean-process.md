@@ -2,18 +2,21 @@
 
 DurableDrupal Lean is a process factory, providing reusable tools and methods for a team or team of teams within an organization, with the firm purpose of defeating waterfall and guaranteeing delivered value. 
 
-Now, that's a mighty set of phrases right there. If we understood that sentence and knew how to use it on a daily basis, we could end this right now and go have a beer. Well, let's read on. And then go have a beer. For now, let's hunker down and do what we always do when we want to learn something: deconstruct it, that is, take it apart; and then synthesize our own process by putting it back together again, both abstractly, and then as we work through this book, in actual practice.
-
 * A process factory
   * Because we don't want to take a rigid scheme and mechanically force ourselves to go through motions that may or may not have anything to do with who we are or what we are trying to accomplish. We want to learn how to create, recreate, evolve and maintain our own process, on every team in our organization, for every different kind of project.
 * DurableDrupal Lean
-  * We must be in the habit of using upstream Drupal distributions in our organization. In this book we are providing one, [DurableDistro](https://github.com/DurableDrupal/durable-drupal-distro), along with an Ansible playbook to easily provision it with Vagrant. W think it will give you a great head start and it can be easily curated as needed; and we also list [a lot of the most useful ones out there](#appendix-02-distributions) which you can use for many specialized purposes right off the shelf. The question as always is to stand on the shoulders of giants.
+  * We must be in the habit of using upstream Drupal distributions in our organization instead of always starting from scratch. In this book we are providing one, [DurableDistro](https://github.com/DurableDrupal/durable-drupal-distro), along with an Ansible playbook to easily provision it with Vagrant. We think it will give you a great head start and it can be easily curated as needed; and we also list [a lot of the most useful ones out there](#appendix-02-distributions) which you can use for many specialized purposes right off the shelf. The question as always is to stand on the shoulders of giants.
   * Lean: Agile is the new Waterfall. We need Lean, and we want you to know what this software development process is all about and why it should be important to you.
   * See below for explanation of what is Waterfall, Agile, Lean, etc.
 * Reusable tools and methods
-  * We want to review them here. Later on you will make your own. We want to keep it down to a dull roar though, in order to avoid top heavy, documentation laden wastes of time.
+  * There are various communication methods explained here, like design studio and kickoff meetings. Later on you will make your own. We want to keep it down to a dull roar though, in order to avoid top heavy, documentation laden wastes of time.
+  * Lean UX problem statement and hypotheses templates.
+  * Automated provisioning using Vagrant, VirtualBox and Ansible
+  * Continuous integration adding Jenkins into the mix
+  * Continuous delivery to staging and live environments
 * For a team or team of teams.
   * We are talking continuous improvement in your organization, whether it's a one man shop (still a team!), an agency or company department with a single team, or a team of teams (we never want to work on a scale bigger than a team when we focus on work in progress). We are talking everyone face to face in a single building, or a world-wide distributed team or team of teams. 
+  * We are talking continuous improvement in the organization as curated evolution of process and tools. Delivered and tested feature retrospectives keep the best for re-use, look for better ways, extend lessons learned to other teams.
 * Guaranteeing delivered value
   * Because code can no longer be implemented on the basis of "functional requirements". Code's sole purpose in living is to be able to test a hypothesis envisioning value to be obtained by the client as a result of its existence. Code should be designed as such, and tested as such. Becuase neither is it enough to test code and be satisfied that it works as advertised in order to consider a job of work completed. The functionality designed to give value must be tested to make sure it actually delivers that expected value to the client. This is at the core of Lean and we'll be sure to drill down here.
 
