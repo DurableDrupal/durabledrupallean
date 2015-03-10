@@ -596,3 +596,12 @@ Deane Barker
 * [The Core Model: Designing Inside Out for Better Results by Ida Aalen](http://alistapart.com/article/the-core-model-designing-inside-out-for-better-results)
   * [The Core Model: Links and Resources](http://alistapart.com/blog/post/the-core-model-links-and-resources)
  
+### PHP Renaissance
+
+* [Downlowd current stable PHP](http://php.net/downloads.php)
+* [PHP The Right Way](http://www.phptherightway.com/)
+  * [Free book](https://leanpub.com/phptherightway)
+* [PHP must watch resource list](https://github.com/phptodayorg/php-must-watch) 
+* [Modern PHP](https://github.com/codeguy/modern-php)
+* [Modern Application Development with PHP](https://leanpub.com/modern-application-development-with-php)
+* [No framework tutorial](https://github.com/PatrickLouys/no-framework-tutorial)
