@@ -440,9 +440,11 @@ Let's examine three possible solutions, at least:
 
 ### Everything in code with features demo
 
+Drupal by default keeps all its configuration setup interactively in the admin pages as persisted values in the same database where the content is stored. In order to work as a team in development, that is, in order to commit modifications or work completed asynchronously without destroying work commited by others, or content entered by content editors, it is necessary to use a distributed version control repository, as demanded by software development best practices.
+
 Example workflow:
 
-~~The demo starts at minute 14:35 of the demo video (no good in Spanish!)~~
+~~Video: The demo starts at minute 14:35 of the demo video (no good in Spanish!)~~
 
 * We change the default theme and change the Site Name
 * We create a feature
