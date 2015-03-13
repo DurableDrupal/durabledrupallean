@@ -44,6 +44,8 @@ We need process to avoid wasting time, money and resources. To avoid failing. Ag
 
 The much criticized [Waterfall Model](http://en.wikipedia.org/wiki/Waterfall_model) is a sequential process for software development "in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of Conception, Initiation, Analysis, Design, Construction, Testing, Production/Implementation and Maintenance." Each phase corresponds to an autonomous silo which receives its input from the previous silo and performs additional work according to its particular discipline. So outputs are handed off in sequence from one discipline "silo" to another. It is no accident that this method, which at least raised software development from the level of artesanal improvisation to that of engineering, had its origins in the highly structured manufacturing and construction industries.
 
+But in the eighties a study carried out by the US Air Force (Development of an Environment for Software Reliability - http://www.dtic.mil/cgi-bin/GetTRDoc?Location=U2&doc=GetTRDoc.pdf&AD=ADA256609) discovered that the use of the Waterfall model results in a very high rate of project failure.
+
 [Agile software development methodologies](http://en.wikipedia.org/wiki/Agile_software_development), on the other hand, favor an iterative and incremental approach due to the following shortcomings evidenced by the Waterfall Model:
 
 * A minimum of 40% in change requests take place during project life-cycle, making it impossible for each discipline to  complete its work and then hand-off a perfect output to the next discipline in line: discipline silos having already "finished" their work will have to do it all over again to comply with those changes, and the impact may vary widely. For example, the design and even the candidate architecture may have to be completely re-done.
@@ -53,9 +55,13 @@ The much criticized [Waterfall Model](http://en.wikipedia.org/wiki/Waterfall_mod
 
 Diserée Sy's article [Adapting Usability Investigations for Agile User-centered Design](http://uxpajournal.org/wp-content/uploads/pdf/agile-ucd.pdf), published in 2007, first introduces the characteristics of both the Waterfall and Agile software development methodologies, contrasts the benefits of Agile to the deficiencies of Waterfall, and then goes on to enumerate certain "adaptations to the timing, granularity, and reporting used for Agile interactive usability investigations, with an intended audience of usability practitioners."
 
-In other words, Agile is an improvement over Waterfall since the abyss separating requirements gathering from testing is shorter and since the mini-cycles allow for more cross-collaboration, testing and feedback. This can be seen in the following diagram from the article:
+The [Rational Unified Process](http://en.wikipedia.org/wiki/Rational_Unified_Process) (más tarde comprado por IBM) first, and [Agile](http://en.wikipedia.org/wiki/Agile_software_development) later on, as seen in the diagram below taken from the 2007 Desirée Sy article, replace the waterfall with a sequence of mini-waterfalls, which at least offer more feedback before each more frequent delivery.
+
+Agile is an improvement over Waterfall since the abyss separating requirements gathering from testing is shorter and since the mini-cycles allow for more cross-collaboration, testing and feedback. This can be seen in the following diagram from the article:
 
 ![Waterfall and Agile](images/sy-waterfall-agile.png)
+
+(Note: This author signed, in mid-2006, the [Agile Manifesto](http://www.agilemanifesto.org/) que este autor firmó [en mediados de 2006](http://www.agilemanifesto.org/sign/display.cgi?ms=000000067)).
 
 > "However, this meant that we needed to find a way to conduct usability tests, interviews, and contextual inquiry—both in the lab and the field—within an Agile framework. To achieve this, we adjusted the timing and granularity of these investigations, and the way that we reported our usability findings. This paper describes our main adaptations." 
 > 
@@ -95,17 +101,17 @@ DurableDrupal Lean adds DevOps into the mix. Just as it is critical for cross-co
 
 ### Waste that is eliminated by using DurableDrupal Lean
 
-Waste is of course, the opposite of value. Possible causes of waste in software development:
+Waste is of course, the opposite of value. When Agile and Lean processes are absent in a project the probability of it occurring is very high. Possible causes of waste in software development: 
 
-* Unfinished work left rotting in isolated silos
-* Feature creep without validating for impact or value
-* Isolated silos keep on re-inventing the wheel
-* Handoffs chronically disrupts workflow
-* Delays because isolated silos and teams missing skills
-* Task switching because work overload and broken workflow
-* Mucho defect because chaotic focus and blocked knowledge sharing
+1 Unfinished work left rotting in isolated silos This can occur as a result of incomplete stories having been prioritized, of technical complexity that was not analyzed correctly during planning, postponed tasks blocking progress with a story, unavailable dependencies, or making developers leave an unfinished story and start another one.
+1 Feature creep without validating for impact or value. This will always happen unless it is combated; sometimes the developers "gold-plate" the backlog with things no-one even needs.
+1 Isolated silos keep on re-inventing the wheel due to a lack of proper knowledge-sharing among members of the team or teams.
+1 Handoffs chronically disrupts workflow
+1 Delays because isolated silos and teams missing skills
+1 Task switching because work overload and broken workflow
+1 Many defects also arise as a result of chaotic focus and blocked knowledge sharing
 
-See also [How to Manage the "7 Wastes" of Agile Software Development](https://www.scrumalliance.org/community/articles/2013/september/how-to-manage-the-7-wastes%E2%80%9D-of-agile-software-deve).
+See [How to Manage the "7 Wastes" of Agile Software Development](https://www.scrumalliance.org/community/articles/2013/september/how-to-manage-the-7-wastes%E2%80%9D-of-agile-software-deve).
 
 ## Kanban (not Scrum) {#appendix01-kanban}
 
