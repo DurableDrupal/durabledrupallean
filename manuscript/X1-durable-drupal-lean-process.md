@@ -103,13 +103,13 @@ DurableDrupal Lean adds DevOps into the mix. Just as it is critical for cross-co
 
 Waste is of course, the opposite of value. When Agile and Lean processes are absent in a project the probability of it occurring is very high. Possible causes of waste in software development: 
 
-1 Unfinished work left rotting in isolated silos This can occur as a result of incomplete stories having been prioritized, of technical complexity that was not analyzed correctly during planning, postponed tasks blocking progress with a story, unavailable dependencies, or making developers leave an unfinished story and start another one.
-1 Feature creep without validating for impact or value. This will always happen unless it is combated; sometimes the developers "gold-plate" the backlog with things no-one even needs.
-1 Isolated silos keep on re-inventing the wheel due to a lack of proper knowledge-sharing among members of the team or teams.
-1 Handoffs chronically disrupts workflow
-1 Delays because isolated silos and teams missing skills
-1 Task switching because work overload and broken workflow
-1 Many defects also arise as a result of chaotic focus and blocked knowledge sharing
+1. Unfinished work left rotting in isolated silos This can occur as a result of incomplete stories having been prioritized, of technical complexity that was not analyzed correctly during planning, postponed tasks blocking progress with a story, unavailable dependencies, or making developers leave an unfinished story and start another one.
+1. Feature creep without validating for impact or value. This will always happen unless it is combated; sometimes the developers "gold-plate" the backlog with things no-one even needs.
+1. Isolated silos keep on re-inventing the wheel due to a lack of proper knowledge-sharing among members of the team or teams.
+1. Handoffs chronically disrupts workflow
+1. Delays because isolated silos and teams missing skills
+1. Task switching because work overload and broken workflow
+1. Many defects also arise as a result of chaotic focus and blocked knowledge sharing
 
 See [How to Manage the "7 Wastes" of Agile Software Development](https://www.scrumalliance.org/community/articles/2013/september/how-to-manage-the-7-wastes%E2%80%9D-of-agile-software-deve).
 
