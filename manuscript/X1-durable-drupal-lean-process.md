@@ -300,30 +300,32 @@ In the absence of any legacy site, a simple prototype might be worthwhile for th
 * Domain experts are invited where needed
 * May last a few hours or a week, whatever it takes
 
-
 ### What goes on at the Kickoff
 
-The Kickoff is not the planning meeting, which immediately follows it. It creates the conditions necessary for the planning meeting, so that there is something to plan.
+The Kickoff is not the planning meeting, which immediately follows it. It creates the raw material and conditions required by the planning meeting, so that there will be something to plan. It consists of brainstorming and validation exercises which will enable the team to define a minimum viable product (MVP) as a set of hypotheses based on the clarification of project problem statements and their underlying assumptions. It's about validating that there exists a Problem that really affects a segment of the Market to the extent they are willing to pay for a Product that effectively solves it:
 
-Brainstorming and validation exercises which will enable the team to define a minimum viable product (MVP) as a set of user stories constituting the current backlog.
+* Defining and validating the pain points that constitute the Problem
+* Defining the global Assumptions enclosed in our best and clearest statement of the Problem
+* Drilling down into the Assumptions to formulate Hypotheses which will allow us to experiment with aspects of the Product, our envisioned solution to the Problem, to see if they validate the expected Outcomes
+* Drilling down into the segment of the Market experiencing the Problem and willing to pay for the Product by validating the Personas constituting that Market
+* Clarifying the list of Features afforded by a new Product, or by changes or improvements to an existing Product capable of driving the measureable Outcomes we are seeking
+* Sharing Collaborative Design sessions and maybe even trying out some initial prototypes, with the aim of visualizing an initial MVP
+* Understanding the MVP as that minimum release of the product capable of testing the clarified Hypotheses
+* Doing everything we can to get ready for the subsequent Iteration Planning Meeting in which the user story backlog will be defined
 
-* Problems, Assumptions, Hypotheses
-* Collaborative Design and Prototype towards Initial MVP
-* MVP is the minimum release of the product capable of testing the hypotheses
-* Once the MVP is defined, a subsequent Iteration Planning Meeting defines user story backlog
+> We are radically shifting " the way we frame our work. Our goal is not to create a deliverable, it’s to change something in the world — to create an outcome. We start with assumptions instead of requirements. We create and test hypotheses. We measure to see whether we’ve achieved our desired outcomes." 
 
+Let's drill down into the Kickoff process and see how everything fits together and actually prepares for the planning session, where the user stories capable of implementing our Features will find expression.
 
 ### Problems, Assumptions, Hypotheses
 
-* Clarify problem statements
-* List assumptions gleaned from the problem statements
-* Prioritize assumptions in order to create hypotheses to test those assumptions
-* Personas
-* Feature brainstorming
-Note:
-"Our goal is not to create a deliverable, it’s to change something in the world — to create an outcome. We start with assumptions instead of requirements. We create and test hypotheses. We measure to see whether we’ve achieved our desired outcomes."
+* We want to clarify problem statements that have given rise to the project in the first place
+* We want to list the assumptions underlying those problem statements
+* We then want to prioritize those assumptions in order to create hypotheses capable of testing them
+* We want to define Personas as we see how Problem, Market and Product relate to each other in our particular case
+* Feature brainstorming, the basis for our future "themes"
 
-The MVP will be the minimum running product capable of testing the hypotheses. Later iterations will break the hypotheses down into sub-hypotheses as the final testable MVP emerges. 
+The MVP will be the minimum running product capable of testing the hypotheses and more detailed sub-hypotheses. Later iterations will break the hypotheses down into sub-hypotheses as the final testable MVP emerges. 
 
 
 ### Problem Statement Template
