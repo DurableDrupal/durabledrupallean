@@ -117,11 +117,11 @@ See [How to Manage the "7 Wastes" of Agile Software Development](https://www.scr
 
 ![Figure 1 from Chapter 1. Empty Kanban Board for New Project](images/c1_01.jpg)
 
-The great thing about Kanban is that it does away with the arbitrary pre-estimated "sprints" one finds when using Scrum, designed to force the delivery of a "complete" mini-release. Rather it is a continuous flow process. Core jobs of work seeking a particular outcome are implemented one at a time in cross-collaboration, and their associated cards pass through various states (represented by columns) in the process. At the start all issues are placed in the New column (state). Then these are prioritized and a number of them are placed in the limited backlog "To Do" column.
+The great thing about Kanban is that it does away with the arbitrary pre-estimated "sprints" one finds when using Scrum, designed to force the delivery of a "complete" mini-release. Rather it is a continuous flow process. Core jobs of work seeking a particular outcome are implemented in cross-collaboration, and their associated cards pass through various states (represented by columns) in the process. At the start all issues are placed in the New column (state). Then these are prioritized and a number of them are placed in the limited backlog "To Do" column.
 
 ![Figure 2 from Chapter 1. Kanban Board for initial prototype](images/c1_02.jpg)
 
-Then, when team members work on a job, it is placed in the "In Progress" or "Doing" column. This column is also limited in the number of issues it can contain. The reason for these constraints is key to why Kanban is different: it champions focus and prohibits people working on too many things at the same time. This is called a Work in Progress (WIP) limit, and it replaces the constraint of the sprint cycle length and time frame restrictions found in Scrum. In this way, Kanban frees us from waterfall-like mini-release "estimates". So while there are no sprints, only a continuous flow of jobs of work being delivered for outcome value testing, the WIP limit, seen in parenthesis in the To Do and In Progress column titles, seeks to optimize productivity without overload. The actual number is calculated by taking into account team size and velocity, and is adjusted for maximum productivity without overloading the team as the project matures. We limit the To Do column and the Doing column to 4 (number of separate disciplines being worked on with semi-paired programming).
+Then, when team members work on a job, it is placed in the "In Progress" or "Doing" column. This column is also limited in the number of issues it can contain. The reason for these constraints is key to why Kanban is different: it champions focus and prohibits people working on too many things at the same time. This is called a Work in Progress (WIP) limit, and it replaces the constraint of the sprint cycle length and time frame restrictions found in Scrum. In this way, Kanban frees us from waterfall-like mini-release "estimates". That's what makes Kanban different. While there are no sprints, instead a continuous flow of jobs of work being delivered for outcome value testing, the WIP limit, seen in parenthesis in the To Do and In Progress column titles, seeks to optimize productivity without overload. The actual number is calculated by taking into account team size and velocity, and is adjusted for maximum productivity without overloading the team as the project matures. We limit the To Do column and the Doing column to 4 (number of separate disciplines being worked on with semi-paired programming).
 
 Also see the [details given given in chapter 1 on the use of Kanban](#chapter-01-gtd).
 
@@ -160,7 +160,7 @@ The actual text is the responsibility of the Product Owner but will be done in c
 
 ### Vision text template
 
-A template for the Vision text may be downloaded on the DurableDrupal site.
+A template for the Vision text may be downloaded from the DurableDrupal site.
 
 The Vision text helps to get the ball rolling at the Team Kickoff meeting because it puts forward a first stab at the project validation targets: Market, Problem and Product.
 
@@ -262,21 +262,25 @@ An example Vision text may be downloaded on the DurableDrupal site.
 * Anna (Product Owner)
 * Jake (DevOps)
 * Mark (UX)
-* Jeff (Back end)
-* Lisa (Front end)
+* Jeff (Back-end)
+* Lisa (Front-end)
 * Victor (Project Coach)
 * Sherrie (Graphic design)
 
-Team selected on the basis of our Vision. Now, rather than "10x" rockstars, we have a 10x team who get to be productive thanks to cross-collaboration, communication, focus and teamwork. If the so-called 10x developer does emerge it is by dint of working as part of a great team. 10x is a social team thing or it is nothing.
+Team selected on the basis of our Vision. Now, rather than "10x" rockstars, we have a 10x team who get to be productive thanks to cross-collaboration, communication, focus and teamwork. If the so-called 10x developer does emerge (see [the article which started using that term](http://www.newyorker.com/magazine/2014/11/24/programmers-price) it is by dint of working as part of a great team. 10x is a social team thing or it is nothing. We tend to agree more with [this article](https://codequalified.com/blog/2014/11/20/nonsense-of-10x-developers-and-github-as-a-cv/).
 
-The Product Owner ideally comes from the client's organization, is responsible for creating and defending the Project Vision. Most important member of the team. If no-one is available from the client's organization... then don't do the project! Perspectives for failure are high. Seriously. If you absolutely want to go ahead anyway, you must use a courageous and outspoken proxy.
+T> #### "There is no such thing as a 10X developer (without a 10X environment)."
+
+By front-end (everything that goes on in the client device, for example a tablet or browser) and back-end (everything connected to processes running on the server-side) we are referring to development specialists in each one of the layers involved in the [separation of concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) we strive for in order not to mix business logic, data persistence and the user interface.
+
+The Product Owner, ideally, comes from the client's organization, is responsible for creating and defending the Project Vision. Most important member of the team. If no-one is available from the client's organization... then don't do the project! Perspectives for failure are high. Seriously. If you absolutely want to go ahead anyway, you must use a courageous and outspoken proxy.
 
 ### Resources for Team Provisioning
 
 * Ansible playbook for setting up DurableDrupalDistro with Vagrant and VirtualBox locally or on server. [Video Demo](https://www.youtube.com/watch?v=ZVSGrID3g_s). 
-  * On GitHub: [ansible-vagrant-durable-drupal-distro](https://github.com/DurableDrupal/ansible-vagrant-durable-drupal-distro)
-  * On GitHub: [DurableDrupalDistro](https://github.com/DurableDrupal/durable-drupal-distro)
-* [Create a Drupal project on Pantheon and pull it down to your laptop on Kalabox](http://awebfactory.com/node/521)
+  * The Ansible playbook to easily install an working project environment on a team member's laptop or desktop, on GitHub: [ansible-vagrant-durable-drupal-distro](https://github.com/DurableDrupal/ansible-vagrant-durable-drupal-distro)
+  * The Drupal distro installed by default by the playbook, on GitHub: [DurableDrupalDistro](https://github.com/DurableDrupal/durable-drupal-distro)
+* [Create a Drupal project on Pantheon and pull it down to your laptop on Kalabox](http://awebfactory.com/node/521) (Note: this is Kalabox 1)
   * [Pantheon overview](https://pantheon.io/how-it-works) and [workflow overview](https://pantheon.io/docs/articles/sites/code/using-the-pantheon-workflow/)
 * [Setting up a local environment for a Drupal project on Platform.sh](https://docs.platform.sh/use-platform/getting-started-for-the-impatient/#how-to-set-up-your-local-drupal-development), click here for [more details](https://docs.platform.sh/use-platform/set-up-local-development/)
   * [Platform.sh overview](https://docs.platform.sh/use-platform/getting-started-for-the-impatient/) and [development workflow video](https://platform.sh/videos/2014/07/31/development-workflow/), additionally, [Environment workflow](https://docs.platform.sh/overview/platform-environments/)
@@ -298,6 +302,8 @@ In the absence of any legacy site, a simple prototype might be worthwhile for th
 
 
 ### What goes on at the Kickoff
+
+The Kickoff is not the planning meeting, which immediately follows it. It creates the conditions necessary for the planning meeting, so that there is something to plan.
 
 Brainstorming and validation exercises which will enable the team to define a minimum viable product (MVP) as a set of user stories constituting the current backlog.
 
