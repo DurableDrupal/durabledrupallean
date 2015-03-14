@@ -319,14 +319,18 @@ Let's drill down into the Kickoff process and see how everything fits together a
 
 ### Problems, Assumptions, Hypotheses
 
-* We want to clarify problem statements that have given rise to the project in the first place
-* We want to list the assumptions underlying those problem statements
-* We then want to prioritize those assumptions in order to create hypotheses capable of testing them
-* We want to define Personas as we see how Problem, Market and Product relate to each other in our particular case
-* Feature brainstorming, the basis for our future "themes"
+* We want to clarify the problem statement that has given rise to the project in the first place as much as possible
+* We want to list the assumptions underlying the problem statement at the core
+* We then want to prioritize those assumptions in order of risk. The riskiest assumptions will need to be validated first.
+* We will want to transform each assumption statement into a hypothesis statement. There are three elements to each hypothesis statement: Features, Personas, Outcomes
+  * We list all hoped for Outcomes
+  * We detail Personas as we see how Problem, Market and Product relate to each other in our particular case
+  * We itemize Features, the basis for our future "themes" unifying the team and guaranteeing cross-collaboration around variously scoped sequences of related sprints. Which features will drive customer behavior towards the outcomes being sought?
+  * Once we have Features, Personas and Outcomes we are ready to fill out an hypotheses creation table, each row having the form "We will create <this Feature> for <this Persona> in order to achieve <this Outcome>.
 
-The MVP will be the minimum running product capable of testing the hypotheses and more detailed sub-hypotheses. Later iterations will break the hypotheses down into sub-hypotheses as the final testable MVP emerges. 
+Optional tools that can help us achieve this are: the Problem Statement Template, the Business and User Assumptions Worksheet, the Personas template, the Hypotheses Creation Table, and finally the Hypothesis and sub-hypotheses templates.
 
+Remember, these are not hoops you are forced to jump through. They are proven methods for arriving at our goal of problem and market validation and preparation for the theme or sprint planning meeting. Use whatever actually helps in a given project. Check out the examples in this book and the associated workbooks.
 
 ### Problem Statement Template
 
