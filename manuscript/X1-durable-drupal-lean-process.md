@@ -1,4 +1,4 @@
-#  1. DurableDrupal Lean Process. Overview {#appendix01}
+#  1. The DurableDrupal Lean Process Itself {#appendix01}
 
 DurableDrupal Lean is a process factory, providing reusable tools and methods for a team or team of teams within an organization, with the firm purpose of defeating waterfall and guaranteeing delivered value. 
 
@@ -304,15 +304,6 @@ In the absence of any legacy site, a simple prototype might be worthwhile for th
 
 The Kickoff is not the planning meeting, which immediately follows it. It creates the raw material and conditions required by the planning meeting, so that there will be something to plan. It consists of brainstorming and validation exercises which will enable the team to define a minimum viable product (MVP) as a set of hypotheses based on the clarification of project problem statements and their underlying assumptions. It's about validating that there exists a Problem that really affects a segment of the Market to the extent they are willing to pay for a Product that effectively solves it:
 
-* Defining and validating the pain points that constitute the Problem
-* Defining the global Assumptions enclosed in our best and clearest statement of the Problem
-* Drilling down into the Assumptions to formulate Hypotheses which will allow us to experiment with aspects of the Product, our envisioned solution to the Problem, to see if they validate the expected Outcomes
-* Drilling down into the segment of the Market experiencing the Problem and willing to pay for the Product by validating the Personas constituting that Market
-* Clarifying the list of Features afforded by a new Product, or by changes or improvements to an existing Product capable of driving the measureable Outcomes we are seeking
-* Sharing Collaborative Design sessions and maybe even trying out some initial prototypes, with the aim of visualizing an initial MVP
-* Understanding the MVP as that minimum release of the product capable of testing the clarified Hypotheses
-* Doing everything we can to get ready for the subsequent Iteration Planning Meeting in which the user story backlog will be defined
-
 > We are radically shifting " the way we frame our work. Our goal is not to create a deliverable, it’s to change something in the world — to create an outcome. We start with assumptions instead of requirements. We create and test hypotheses. We measure to see whether we’ve achieved our desired outcomes." 
 
 Let's drill down into the Kickoff process and see how everything fits together and actually prepares for the planning session, where the user stories capable of implementing our Features will find expression.
@@ -320,17 +311,19 @@ Let's drill down into the Kickoff process and see how everything fits together a
 ### Problems, Assumptions, Hypotheses
 
 * We want to clarify the problem statement that has given rise to the project in the first place as much as possible
-* We want to list the assumptions underlying the problem statement at the core
+* We want to list the general assumptions underlying the problem statement at the core
 * We then want to prioritize those assumptions in order of risk. The riskiest assumptions will need to be validated first.
 * We will want to transform each assumption statement into a hypothesis statement. There are three elements to each hypothesis statement: Features, Personas, Outcomes
   * We list all hoped for Outcomes
   * We detail Personas as we see how Problem, Market and Product relate to each other in our particular case
-  * We itemize Features, the basis for our future "themes" unifying the team and guaranteeing cross-collaboration around variously scoped sequences of related sprints. Which features will drive customer behavior towards the outcomes being sought?
+  * We itemize Features. A team brainstorming mini-session is often used for this. Which features will drive customer behavior towards the outcomes being sought? Features will form the basis for future "themes" around which to unify the team in the course of variously scoped sequences of related sprints. This is a major factor for guaranteeing cross-collaboration. 
   * Once we have Features, Personas and Outcomes we are ready to fill out an hypotheses creation table, each row having the form "We will create <this Feature> for <this Persona> in order to achieve <this Outcome>.
+  
+At this point we can validate the Outcomes and the Personas by "getting out of the building" and doing research at this point. Of course, we'll have to wait for the implementation of the MVP in order to validate the product and the hypotheses.
 
-Optional tools that can help us achieve this are: the Problem Statement Template, the Business and User Assumptions Worksheet, the Personas template, the Hypotheses Creation Table, and finally the Hypothesis and sub-hypotheses templates.
+Optional tools that can help us achieve all this are: the Problem Statement Template, the Business and User Assumptions Worksheet, the Personas template, the Hypotheses Creation Table, and finally the Hypothesis and sub-hypotheses templates. They are included below in the following sections.
 
-Remember, these are not hoops you are forced to jump through. They are proven methods for arriving at our goal of problem and market validation and preparation for the theme or sprint planning meeting. Use whatever actually helps in a given project. Check out the examples in this book and the associated workbooks.
+T> Remember, these are not hoops you are forced to jump through. They are proven methods for arriving at our goal of problem and market validation and preparation for the theme or sprint planning meeting. Use whatever actually helps in a given project. Check out the examples in this book and the associated workbooks.
 
 ### Problem Statement Template
 
@@ -354,23 +347,24 @@ We believe that creating an efficient communication system within TheLadders’ 
 
 ### Sub-hypothesis template
 
+In most projects we will find ourselves breaking hypotheses down into prioritized lists of sub-hypotheses in order to be able to validate some of the more detailed product features:
+
 We believe that [doing this/ building this feature/ creating this experience] for [these people/ personas] will achieve [this outcome]. We will know this is true when we see [this market feedback, quantitative measure, or qualitative insight].
 
-The prioritized list of sub-hypotheses consitutes one of the most important results of the kickoff.
-
+The prioritized lists of sub-hypotheses consitutes one of the most important results of the kickoff and greatly facilitate planning meetings and user story backlog creation.
 
 ### Personas
 
- * Atavar or sketch, name, age, city, occupation, etc.
- * Behavorial demographic information
-   * Marital status, Number of children, their ages, Working conditions, Leisure time, lifestyle, etc.
- * Pain points and needs
- * Potential solutions
+Instead of having lengthy and costly research serve us up a list of personas never to be questioned, we whip up Proto-Personas on the basis of our Assumptions, then validate and refine them. A letter-sized sheet of paper folded into four squares, with points 1 and 2 across the top, and with 3 and 4 across the bottom is often used:
+
+ 1. Atavar or sketch, name, age, city, occupation, etc.
+ 1. Behavorial demographic information: Marital status, Number of children, their ages, Working conditions, Leisure time, lifestyle, etc.
+ 1. Pain points and needs
+ 1. Potential solutions
  
-Create Proto-personas, research this in the field to validate and develop. To do this research we need to "get out of the building" ([Steve Blank](http://steveblank.com/2010/03/11/teaching-entrepreneurship-%E2%80%93-by-getting-out-of-the-building/)) to test the problem statement and associated assumptions. Why take advice from an entreupeneur coach?
+We create Proto-personas, and interview them in the field to validate and develop further. To do this research we need to "get out of the building" ([Steve Blank](http://steveblank.com/2010/03/11/teaching-entrepreneurship-%E2%80%93-by-getting-out-of-the-building/)) to test the problem statement, associated assumptions and derived Proto-Personas. Now, why should a web application development team take advice from an entreupeneur coach?
 
-**Because every project is a start-up**!
-
+**Because every project is a start-up!**
 
 ### Feature brainstorming
 
@@ -378,8 +372,9 @@ Once we have personas with real problems that have been (ideally) researched and
 
 **Features will be the basis for themes** (focused sets of sprints or work in progress on the basis of plenty of time for designer creativity and cross-collaboration).
 
-
 ### Collaborative Design and Prototype towards Initial MVP
+
+Once we have features, we can work on design!
 
 #### Why and what
 
@@ -403,6 +398,7 @@ A big proponent of style guides in the Drupal Community, including setting up au
 
 The classic meeting using everything we've gathered together so far to write user stories (together) and specify the iteration backlog.
 
+Different teams working on different projects may be using Scrum or Kanban approaches. The former will plan by prioritizing a list of user stories to form the sprint backlog, and estimation may be included. With Kanban, velocity will be optimized by applying restrictions on the number of prioritized backlog stories to be included at any one time in the work in progress.
 
 ### User story template
 
@@ -418,7 +414,6 @@ Given that I'm [performing action] ...
 When [point of observation]
 Then [observable result]
 
-
 ### User story example
 
 As a writer I want to save my story so that it can be critiqued.
@@ -427,12 +422,6 @@ Given that I have saved my story
 When I tap the save icon to save my story
 Then saved to my stories and visible to fellow workshop members
 
-
-
-
-
-
-
 ## Development Workflow and Everything in (Versioned) Code {#appendix01-dev-workflow}
 
 By the time the user stories are written for the current backlog, the whole team has been "kicked off" on each of them. A short excerpt from Gothelf shows what collective development is like as the team works to complete the backlog:
@@ -440,6 +429,8 @@ By the time the user stories are written for the current backlog, the whole team
 > It’s Tuesday and Rick, Mark, Olga, and Arti are standing at the whiteboard , looking at a wireframe that they’ve drawn. Arti has a marker in her hand, but she’s not drawing. “Rick, I don’t understand what you’re driving at. Can you explain the problem?” Rick takes the marker, wipes clear a section of the board, and explains the regulation again. The team is designing an app for stock traders, and the app has to obey a strict set of regulations. Rick, the business analyst, is responsible for making sure that the team’s designs support the rules. After a while, the team is nodding, and Arti takes the marker again. She suggests a change to the wireframe design of the app on the board and the team nods again. They all take out their iPhones, take photos of the board, and agree to reconvene the next day. They’re confident that what they’ve agreed on will be ready for user testing on Thursday. Arti, the designer, goes back to her desk to start detailing the design they’ve sketched. Mark, the front-end developer, starts building the page — he uses premade components from the living style guide the team has put in place, so he doesn’t need to wait for Arti before getting the basic pieces in place. Rick opens the project’s wiki and begins to document the decisions the team has made about the application behavior. He’ll review these choices with the product owner later in the day. And Olga, the QA tester, begins the process of writing tests for the new section of the app. (*Gothelf, Jeff (2013-02-22). Lean UX: Applying Lean Principles to Improve User Experience*)
 
 "This is the day-to-day rhythm of Lean UX: a team working collaboratively, iteratively, and in parallel, with few handoffs, minimal deliverables, and a focus on working software and market feedback."
+
+### Provision for each Team Member
 
 With the process flowing smoothly, there's nothing to stop us in our Development Workflow. Let's drill down to how this actually works. 
 
@@ -456,7 +447,13 @@ Let's examine three possible solutions, at least:
 * Kalabox 2 dev environment and tools with, say, Pantheon
 * Platform.sh cloud plus local continuous integration environment
 
-### Everything in code with features demo
+### User story: Card, Conversation, Confirmation
+
+The user story template constitutes the Card aspect of the user story and becomes part of the prioritized backlog, as we have seen, during the iteration planning meeting. Once it is actually being worked on, Conversation will take place, and may or may not be captured in the issue tracking system being used. Confirmation refers to user story testing. This includes unit and integration testing on the code, functional acceptance testing by the product owner, as well as market performance outcome testing of the hypothesis or sub-hypothesis. It will only be when the hypothesis is validated by the user and by measurable market outcomes that the card may be moved to the Done column.
+
+### Everything in Code with features demo
+
+A team cannot effectively do Drupal CMS development without using the Everything in Code paradigm.
 
 Drupal by default keeps all its configuration setup interactively in the admin pages as persisted values in the same database where the content is stored. In order to work as a team in development, that is, in order to commit modifications or work completed asynchronously without destroying work commited by others, or content entered by content editors, it is necessary to use a distributed version control repository, as demanded by software development best practices.
 
@@ -477,8 +474,7 @@ Example workflow:
 
 ### Resources for Server Provisioning and Deployment
 
-In this short presentation we really wanted to emphasize the practical use of Lean, Lean UX and Lean DevOps. But here is a short list of the many available resources for the all important question of server provisioning and deployment automation for frequent and continuous build approaches. Without this, team paralysis, delays and workflow blowup will haunt us as the handoff monster rears its ugly default waterfall head.
-
+Here is a short list of the many available resources for the all important question of server provisioning and deployment automation for frequent and continuous build and continuous delivery approaches. Without such automation on some level team paralysis, delays and workflow blowup will haunt us as the handoff monster rears its ugly default waterfall head throughout the project.
 
 ### Resources for Server Provisioning and Deployment
 * [Jeff Geerling's book Ansible for DevOps: Server Configuration Management for humans](https://leanpub.com/ansible-for-devops)
@@ -506,9 +502,7 @@ So, it's not just tools, the question is for the following feedback to be availa
 
 ### Maximum 5 days until next User Validation
 
-<p class="text-center">
 ![Gothelf Lean + Scrum](images/gothelf-lean-plus-scrum.jpg)
-</p>
 
 ### Levels of Validation
 
