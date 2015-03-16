@@ -26,7 +26,7 @@ So here's what we'll be doing:
 
 * Chapter 2.
 
-* Appendix 1. DurableDrupal Lean Process. Overview
+* Appendix 1. DurableDrupal Lean Process Itself.
   
     We need to free ourselves from choice panic which can paralyze us or disrupt our work. Dialog is necessary to ensure that the project stakeholders (all of them) are on board with the major framework optionss. We need to have this discussion sooner rather than later in order to share a common perspective and be ready to get down to work. In order to achieve this, we will be facing some tough questions together:
     
