@@ -2,7 +2,7 @@
 
 ## Team roles
 
-Basing ourselves on [Web Style Guide by Patric J. Lynch and Sarah Horton](http://webstyleguide.com/wsg3/1-process/2-development-team.html), published a few years ago in 2009 by Yale University Press. At that point, the traditional Website development team core skillset were presented as being:
+In order to validate the disciplines that need to be represented on a web application development team, we first base ourselves on [Web Style Guide by Patric J. Lynch and Sarah Horton](http://webstyleguide.com/wsg3/1-process/2-development-team.html), published a few years ago in 2009 by Yale University Press. At that point, the traditional Website development team core skillset were presented as being:
 
 * Strategy and planning
 * Project management
