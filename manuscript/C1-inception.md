@@ -2,10 +2,6 @@
 
 We are diving right into a real world project, the Durable Drupal Website, in order to demonstrate DurableDrupal Lean. 
 
-T> ## An overview of DurableDrupal Lean is available if you prefer to see that before diving in.
-T>
-T> Sometimes books should be read backwards! We invite you to jump over to the [DurableDrupal Lean Process Overview - Appendix 1](#appendix01). We didn't want to force you to read that first, but it's there, either as an overview now, or later as a handy reference, guide and resource center.
-
 So just where do we dive in? Where does inception live in any project?
 
 ## Project Inception lives in the Vision and preparation for the Team Project Kickoff 
@@ -26,13 +22,13 @@ With all this as our first step, we have work to do. When we have work to do, we
 
 In order to get started we need to break down each of the jobs onto the [MVP 1 Kanban board](#figure-01-02) we currently have in focus (New + To Do + In Progress + MVP 1 columns) into a detailed workflow.
 
-## Kanban (not Scrum) {#appendix01-kanban}
+## Kanban (not Scrum) {#chapter01-kanban}
 
-![Figure 1 from Chapter 1. Empty Kanban Board for New Project](images/c1_01.jpg)
+![Figure 1.1. Empty Kanban Board for New Project](images/c1_01.jpg)
 
 The great thing about Kanban is that it does away with the arbitrary pre-estimated "sprints" one finds when using Scrum, designed to force the delivery of a "complete" mini-release. Rather it is a continuous flow process. Core jobs of work seeking a particular outcome are implemented in cross-collaboration, and their associated cards pass through various states (represented by columns) in the process. At the start all issues are placed in the New column (state). Then these are prioritized and a number of them are placed in the limited backlog "To Do" column.
 
-![Figure 2 from Chapter 1. Kanban Board for initial prototype](images/c1_02.jpg)
+![Figure 1.2. Kanban Board for initial prototype](images/c1_02.jpg)
 
 Then, when team members work on a job, it is placed in the "In Progress" or "Doing" column. This column is also limited in the number of issues it can contain. The reason for these constraints is key to why Kanban is different: it champions focus and prohibits people working on too many things at the same time. This is called a Work in Progress (WIP) limit, and it replaces the constraint of the sprint cycle length and time frame restrictions found in Scrum. In this way, Kanban frees us from waterfall-like mini-release "estimates". That's what makes Kanban different. While there are no sprints, instead a continuous flow of jobs of work being delivered for outcome value testing, the WIP limit, seen in parenthesis in the To Do and In Progress column titles, seeks to optimize productivity without overload. The actual number is calculated by taking into account team size and velocity, and is adjusted for maximum productivity without overloading the team as the project matures. We limit the To Do column and the Doing column to 4 (number of separate disciplines being worked on with semi-paired programming).
 
@@ -50,6 +46,176 @@ When these are In Progress, the Welcome Page Feature (including MVP Vision) will
 As each card is placed in the In Progress column (two at any one time given the size of [the team](#chapter-01-team) and the need for paired development and cross-collaboration on the job), conversation takes place among the team members assigned to the job, which is finally confirmed upon acceptance and moved to the MVP 1 column. And the [Kickoff](#chapter-03) will make use of the MVP 1 (prototype) in order to carry out value proposition hypotheses creation. Then, we'll drill down into the [Kickoff workflow details](#chapter-04) and see how agile's venerable [card, conversation and confirmation](http://xprogramming.com/articles/expcardconversationconfirmation/) branches out into new forms and develops in a much more useful fashion with assumptions discovery and value hypotheses using DurableDrupal Lean.
 
 Let's peek into the conversations going on around each MVP 1 job as they are getting done so we can get at the details.
+
+
+## Project Inception and Vision {#chapter01-inception}
+
+Project Inception and Vision means that there has to be some starting point, based on inputs provided by the product owner (a client domain expert, marketing person, major stakeholder rep, etc.). These inputs must be gathered as part of the more general preparation for the Project Team Kickoff in the form of a Vision text.
+
+### Preparation
+
+Such preparation may include such tasks as the following:
+
+* Gather all inputs: Client documentation, conversations, Legacy site and business context
+* Create initial Project Vision text for team starting point
+  * Detected pain points: who are experiencing them and what would they consider to be a solution?
+  * List architecture alternatives: Frameworks, re-usable Drupal distros and other proven solutions
+  * List initially detected constraints
+* What team are we going to assemble for kickoff?
+* Best way to provision team development and testing?
+* Initial basic prototype as starting point for kickoff?
+
+In this way everything needed for the initial Project Kickoff is put together through cross-collaboration by the initial core team.
+
+### Additional inputs for the Vision text
+
+* Product Owner must contribute to first cut of Market, Problem, Product definitions
+  * Notes from phone conversations with stakeholders and users
+  * Review of existing solutions (e-mail list)
+  * Conversations with existing workshop members
+    * Writers
+    * Publishers
+* Initial Team Core must gather:
+  * Review of solution architecture alternatives
+  * Any detectable constraints
+
+The actual text is the responsibility of the Product Owner but will be done in cross-collaboration with the initial core team.
+
+### Vision text template
+
+A template for the Vision text may be downloaded from the DurableDrupal site.
+
+The Vision text helps to get the ball rolling at the Team Kickoff meeting because it puts forward a first stab at the project validation targets: Market, Problem and Product.
+
+T> ### You don't have to use each section of the Vision text.
+T>
+T> The DurableDrupal Lean Vision text template simply provides convenient avenues of input, they are all optional. Don't feel forced to spend time filling out sections of this or any other doc!
+T>
+T> Most importantly, the Vision will represent a first processing of product inputs and provide a starting point at the Kickoff for beginning to understand and validate problem, product and market in terms of value. 
+
+> "A market is the group of people you think might want to buy your product.... A problem is the reason that those people are going to use your product... A product is simply the way that you’re going to solve the user’s problem. It’s the end result of what you’re building. It’s the thing that people, presumably in the target market, are going to pay you money for." (from Laura Klein, *UX for Lean Startups*, Chapter 1)
+
+#### Validating the Market
+
+> "You’ll know that you’ve successfully validated your market when you can accurately predict that a particular type of person will have a specific problem and that the problem will be severe enough that that person is interested in purchasing a solution."
+
+#### Validating the Problem
+
+> "You are going to discover a problem that exists within your target market that
+you are capable of solving. Remember, if there’s no problem, then there is no compelling reason for
+people to purchase your product.... You’ll know that you’ve validated a problem when you start to hear
+particular groups of people complaining about something specific."
+
+#### Problem Statement (or list of pain points)
+
+The problem statement summarizes the problem being solved by the project. The following format may be used:
+
+The problem of 
+
+    << describe the problem >> 
+    
+affects 
+
+    << the stakeholders affected by the problem >>
+    
+the impact of which is
+
+    << what is the impact of the problem? >>. 
+
+A successful solution would 
+
+    << list some key benefits of a successful solution >>
+
+#### Validating the Product
+
+>  "Just because you have discovered a real problem and have a group of people willing to pay you to solve their problem, that doesn’t necessarily mean that your product is the right solution.... You’ll know that you’ve validated your product when a large percentage of your target market offers to pay you money to solve their problem." 
+
+#### Defining a product with a list of needs per pain point
+
+For each pain point experienced by each person described as making up the product market, list the proposed solutions that would ease the pain
+
+* Need
+* Priority
+* Concerns
+* Current solution
+* Proposed solutions
+
+#### Product Position Statement
+
+For
+
+    << target customer >>
+    
+Who
+
+    << statement of the need or opportunity >>
+
+The {product name}
+
+    << is a {product category} >>
+
+That
+
+    << statement of key benefit(s); that is the compelling reason to buy >>.
+
+Unlike
+
+    << primary competitive alternative >>
+    
+Our product
+
+    << statement of primary differentiation { especially via pain points found in competition } >>
+
+#### Candidate architectures
+
+Members of the team whose skillset includes software architecture, based on their past experience
+and the current vision, propose a core set of technologies, component models and deployment
+targets.
+
+#### Constraints
+
+> “A constraint is a restriction on the degree of freedom you have in providing a solution. Constraints are effectively global requirements, such as limited development resources or a decision by senior management that restricts the way you develop a system. Constraints can be economic, political, technical, or environmental and pertain to your project resources, schedule, target environment, or to the system itself.” (From [Constraints: An Agile Introduction, on Agile Modeling](http://www.agilemodeling.com/artifacts/constraint.htm#sthash.RV6S97Od.dpuf)
+
+### Vision text example
+
+An example Vision text may be downloaded on the DurableDrupal site.
+
+### Team Selection
+
+* Anna (Product Owner)
+* Jake (DevOps)
+* Mark (UX)
+* Jeff (Back-end)
+* Lisa (Front-end)
+* Victor (Project Coach)
+* Sherrie (Graphic design)
+
+Team selected on the basis of our Vision. Now, rather than "10x" rockstars, we have a 10x team who get to be productive thanks to cross-collaboration, communication, focus and teamwork. If the so-called 10x developer does emerge (see [the article which started using that term](http://www.newyorker.com/magazine/2014/11/24/programmers-price) it is by dint of working as part of a great team. 10x is a social team thing or it is nothing. We tend to agree more with [this article](https://codequalified.com/blog/2014/11/20/nonsense-of-10x-developers-and-github-as-a-cv/).
+
+T> #### "There is no such thing as a 10X developer (without a 10X environment)."
+
+By front-end (everything that goes on in the client device, for example a tablet or browser) and back-end (everything connected to processes running on the server-side) we are referring to development specialists in each one of the layers involved in the [separation of concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) we strive for in order not to mix business logic, data persistence and the user interface.
+
+The Product Owner, ideally, comes from the client's organization, is responsible for creating and defending the Project Vision. Most important member of the team. If no-one is available from the client's organization... then don't do the project! Perspectives for failure are high. Seriously. If you absolutely want to go ahead anyway, you must use a courageous and outspoken proxy.
+
+### Resources for Team Provisioning
+
+* Ansible playbook for setting up DurableDrupalDistro with Vagrant and VirtualBox locally or on server. [Video Demo](https://www.youtube.com/watch?v=ZVSGrID3g_s). 
+  * The Ansible playbook to easily install an working project environment on a team member's laptop or desktop, on GitHub: [ansible-vagrant-durable-drupal-distro](https://github.com/DurableDrupal/ansible-vagrant-durable-drupal-distro)
+  * The Drupal distro installed by default by the playbook, on GitHub: [DurableDrupalDistro](https://github.com/DurableDrupal/durable-drupal-distro)
+* [Create a Drupal project on Pantheon and pull it down to your laptop on Kalabox](http://awebfactory.com/node/521) (Note: this is Kalabox 1)
+  * [Pantheon overview](https://pantheon.io/how-it-works) and [workflow overview](https://pantheon.io/docs/articles/sites/code/using-the-pantheon-workflow/)
+* [Setting up a local environment for a Drupal project on Platform.sh](https://docs.platform.sh/use-platform/getting-started-for-the-impatient/#how-to-set-up-your-local-drupal-development), click here for [more details](https://docs.platform.sh/use-platform/set-up-local-development/)
+  * [Platform.sh overview](https://docs.platform.sh/use-platform/getting-started-for-the-impatient/) and [development workflow video](https://platform.sh/videos/2014/07/31/development-workflow/), additionally, [Environment workflow](https://docs.platform.sh/overview/platform-environments/)
+* [Best = Free: Drupal Team Project Management tool based on latest Eclipse release](http://awebfactory.com/node/510)
+* [Best = Free: Drupal IDE based on latest Eclipse release (Kepler)](http://awebfactory.com/node/509)
+
+### Prototype for Kickoff Starting Point?
+
+In the absence of any legacy site, a simple prototype might be worthwhile for the first team meeting, at Kickoff. As a kind of discovery exercise.
+
+
+
 
 ## Setup base architecture on the basis of a forked DurableDrupalDistro
 
