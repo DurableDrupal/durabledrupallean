@@ -4,51 +4,13 @@ We are diving right into a real world project, the Durable Drupal Website, in or
 
 So just where do we dive in? Where does inception live in any project?
 
-## Project Inception lives in the Vision and preparation for the Team Project Kickoff 
-
-The core team consists of the following team members:
-
-* Anna (Product Owner)
-* Jake (DevOps)
-* Victor (Project Coach)
-
-It will soon be expanded, as part of the preparation for the Project Kickoff with the whole team. At that meeting the Vision text will cut to the core of the project and will be discussed and dissected as the basic raw material input for the project.
-
-The core team decides that it would be efficient to build an initial prototype to show to the team at the Kickoff, which will be nothing more than a simple landing page featuring the vision text. Even such a simple prototype, the basic team provisioning and workflow can be put in place, and a first stab at candidate architecture can be taken.
-
-With all this as our first step, we have work to do. When we have work to do, we use the Kanban.
-
-## When we have work to do we use the Kanban
-
-In order to get started we need to break down each of the jobs onto the [MVP 1 Kanban board](#figure-01-02) we currently have in focus (New + To Do + In Progress + MVP 1 columns) into a detailed workflow.
-
-## Kanban (not Scrum) {#chapter01-kanban}
-
-![Figure 1.1. Empty Kanban Board for New Project](images/c1_01.jpg)
-
-The great thing about Kanban is that it does away with the arbitrary pre-estimated "sprints" one finds when using Scrum, designed to force the delivery of a "complete" mini-release. Rather it is a continuous flow process. Core jobs of work seeking a particular outcome are implemented in cross-collaboration, and their associated cards pass through various states (represented by columns) in the process. At the start all issues are placed in the New column (state). Then these are prioritized and a number of them are placed in the limited backlog "To Do" column.
-
-![Figure 1.2. Kanban Board for initial prototype](images/c1_02.jpg)
-
-Then, when team members work on a job, it is placed in the "In Progress" or "Doing" column. This column is also limited in the number of issues it can contain. The reason for these constraints is key to why Kanban is different: it champions focus and prohibits people working on too many things at the same time. This is called a Work in Progress (WIP) limit, and it replaces the constraint of the sprint cycle length and time frame restrictions found in Scrum. In this way, Kanban frees us from waterfall-like mini-release "estimates". That's what makes Kanban different. While there are no sprints, instead a continuous flow of jobs of work being delivered for outcome value testing, the WIP limit, seen in parenthesis in the To Do and In Progress column titles, seeks to optimize productivity without overload. The actual number is calculated by taking into account team size and velocity, and is adjusted for maximum productivity without overloading the team as the project matures. We limit the To Do column and the Doing column to 4 (number of separate disciplines being worked on with semi-paired programming).
-
-Also see the [details given given in chapter 1 on the use of Kanban](#chapter-01-gtd).
-
-The Kanban To Do column is filled to the brim with:
-
-* Setup base architecture on the basis of a forked DurableDrupalDistro
-* Provisioning for local team VMs
-* Create front-end base feature
-* Create social networking accounts for use in the prototype 
-
-When these are In Progress, the Welcome Page Feature (including MVP Vision) will be placed in The To Do column.
-
-As each card is placed in the In Progress column (two at any one time given the size of [the team](#chapter-01-team) and the need for paired development and cross-collaboration on the job), conversation takes place among the team members assigned to the job, which is finally confirmed upon acceptance and moved to the MVP 1 column. And the [Kickoff](#chapter-03) will make use of the MVP 1 (prototype) in order to carry out value proposition hypotheses creation. Then, we'll drill down into the [Kickoff workflow details](#chapter-04) and see how agile's venerable [card, conversation and confirmation](http://xprogramming.com/articles/expcardconversationconfirmation/) branches out into new forms and develops in a much more useful fashion with assumptions discovery and value hypotheses using DurableDrupal Lean.
-
-Let's peek into the conversations going on around each MVP 1 job as they are getting done so we can get at the details.
+## Project Inception lives in the Vision and preparation for the Team Project Kickoff {#chapter01-inception}
 
 
-## Project Inception and Vision {#chapter01-inception}
+
+
+
+
 
 Project Inception and Vision means that there has to be some starting point, based on inputs provided by the product owner (a client domain expert, marketing person, major stakeholder rep, etc.). These inputs must be gathered as part of the more general preparation for the Project Team Kickoff in the form of a Vision text.
 
@@ -182,6 +144,16 @@ An example Vision text may be downloaded on the DurableDrupal site.
 
 ### Team Selection
 
+Up till now the core team has consisted of the following team members:
+
+* Anna (Product Owner)
+* Jake (DevOps)
+* Victor (Project Coach)
+
+It must now be expanded, as part of the preparation for the Project Kickoff with the whole team. At that meeting the Vision text will cut to the core of the project and will be discussed and dissected as the basic raw material input for the project.
+
+The team is expanded as follows:
+
 * Anna (Product Owner)
 * Jake (DevOps)
 * Mark (UX)
@@ -190,7 +162,7 @@ An example Vision text may be downloaded on the DurableDrupal site.
 * Victor (Project Coach)
 * Sherrie (Graphic design)
 
-Team selected on the basis of our Vision. Now, rather than "10x" rockstars, we have a 10x team who get to be productive thanks to cross-collaboration, communication, focus and teamwork. If the so-called 10x developer does emerge (see [the article which started using that term](http://www.newyorker.com/magazine/2014/11/24/programmers-price) it is by dint of working as part of a great team. 10x is a social team thing or it is nothing. We tend to agree more with [this article](https://codequalified.com/blog/2014/11/20/nonsense-of-10x-developers-and-github-as-a-cv/).
+The selection is made on the basis of our Vision. Now, rather than "10x" rockstars, we have a 10x team who get to be productive thanks to cross-collaboration, communication, focus and teamwork. If the so-called 10x developer does emerge (see [the article which started using that term](http://www.newyorker.com/magazine/2014/11/24/programmers-price) it is by dint of working as part of a great team. 10x is a social team thing or it is nothing. We tend to agree more with [this article](https://codequalified.com/blog/2014/11/20/nonsense-of-10x-developers-and-github-as-a-cv/).
 
 T> #### "There is no such thing as a 10X developer (without a 10X environment)."
 
@@ -215,7 +187,37 @@ The Product Owner, ideally, comes from the client's organization, is responsible
 In the absence of any legacy site, a simple prototype might be worthwhile for the first team meeting, at Kickoff. As a kind of discovery exercise.
 
 
+The core team decides that it would be efficient to build an initial prototype to show to the team at the Kickoff, which will be nothing more than a simple landing page featuring the vision text. Even such a simple prototype, the basic team provisioning and workflow can be put in place, and a first stab at candidate architecture can be taken.
 
+With all this as our first step, we have work to do. When we have work to do, we use the Kanban.
+
+## When we have work to do we use the Kanban (not Scrum) {#chapter01-kanban}
+
+In order to get started we need to break down each of the jobs onto the [MVP 1 Kanban board](#figure-01-02) we currently have in focus (New + To Do + In Progress + MVP 1 columns) into a detailed workflow.
+
+
+![Figure 1.1. Empty Kanban Board for New Project](images/c1_01.jpg)
+
+The great thing about Kanban is that it does away with the arbitrary pre-estimated "sprints" one finds when using Scrum, designed to force the delivery of a "complete" mini-release. Rather it is a continuous flow process. Core jobs of work seeking a particular outcome are implemented in cross-collaboration, and their associated cards pass through various states (represented by columns) in the process. At the start all issues are placed in the New column (state). Then these are prioritized and a number of them are placed in the limited backlog "To Do" column.
+
+![Figure 1.2. Kanban Board for initial prototype](images/c1_02.jpg)
+
+Then, when team members work on a job, it is placed in the "In Progress" or "Doing" column. This column is also limited in the number of issues it can contain. The reason for these constraints is key to why Kanban is different: it champions focus and prohibits people working on too many things at the same time. This is called a Work in Progress (WIP) limit, and it replaces the constraint of the sprint cycle length and time frame restrictions found in Scrum. In this way, Kanban frees us from waterfall-like mini-release "estimates". That's what makes Kanban different. While there are no sprints, instead a continuous flow of jobs of work being delivered for outcome value testing, the WIP limit, seen in parenthesis in the To Do and In Progress column titles, seeks to optimize productivity without overload. The actual number is calculated by taking into account team size and velocity, and is adjusted for maximum productivity without overloading the team as the project matures. We limit the To Do column and the Doing column to 4 (number of separate disciplines being worked on with semi-paired programming).
+
+Also see the [details given given in chapter 1 on the use of Kanban](#chapter-01-gtd).
+
+The Kanban To Do column is filled to the brim with:
+
+* Setup base architecture on the basis of a forked DurableDrupalDistro
+* Provisioning for local team VMs
+* Create front-end base feature
+* Create social networking accounts for use in the prototype 
+
+When these are In Progress, the Welcome Page Feature (including MVP Vision) will be placed in The To Do column.
+
+As each card is placed in the In Progress column (two at any one time given the size of [the team](#chapter-01-team) and the need for paired development and cross-collaboration on the job), conversation takes place among the team members assigned to the job, which is finally confirmed upon acceptance and moved to the MVP 1 column. And the [Kickoff](#chapter-03) will make use of the MVP 1 (prototype) in order to carry out value proposition hypotheses creation. Then, we'll drill down into the [Kickoff workflow details](#chapter-04) and see how agile's venerable [card, conversation and confirmation](http://xprogramming.com/articles/expcardconversationconfirmation/) branches out into new forms and develops in a much more useful fashion with assumptions discovery and value hypotheses using DurableDrupal Lean.
+
+Let's peek into the conversations going on around each MVP 1 job as they are getting done so we can get at the details.
 
 ## Setup base architecture on the basis of a forked DurableDrupalDistro
 
