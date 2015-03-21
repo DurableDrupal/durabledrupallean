@@ -1,4 +1,4 @@
-# Introduction {#chapter-00}
+# Introduction {#intro-00}
 
 DurableDrupal Lean doesn't care which version of Drupal we are on. It doesn't care which hosting or platform we are using.
 

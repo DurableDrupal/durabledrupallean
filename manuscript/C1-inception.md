@@ -178,7 +178,7 @@ Later, when team members work on a job, it is placed in the "In Progress" or "Do
 
 Another benefit is that since the focus is on jobs of work and not abstract mini-releases, it is much easier to foster multi-discipline cross-collaboration.
 
-As each card is placed in the In Progress column (two at any one time given the size of [the team](#chapter-01-team) and the need for paired development and cross-collaboration on the job), conversation takes place among the team members assigned to the job, which is finally confirmed upon acceptance and moved to the MVP 1 column. And the [Kickoff](#chapter-02) will make use of the MVP 1 (prototype) in order to carry out value proposition hypotheses creation.
+As each card is placed in the In Progress column (two at any one time given the size of [the team](#chapter-01-team) and the need for paired development and cross-collaboration on the job), conversation takes place among the team members assigned to the job, which is finally confirmed upon acceptance and moved to the MVP 1 column. And the [Team Project Kickoff](#chapter-02) will make use of the MVP 1 (prototype) in order to carry out value proposition hypotheses creation.
 
 Let's peek into the conversations going on around each MVP 1 Project Inception job as the work is getting done so we can get at the details.
 
@@ -214,7 +214,7 @@ D> All of these should be forked, made our own and should evolve as they are tai
 
 For the DurableDrupal website Jake and Jeff decide to go with our own (DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro), adopt it as the team's base general purpose distro, and use it for this project.
 
-### Fork that distro for team tailoring and generic reuse
+#### Fork that distro for team tailoring and generic reuse
 
 Let's fork the distro to our own GitHub organization, where we can curate it for our own purposes and then clone it individually for each project that comes up and requires a general purpose distro. 
 
@@ -234,7 +234,7 @@ Actual steps taken to fork the distro:
 
 Let's go into more detail on the last step:
 
-### Update, tailor to organization, update and tag release
+#### Update, tailor to organization, update and tag release
 
 We can always update from upstream (the repo from which we forked), but most probably there may be other tweaks, and we want to bring in security patches and so on and so forth when we deem fit (sometimes everyone rushes to apply a fix only to realize that there is a serious bug in the quick fix, and it would have been better to wait just a short spell and test first, unless the security patch is absolutely urgent).
 
@@ -255,7 +255,7 @@ command line steps
 
 
 
-### Clone what is now the organization starter distro for this project
+#### Clone what is now the organization starter distro for this project
 
 
 ### Provisioning for local team VMs {#chapter-02-team-provisioning}
@@ -265,19 +265,6 @@ Now that we have an initial distro for this project we are ready to provision te
 ### Create front-end base feature
 
 ### Create social networking accounts for the prototype
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 ## Summary
 
