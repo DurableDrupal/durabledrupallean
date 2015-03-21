@@ -4,46 +4,11 @@ We are diving right into a real world project, the Durable Drupal Website, in or
 
 So just where do we dive in? Where does inception live in any project?
 
-## Project Inception lives in the Vision and preparation for the Team Project Kickoff {#chapter01-inception}
+## Project Inception
 
+Project Inception lives in the Vision text to be presented at the Team Project Kickoff based upon a gathering of documentation, meeting and telephone conversation notes and other inputs for the preparation for that formal starting point for the project. The product owner (a client domain expert, marketing person, major stakeholder rep, etc.) will be providing much of these inputs and with the help of the initial core team, is responsible for writing the Vision text.
 
-
-
-
-
-
-Project Inception and Vision means that there has to be some starting point, based on inputs provided by the product owner (a client domain expert, marketing person, major stakeholder rep, etc.). These inputs must be gathered as part of the more general preparation for the Project Team Kickoff in the form of a Vision text.
-
-### Preparation
-
-Such preparation may include such tasks as the following:
-
-* Gather all inputs: Client documentation, conversations, Legacy site and business context
-* Create initial Project Vision text for team starting point
-  * Detected pain points: who are experiencing them and what would they consider to be a solution?
-  * List architecture alternatives: Frameworks, re-usable Drupal distros and other proven solutions
-  * List initially detected constraints
-* What team are we going to assemble for kickoff?
-* Best way to provision team development and testing?
-* Initial basic prototype as starting point for kickoff?
-
-In this way everything needed for the initial Project Kickoff is put together through cross-collaboration by the initial core team.
-
-### Additional inputs for the Vision text
-
-* Product Owner must contribute to first cut of Market, Problem, Product definitions
-  * Notes from phone conversations with stakeholders and users
-  * Review of existing solutions (e-mail list)
-  * Conversations with existing workshop members
-    * Writers
-    * Publishers
-* Initial Team Core must gather:
-  * Review of solution architecture alternatives
-  * Any detectable constraints
-
-The actual text is the responsibility of the Product Owner but will be done in cross-collaboration with the initial core team.
-
-### Vision text template
+### Using the Vision text template
 
 A template for the Vision text may be downloaded from the DurableDrupal site.
 
@@ -57,82 +22,37 @@ T> Most importantly, the Vision will represent a first processing of product inp
 
 > "A market is the group of people you think might want to buy your product.... A problem is the reason that those people are going to use your product... A product is simply the way that you’re going to solve the user’s problem. It’s the end result of what you’re building. It’s the thing that people, presumably in the target market, are going to pay you money for." (from Laura Klein, *UX for Lean Startups*, Chapter 1)
 
+The optional sections found in the Vision Text that you can fill out and use   (or add your own!) are as follows:
+
 #### Validating the Market
 
 > "You’ll know that you’ve successfully validated your market when you can accurately predict that a particular type of person will have a specific problem and that the problem will be severe enough that that person is interested in purchasing a solution."
 
+Describe one or more types of people constituting the product market.
+
 #### Validating the Problem
 
-> "You are going to discover a problem that exists within your target market that
-you are capable of solving. Remember, if there’s no problem, then there is no compelling reason for
-people to purchase your product.... You’ll know that you’ve validated a problem when you start to hear
-particular groups of people complaining about something specific."
+> "You are going to discover a problem that exists within your target market that you are capable of solving. Remember, if there’s no problem, then there is no compelling reason for people to purchase your product.... You’ll know that you’ve validated a problem when you start to hear particular groups of people complaining about something specific."
 
-#### Problem Statement (or list of pain points)
-
-The problem statement summarizes the problem being solved by the project. The following format may be used:
-
-The problem of 
-
-    << describe the problem >> 
-    
-affects 
-
-    << the stakeholders affected by the problem >>
-    
-the impact of which is
-
-    << what is the impact of the problem? >>. 
-
-A successful solution would 
-
-    << list some key benefits of a successful solution >>
+The best way of expressing the problem at this early stage is via a list of complaints, or pain points; or by filling out the Problem Summary found in the template.
 
 #### Validating the Product
 
 >  "Just because you have discovered a real problem and have a group of people willing to pay you to solve their problem, that doesn’t necessarily mean that your product is the right solution.... You’ll know that you’ve validated your product when a large percentage of your target market offers to pay you money to solve their problem." 
 
-#### Defining a product with a list of needs per pain point
+This is the heart of DurableDrupal Lean, in that we are aiming to deliver true value, not just software. The fact that an application runs as advertised does not mean it is finished. There must be a period of maintenance iterations used to adjust or even pivot the product until it demonstrably provides value. It is important to ensure this is understood right from the start.
 
-For each pain point experienced by each person described as making up the product market, list the proposed solutions that would ease the pain
+#### Envisioning a product with a list of needs per pain point
 
-* Need
-* Priority
-* Concerns
-* Current solution
-* Proposed solutions
+For each pain point experienced by each person described as making up the product market, list the proposed solutions that would ease the pain.
 
-#### Product Position Statement
+#### Product Position Summary
 
-For
-
-    << target customer >>
-    
-Who
-
-    << statement of the need or opportunity >>
-
-The {product name}
-
-    << is a {product category} >>
-
-That
-
-    << statement of key benefit(s); that is the compelling reason to buy >>.
-
-Unlike
-
-    << primary competitive alternative >>
-    
-Our product
-
-    << statement of primary differentiation { especially via pain points found in competition } >>
+An overall synthetic statement summarizing, at the highest level, the unique position the product intends to fill in the marketplace. Use the format provided or roll your own!
 
 #### Candidate architectures
 
-Members of the team whose skillset includes software architecture, based on their past experience
-and the current vision, propose a core set of technologies, component models and deployment
-targets.
+Members of the initial core team whose skillset includes software architecture, based on their past experience and the current vision, propose a core set of technologies, component models and deployment targets. It may require several iterations with the full team to finalize the choice.
 
 #### Constraints
 
@@ -186,7 +106,6 @@ The Product Owner, ideally, comes from the client's organization, is responsible
 
 In the absence of any legacy site, a simple prototype might be worthwhile for the first team meeting, at Kickoff. As a kind of discovery exercise.
 
-
 The core team decides that it would be efficient to build an initial prototype to show to the team at the Kickoff, which will be nothing more than a simple landing page featuring the vision text. Even such a simple prototype, the basic team provisioning and workflow can be put in place, and a first stab at candidate architecture can be taken.
 
 With all this as our first step, we have work to do. When we have work to do, we use the Kanban.
@@ -194,7 +113,6 @@ With all this as our first step, we have work to do. When we have work to do, we
 ## When we have work to do we use the Kanban (not Scrum) {#chapter01-kanban}
 
 In order to get started we need to break down each of the jobs onto the [MVP 1 Kanban board](#figure-01-02) we currently have in focus (New + To Do + In Progress + MVP 1 columns) into a detailed workflow.
-
 
 ![Figure 1.1. Empty Kanban Board for New Project](images/c1_01.jpg)
 
