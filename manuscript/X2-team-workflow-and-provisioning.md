@@ -1,4 +1,4 @@
-# Appendix 3. Team Workflow and Provisioning {#appendix-03}
+# Appendix 2. Team Workflow and Provisioning {#appendix-02}
 
 ## Team roles
 

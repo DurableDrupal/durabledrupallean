@@ -195,11 +195,11 @@ In order to setup the base architecture for both this particular project and wha
 
 #### Frameworks to be used
 
-Jeff took some notes of the converstion in which they thrash out this important and sometimes confusing question: [Overcoming Choice Panic. What frameworks should we use?](#appendix-02):
+Jeff took some notes of the converstion in which they thrash out this important and sometimes confusing question: [Overcoming Choice Panic. What frameworks should we use?](#appendix-01):
 
-> We are putting Choice Panic behind us and making a firm decision on the CMS framework we'll be using for our content-centric projects. First we'll place all our doubts right on the table for all to see: Should we be using Drupal for this project? really? is Drupal secure after 7.32? What about Backdrop? What about Drupal 8? Should we use that? Then we sift through the options, and choose the best one as our initial hypothesis. In making that decision we'll base ourselves on our current backlog of projects and on the information we actually have to go on right now. And that can change quickly, so we are not married to any framework, we simply want the best tools to get the job done. We'll explore that particular choice and the characteristics that make it the most versatile and dynamic option open to us. We want to be comfortable with the decision, and have the whole team all on the same page.... [Read on](#appendix-02)!
+> We are putting Choice Panic behind us and making a firm decision on the CMS framework we'll be using for our content-centric projects. First we'll place all our doubts right on the table for all to see: Should we be using Drupal for this project? really? is Drupal secure after 7.32? What about Backdrop? What about Drupal 8? Should we use that? Then we sift through the options, and choose the best one as our initial hypothesis. In making that decision we'll base ourselves on our current backlog of projects and on the information we actually have to go on right now. And that can change quickly, so we are not married to any framework, we simply want the best tools to get the job done. We'll explore that particular choice and the characteristics that make it the most versatile and dynamic option open to us. We want to be comfortable with the decision, and have the whole team all on the same page.... [Read on](#appendix-01)!
 
-T> Go ahead and [read Jeff's notes in full](#appendix-02) before going on, in order to see why Drupal 7 is selected at this time.
+T> Go ahead and [read Jeff's notes in full](#appendix-01) before going on, in order to see why Drupal 7 is selected at this time.
 
 So for this project, we're going with (Drupal 7)[https://www.drupal.org/start], which will be supported for years even after Drupal 8 comes into use. And we're extending and tailoring Drupal 7 in the form of a Drupal Distribution.
 

@@ -5,7 +5,9 @@ I1-dd-lean-process-itself.md
 mainmatter.txt
 C1-inception.md
 C2-kickoff.md
+C3-devops-team-cm.md
+C4-devops-ci-cd.md
+C5-user-validation.md
 backmatter.txt
-X1-durable-drupal-lean-process.md
-X2-what-frameworks-should-we-use.md
-X3-team-workflow-and-provisioning.md
+X1-what-frameworks-should-we-use.md
+X2-team-workflow-and-provisioning.md

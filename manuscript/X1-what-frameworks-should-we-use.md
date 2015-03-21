@@ -1,4 +1,4 @@
-# Appendix 2. Overcoming Choice Panic. What frameworks should we use? {#appendix-02}
+# Appendix 1. Overcoming Choice Panic. What frameworks should we use? {#appendix-01}
 
 At the onset of any project, the question inevitably arises: what frameworks should we use? 
 

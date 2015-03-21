@@ -5,7 +5,7 @@ DurableDrupal Lean is a process factory, providing reusable tools and methods fo
 * A process factory
   * Because we don't want to take a rigid scheme and mechanically force ourselves to go through motions that may or may not have anything to do with who we are or what we are trying to accomplish. We want to learn how to create, recreate, evolve and maintain our own process, on every team in our organization, for every different kind of project.
 * DurableDrupal Lean
-  * We must be in the habit of using upstream Drupal distributions in our organization instead of always starting from scratch. In this book we are providing one, [DurableDistro](https://github.com/DurableDrupal/durable-drupal-distro), along with an Ansible playbook to easily provision it with Vagrant. We think it will give you a great head start and it can be easily curated as needed; and we also list [a lot of the most useful ones out there](#appendix-02-distributions) which you can use for many specialized purposes right off the shelf. The question as always is to stand on the shoulders of giants.
+  * We must be in the habit of using upstream Drupal distributions in our organization instead of always starting from scratch. In this book we are providing one, [DurableDistro](https://github.com/DurableDrupal/durable-drupal-distro), along with an Ansible playbook to easily provision it with Vagrant. We think it will give you a great head start and it can be easily curated as needed; and we also list [a lot of the most useful ones out there](#appendix-01-distributions) which you can use for many specialized purposes right off the shelf. The question as always is to stand on the shoulders of giants.
   * Lean: Agile is the new Waterfall. We need Lean, and we want you to know what this software development process is all about and why it should be important to you.
   * See below for explanation of what is Waterfall, Agile, Lean, etc.
 * Reusable tools and methods
@@ -22,25 +22,13 @@ DurableDrupal Lean is a process factory, providing reusable tools and methods fo
 * Guaranteeing delivered value
   * Because code can no longer be implemented on the basis of "functional requirements". Code's sole purpose in living is to be able to test a hypothesis envisioning value to be obtained by the client as a result of its existence. Code should be designed as such, and tested as such. Becuase neither is it enough to test code and be satisfied that it works as advertised in order to consider a job of work completed. The functionality designed to give value must be tested to make sure it actually delivers that expected value to the client. This is at the core of Lean and we'll be sure to drill down here.
 
-In order to gain this insight, as we work through this book we will be needing to get comfortable (not necessarily all at once! we recommend just in time reading as needed, perhaps on a chapter by chapter basis) with the following:
-
-* [A very short history of modern software development process](#appendix01-short-history)
-* [Kanban (not Scrum)](appendix01-kanban)
-* [Project Inception and Vision](appendix01-inception)
-* [Team Kickoff](appendix01-team-kickoff)
-* [Development Workflow with Everything in Code](#appendix01-dev-workflow)
-* [DevOps](#appendix01-devops)
-* [Continuous Integration and Continuous Delivery](#appendix01-ci-cd)
-* [User Validation](#appendix01-user-validation)
-* [Bibliography and Resources](#appendix01-bibliography)
-
-## A very short history of modern software development process {#appendix01-short-history}
+## A very short history of modern software development process
 
 Why use process at all? Well, work is social in nature, ever since we humans gained an opposable thumb. And it always exists in an historical context. So we engineer things using today's tools and processes in order to avoid making the same expensive mistakes over and over again, and in order to avoid inventing the wheel every time we tool up for a product.
 
-We need process to avoid wasting time, money and resources. To avoid failing. Again and again.
+We need process to avoid wasting time, money and resources. To avoid failing. Again and again. Let's examine a very short history of modern software development process to understand fully why Lean is essential.
 
-### The limitations of Waterfall and Agile for Web development
+## The limitations of Waterfall and Agile for Web development
 
 The much criticized [Waterfall Model](http://en.wikipedia.org/wiki/Waterfall_model) is a sequential process for software development "in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of Conception, Initiation, Analysis, Design, Construction, Testing, Production/Implementation and Maintenance." Each phase corresponds to an autonomous silo which receives its input from the previous silo and performs additional work according to its particular discipline. So outputs are handed off in sequence from one discipline "silo" to another. It is no accident that this method, which at least raised software development from the level of artesanal improvisation to that of engineering, had its origins in the highly structured manufacturing and construction industries.
 
@@ -69,7 +57,7 @@ Agile is an improvement over Waterfall since the abyss separating requirements g
 
 In the article, Sy and Miller describe in detail the method they developed for integrating Agile with user-centered design.
 
-### Improving Agile with Cycle 0 and Staggered Sprints
+## Improving Agile with Cycle 0 and Staggered Sprints
 
 The solution resided in a technique called Cycle 0 (sometimes called Sprint 0 or Staggered Sprints), in which design activity takes place one sprint ahead of development. Work is designed and validated during the “design sprint” and then passed off into the development stream to be implemented during the development sprint. 
 
@@ -77,7 +65,7 @@ The solution resided in a technique called Cycle 0 (sometimes called Sprint 0 or
 
 > "To allow the User Experience Team to iterate on designs, we usability tested prototypes at least one cycle ahead of developers, and then passed on the validated designs to be implemented. We would also conduct contextual inquiry for workflows at least two cycles ahead, and usability test the implemented working version to check for design drift."
 
-### Achieving a still better process with Lean UX and Design + Dev
+## Achieving a still better process with Lean UX and Design + Dev
 
 > "Many teams have misinterpreted this model. Sy and Miller always advocated strong collaboration between designers and developers during both the design and development sprints. Many teams have missed this critical point and have instead created workflows in which designers and developers still communicated by handoff, creating a kind of mini-waterfall process within the agile cycles." (From *Gothelf, Jeff (2013-02-22). Lean UX: Applying Lean Principles to Improve User Experience, O'Reilly Media)*
 
@@ -95,11 +83,11 @@ Then, weekly user validation sessions are added in (blue-green), so that the ide
 
 See also [Beyond Staggered Sprints: How TheLadders.com Integrated UX into Agile](http://johnnyholland.org/2010/10/beyond-staggered-sprints-how-theladders-com-integrated-ux-into-agile/).
   
-### The Best Process we Know: Design + Dev + DevOps
+## The Best Process we Know: Design + Dev + DevOps
 
 DurableDrupal Lean adds DevOps into the mix. Just as it is critical for cross-collaboration between design and development, so it is just as critical for there to be cross-collaboration between design, development and DevOps, both in provisioning so that the team can really work in parallel, as well as in building, feedback conversations, testing, continuous integration and deployment.
 
-### Waste that is eliminated by using DurableDrupal Lean
+## Waste that is eliminated by using DurableDrupal Lean
 
 Waste is of course, the opposite of value. When Agile and Lean processes are absent in a project the probability of it occurring is very high. Possible causes of waste in software development: 
 
@@ -113,102 +101,7 @@ Waste is of course, the opposite of value. When Agile and Lean processes are abs
 
 See [How to Manage the "7 Wastes" of Agile Software Development](https://www.scrumalliance.org/community/articles/2013/september/how-to-manage-the-7-wastes%E2%80%9D-of-agile-software-deve).
 
-
-
-
-
-## Development Workflow and Everything in (Versioned) Code {#appendix01-dev-workflow}
-
-By the time the user stories are written for the current backlog, the whole team has been "kicked off" on each of them. A short excerpt from Gothelf shows what collective development is like as the team works to complete the backlog:
-
-> It’s Tuesday and Rick, Mark, Olga, and Arti are standing at the whiteboard , looking at a wireframe that they’ve drawn. Arti has a marker in her hand, but she’s not drawing. “Rick, I don’t understand what you’re driving at. Can you explain the problem?” Rick takes the marker, wipes clear a section of the board, and explains the regulation again. The team is designing an app for stock traders, and the app has to obey a strict set of regulations. Rick, the business analyst, is responsible for making sure that the team’s designs support the rules. After a while, the team is nodding, and Arti takes the marker again. She suggests a change to the wireframe design of the app on the board and the team nods again. They all take out their iPhones, take photos of the board, and agree to reconvene the next day. They’re confident that what they’ve agreed on will be ready for user testing on Thursday. Arti, the designer, goes back to her desk to start detailing the design they’ve sketched. Mark, the front-end developer, starts building the page — he uses premade components from the living style guide the team has put in place, so he doesn’t need to wait for Arti before getting the basic pieces in place. Rick opens the project’s wiki and begins to document the decisions the team has made about the application behavior. He’ll review these choices with the product owner later in the day. And Olga, the QA tester, begins the process of writing tests for the new section of the app. (*Gothelf, Jeff (2013-02-22). Lean UX: Applying Lean Principles to Improve User Experience*)
-
-"This is the day-to-day rhythm of Lean UX: a team working collaboratively, iteratively, and in parallel, with few handoffs, minimal deliverables, and a focus on working software and market feedback."
-
-### Provision for each Team Member
-
-With the process flowing smoothly, there's nothing to stop us in our Development Workflow. Let's drill down to how this actually works. 
-
-Every team member will need at least:
-
-* Their own working environment as close to target production characteristics as possible
-* Gitflow (distributed version control branching model) for all!
-* Continuous integration (automated and managed commits, testing and deploy to the integration dev server instance)
-* Special workflow for framework idiosyncracies: for example, an "everything in code" strategy for Drupal Development, a SASS environment for Drupal and/or full-stack theming.
-
-Let's examine three possible solutions, at least:
-
-* Rolling our own (the idea was to keep it simple...)
-* Kalabox 2 dev environment and tools with, say, Pantheon
-* Platform.sh cloud plus local continuous integration environment
-
-### User story: Card, Conversation, Confirmation
-
-The user story template constitutes the Card aspect of the user story and becomes part of the prioritized backlog, as we have seen, during the iteration planning meeting. Once it is actually being worked on, Conversation will take place, and may or may not be captured in the issue tracking system being used. Confirmation refers to user story testing. This includes unit and integration testing on the code, functional acceptance testing by the product owner, as well as market performance outcome testing of the hypothesis or sub-hypothesis. It will only be when the hypothesis is validated by the user and by measurable market outcomes that the card may be moved to the Done column.
-
-### Everything in Code with features demo
-
-A team cannot effectively do Drupal CMS development without using the Everything in Code paradigm.
-
-Drupal by default keeps all its configuration setup interactively in the admin pages as persisted values in the same database where the content is stored. In order to work as a team in development, that is, in order to commit modifications or work completed asynchronously without destroying work commited by others, or content entered by content editors, it is necessary to use a distributed version control repository, as demanded by software development best practices.
-
-Example workflow:
-
-~~Video: The demo starts at minute 14:35 of the demo video (no good in Spanish!)~~
-
-* We change the default theme and change the Site Name
-* We create a feature
-* We specify elements to include
-* We create the feature and save it to the file system
-* We enable the feature, moving the configuration of the selected elements to code
-* We change the theme and the site name
-* We see the feature is overriden (database is overriding code because of the changes)
-* We "revert" the feature (force the database to adapt to the code)
-
-## DevOps {#appendix01-devops}
-
-### Resources for Server Provisioning and Deployment
-
-Here is a short list of the many available resources for the all important question of server provisioning and deployment automation for frequent and continuous build and continuous delivery approaches. Without such automation on some level team paralysis, delays and workflow blowup will haunt us as the handoff monster rears its ugly default waterfall head throughout the project.
-
-### Resources for Server Provisioning and Deployment
-* [Jeff Geerling's book Ansible for DevOps: Server Configuration Management for humans](https://leanpub.com/ansible-for-devops)
-  * [GitHub Repo for the book (very actively kept up-to-date)](https://github.com/geerlingguy/ansible-for-devops)
-  * [Jeff's Austin DrupalCon presentation DevOps for Humans - Ansible for Drupal Deployment Victory!](https://austin2014.drupal.org/session/devops-humans-ansible-drupal-deployment-victory.html)
-    * [Slides](http://www.slideshare.net/geerlingguy/devops-for-humans-ansible-for-drupal-deployment-victory)
-  
-* DigitalOcean tutorial [How To Create an Ansible Playbook To Automate Drupal Installation on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-create-an-ansible-playbook-to-automate-drupal-installation-on-ubuntu-14-04)
-
-## Continuous Integration and Continuous Delivery {#appendix01-ci-cd}
-
-For true team cross-collaboration to exist we'd better have enough feedback on changes to the codebase and on deployment to environments. And that includes automated feedback. In a nutshell we are actually talking about ALM: Application Lifecycle Management.
-
-These may be evolving terms, but if we're using them (and we are) we'd better get them straight. Bryan Root makes [a good distinction](http://blog.nwcadence.com/continuousintegration-continuousdelivery/):
-
-> "So what is CI?  In short, it is an integration of code into a known or working code base.... The top benefits are to provide fast feed back to the members of the team and to ensure any new changes don’t break the working branch."
->
-> "CD... is an automated process to deliver a software package to a environment.... we can now extend the fast feedback loops and reduction of constraints with packaging techniques, automation workflows, and integrated tools that keep track of the software versions in different environments."
->
-> " CI and CD are two completely separated practices that are tightly interlocked to create a unified ALM workflow."
-
-So, it's not just tools, the question is for the following feedback to be available: on the one hand, build and automated test results, and on the other, application status upon deployments of new features to environments (i.e., development/integration, staging, live). 
-
-## User Validation {#appendix01-user-validation}
-
-### Maximum 5 days until next User Validation
-
-![Gothelf Lean + Scrum](images/gothelf-lean-plus-scrum.jpg)
-
-### Levels of Validation
-
-* Unit tests and integration tests must be written by developer and run as part of automated frequent or continuous delivery
-* Problem statement(s) validated by getting out of the building!
-* Personas must be posited as proto-personas and validated and developed by... Getting out of the building
-* User stories are validated via built in acceptance test (Given, When, Then)
-* Hypotheses can only be run by testing users with the MVP
-  * That's what the MVP is for
-
-## Bibliography {#appendix01-bibliography}
+## Bibliography {#intro-01-bibliography}
 
 In this book we place the bibliography at the front, so you can become familiar with the resources you want to explore first.
 
