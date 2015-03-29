@@ -1,4 +1,4 @@
-# Chapter 4. DevOps. DevOps. Continuous Integration and Continuous Delivery {#chapter-04} 
+# Chapter 4. DevOps. Continuous Integration and Continuous Delivery {#chapter-04} 
 
 ## Resources for Server Provisioning and Deployment
 
