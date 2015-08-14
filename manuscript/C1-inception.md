@@ -1,6 +1,6 @@
 # Chapter 1. Project Inception {#chapter-01}
 
-We are diving right into a real world project, the Durable Drupal Website, in order to demonstrate DurableDrupal Lean. 
+We are diving right into a real world project, the Durable Drupal Website, in order to demonstrate DurableDrupal Lean.
 
 So just where do we dive in? Where does inception live in any project?
 
@@ -20,7 +20,7 @@ T> ### You don't have to use each section of the Vision text.
 T>
 T> The DurableDrupal Lean Vision text template simply provides convenient avenues of input, they are all optional. Don't feel forced to spend time filling out sections of this or any other doc!
 T>
-T> Most importantly, the Vision will represent a first processing of product inputs and provide a starting point at the Kickoff for beginning to understand and validate problem, product and market in terms of value. 
+T> Most importantly, the Vision will represent a first processing of product inputs and provide a starting point at the Kickoff for beginning to understand and validate problem, product and market in terms of value.
 
 > "A market is the group of people you think might want to buy your product.... A problem is the reason that those people are going to use your product... A product is simply the way that you’re going to solve the user’s problem. It’s the end result of what you’re building. It’s the thing that people, presumably in the target market, are going to pay you money for." (from Laura Klein, *UX for Lean Startups*, Chapter 1)
 
@@ -40,7 +40,7 @@ The best way of expressing the problem at this early stage is via a list of comp
 
 #### Validating the Product
 
->  "Just because you have discovered a real problem and have a group of people willing to pay you to solve their problem, that doesn’t necessarily mean that your product is the right solution.... You’ll know that you’ve validated your product when a large percentage of your target market offers to pay you money to solve their problem." 
+>  "Just because you have discovered a real problem and have a group of people willing to pay you to solve their problem, that doesn’t necessarily mean that your product is the right solution.... You’ll know that you’ve validated your product when a large percentage of your target market offers to pay you money to solve their problem."
 
 This is the heart of DurableDrupal Lean, in that we are aiming to deliver true value, not just software. The fact that an application runs as advertised does not mean it is finished. There must be a period of maintenance iterations used to adjust or even pivot the product until it demonstrably provides value. It is important to ensure this is understood right from the start.
 
@@ -71,7 +71,7 @@ Anna starts the meeting by reading out a short vision of what a minimum viable p
 > In the realm of computing hardware, [Moore's Law](http://en.wikipedia.org/wiki/Moore's_law) observes that in the late twentieth and early twenty-first centuries "the number of transistors in a dense integrated circuit doubles approximately every two years." Just as this is closely related to the exponential growth in memory capacity and the number of pixels in digital cameras, in the software industry we can observe similar high rates of growth in the complexity and features offered by operating systems and applications thriving atop the growing number of different kinds of devices they run on today.
 >
 > We can share a solution we have found, a guide to the perplexed: to calmly concentrate on the real needs of the users (biz needs of user as solution provider and user needs of that biz's users) and become their [advocate](http://alistapart.com/article/from-empathy-to-advocacy). Never mind the desperate mystification of the rock stars and the gurus, the smoke and mirrors and the [fear, uncertainty and doubt (FUD)](http://en.wikipedia.org/wiki/Fear,_uncertainty_and_doubt) they disseminate. Cutting to the [Core](http://alistapart.com/article/the-core-model-designing-inside-out-for-better-results) with our approach can help any team willing to commit themselves to a disciplined approach systematically tool up to determine step by step what is needed and how to get there using readily available tools and methods.
-> 
+>
 > By using a solid Drupal distribution that has a best and rich set of modules for most use cases that you can just download and use (among others tailored for other use cases), which can then be curated to evolve with the special needs of the workshop, and by adopting a lean process tailored to that framework, folks can avoid the confusion, smoke and mirrors and false pitfalls that emerge only due to a lack of information, confidence and method.
 >
 > We can offer that in a series of books and media packages now and into the future, whatever it may behold in terms of operating systems, stacks and frameworks, to show how all of this can evolve and migrate in any workshop willing to apply serious workmanship for the long haul. We can offer a journey into the future by accompanying migrations into Backdrop, Drupal 8 and other frameworks and full stack development, showing how to migrate over time existing drupal websites and web apps to those frameworks and environments.  
@@ -108,7 +108,7 @@ The Product Owner, ideally, comes from the client's organization, is responsible
 
 ### Resources for Team Provisioning
 
-* Ansible playbook for setting up DurableDrupalDistro with Vagrant and VirtualBox locally or on server. [Video Demo](https://www.youtube.com/watch?v=ZVSGrID3g_s). 
+* Ansible playbook for setting up DurableDrupalDistro with Vagrant and VirtualBox locally or on server. [Video Demo](https://www.youtube.com/watch?v=ZVSGrID3g_s).
   * The Ansible playbook to easily install an working project environment on a team member's laptop or desktop, on GitHub: [ansible-vagrant-durable-drupal-distro](https://github.com/DurableDrupal/ansible-vagrant-durable-drupal-distro)
   * The Drupal distro installed by default by the playbook, on GitHub: [DurableDrupalDistro](https://github.com/DurableDrupal/durable-drupal-distro)
 * [Create a Drupal project on Pantheon and pull it down to your laptop on Kalabox](http://awebfactory.com/node/521) (Note: this is Kalabox 1)
@@ -124,7 +124,7 @@ In the absence of any legacy site, a simple prototype might be worthwhile for th
 
 The core team decides that it would be efficient to build an initial prototype to show to the team at the Kickoff, which will be nothing more than a simple landing page featuring the vision text to be validated and dissected. Even with such a simple prototype, the basic team provisioning and workflow can be put in place, and a first stab at candidate architecture can be taken.
 
-The prototype needed as prep for the kickoff can be as simple as a home page featuring a suitable version of the project vision and an email signup form. This provides a snap starting point on an immediate concrete footing. The build process will have a lot in common with upcoming MVP iterations, allowing for initial decisions to be made on tools, stacks, frameworks and infrastructure. 
+The prototype needed as prep for the kickoff can be as simple as a home page featuring a suitable version of the project vision and an email signup form. This provides a snap starting point on an immediate concrete footing. The build process will have a lot in common with upcoming MVP iterations, allowing for initial decisions to be made on tools, stacks, frameworks and infrastructure.
 
 With all this as our first step, we have work to do. When we have work to do, we use the Kanban. Project Inception is the first iteration in the project and its MVP will serve to validate the Vision at the Team Kickoff.
 
@@ -150,7 +150,7 @@ Jeff is using [Trello](https://trello.com/) to create the board (Figure 1-1).
 {id="figure-01-01"}
 ![Figure 1-1. Empty Kanban Board for New Project](images/c1_01.jpg)
 
-I> Why Kanban? And what is Kanban, exactly? Well, the original [Kanban is a lean manufacturing process](http://en.wikipedia.org/wiki/Kanban). It comes from the world of the nuts and bolts production chain, and is a system of logistical control. "Kanban was developed by [Taiichi Ohno](http://en.wikipedia.org/wiki/Taiichi_Ohno), at Toyota, as a system to improve and maintain a high level of production. Kanban is one method to achieve JIT". (JIT is the [Just in Time](http://en.wikipedia.org/wiki/Just_in_time_(business)) production strategy). 
+I> Why Kanban? And what is Kanban, exactly? Well, the original [Kanban is a lean manufacturing process](http://en.wikipedia.org/wiki/Kanban). It comes from the world of the nuts and bolts production chain, and is a system of logistical control. "Kanban was developed by [Taiichi Ohno](http://en.wikipedia.org/wiki/Taiichi_Ohno), at Toyota, as a system to improve and maintain a high level of production. Kanban is one method to achieve JIT". (JIT is the [Just in Time](http://en.wikipedia.org/wiki/Just_in_time_(business)) production strategy).
 I>
 I> Now, just as this production strategy was put into place with great discipline and sacrifice by Toyota and other companies in order to survive the booms and bubbles as well as the bursts ([Lost Decade](http://en.wikipedia.org/wiki/Lost_Decade_(Japan))) inherent in the world capitalist economy, [Kanban for software developers](http://en.wikipedia.org/wiki/Kanban_(development)) (and all [knowledge workers](http://en.wikipedia.org/wiki/Knowledge_workers)) is a wonderful way to optimize energies and resources of all kinds through a just in time delivery flow in our own neck of the woods.
 I> Above and beyond Drupal or any other framework or stack we might be using, one of the principal objectives of this book is to show how we can move from Kanban, Agile and Lean as mere buzzwords to success through actual best practices
@@ -207,20 +207,20 @@ So for this project, we're going with (Drupal 7)[https://www.drupal.org/start], 
 
 Job discussion:
 
-D> It's important to base our work on a set of [distros](https://www.drupal.org/documentation/build/distributions), one for each kind of project. For example, a general purpose distro, like [Panopoly](https://www.drupal.org/project/panopoly), or our own (DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro) which has the advantage of sporting a quick, open local [Ansible playbook VM installer](https://github.com/victorkane/ansible-vagrant-durable-drupal-distro right on GitHub), or [Acquia Drupal](https://www.acquia.com/products-services/acquia-drupal), which provides a proprietary one click local stack installer. For ecommerce sites, we would start out with [Commerce Kickstart](https://www.drupal.org/project/commerce_kickstart). 
+D> It's important to base our work on a set of [distros](https://www.drupal.org/documentation/build/distributions), one for each kind of project. For example, a general purpose distro, like [Panopoly](https://www.drupal.org/project/panopoly), or our own (DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro) which has the advantage of sporting a quick, open local [Ansible playbook VM installer](https://github.com/victorkane/ansible-vagrant-durable-drupal-distro right on GitHub), or [Acquia Drupal](https://www.acquia.com/products-services/acquia-drupal), which provides a proprietary one click local stack installer. For ecommerce sites, we would start out with [Commerce Kickstart](https://www.drupal.org/project/commerce_kickstart).
 [COD Conference Organizing](http://usecod.com/), [Acquia Commons for networking sites](http://acquia.com/products-services/acquia-commons-social-business-software), [Open Publish](http://openpublishapp.com/) and [CiviCRM](https://civicrm.org/) are other domain-specific [Drupal distribution](https://www.drupal.org/project/project_distribution) starting points.
-D> 
+D>
 D> All of these should be forked, made our own and should evolve as they are tailored to the projects we are and will be working on.
 
 For the DurableDrupal website Jake and Jeff decide to go with our own (DurableDrupalDistro](https://github.com/victorkane/durable-drupal-distro), adopt it as the team's base general purpose distro, and use it for this project.
 
 #### Fork that distro for team tailoring and generic reuse
 
-Let's fork the distro to our own GitHub organization, where we can curate it for our own purposes and then clone it individually for each project that comes up and requires a general purpose distro. 
+Let's fork the distro to our own GitHub organization, where we can curate it for our own purposes and then clone it individually for each project that comes up and requires a general purpose distro.
 
 T> ### It won't always be like this!
 T>
-T> If this sounds complicated, bear in mind that all this forking and cloning is basically for the DevOps folks in your organization. 
+T> If this sounds complicated, bear in mind that all this forking and cloning is basically for the DevOps folks in your organization.
 T>
 T> Most team members will be using the automated Ansible playbook developed in the provisioning job (which follows this one) which boils down to a simple automated install process, so you won't have to worry about these details every time you provision your workstation or laptop. If you like, just skip to the [Local Team Provisioning section](#chapter-02-team-provisioning).
 
@@ -242,11 +242,11 @@ So let's see what performing core and contrib updates looks like, as well as cha
 
 #### Drupal core and third-party module updates
 
-Jeff and Jake have already cloned and installed the forked DurableDrupalDistro by using an easy-as-pie Ansbile Playbook automation method we'll see in the [Team Provisioning] section. Since the installation of [Drush the Drupal command-line shell]() is automatically installed as part of that process, they can use it very easily to carry out all kinds of tasks, including updates and third-party module installs right from the command line in the document root of the cloned distro. 
+Jeff and Jake have already cloned and installed the forked DurableDrupalDistro by using an easy-as-pie Ansbile Playbook automation method we'll see in the [Team Provisioning] section. Since the installation of [Drush the Drupal command-line shell]() is automatically installed as part of that process, they can use it very easily to carry out all kinds of tasks, including updates and third-party module installs right from the command line in the document root of the cloned distro.
 
 
 
-Tailoring involves 
+Tailoring involves
 
 command line steps
 
